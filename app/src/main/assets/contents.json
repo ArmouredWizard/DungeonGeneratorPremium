@@ -1,0 +1,59 @@
+{
+  "Contents": [
+    {
+      "Name": "Dominant Inhabitant",
+      "Treasure": "Individual",
+      "Weight": "28"
+    },
+    {
+      "Name": "Dominant Inhabitant with Treasure",
+      "Treasure": "Hoard",
+      "Weight": "10"
+    },
+    {
+      "Name": "Random Monster",
+      "Treasure": "Individual",
+      "Weight": "9"
+    },
+    {
+      "Name": "Random Monster with Treasure",
+      "Treasure": "Hoard",
+      "Weight": "3"
+    },
+    {
+      "Name": "Obstacle",
+      "Treasure": "None",
+      "Weight": "2"
+    },
+    {
+      "Name": "Trap",
+      "Treasure": "None",
+      "Weight": "6"
+    },
+    {
+      "Name": "Trap with Treasure",
+      "Treasure": "Hoard",
+      "Weight": "8"
+    },
+    {
+      "Name": "Trick",
+      "Treasure": "None",
+      "Weight": "2"
+    },
+    {
+      "Name": "Empty",
+      "Treasure": "None",
+      "Weight": "6"
+    },
+    {
+      "Name": "Hazard",
+      "Treasure": "None",
+      "Weight": "2"
+    },
+    {
+      "Name": "Empty with Treasure",
+      "Treasure": "Hoard",
+      "Weight": "2"
+    }
+  ]
+}
