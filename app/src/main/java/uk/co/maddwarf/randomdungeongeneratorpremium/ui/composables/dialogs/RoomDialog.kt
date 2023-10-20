@@ -21,7 +21,10 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.DialogProperties
+import uk.co.maddwarf.randomdungeongeneratorpremium.model.Monsters
+import uk.co.maddwarf.randomdungeongeneratorpremium.model.Obstacle
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Room
+import uk.co.maddwarf.randomdungeongeneratorpremium.model.Trap
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.getDimensions
 
 @Composable
@@ -41,32 +44,49 @@ fun RoomDialog(
                 ),
             onDismissRequest = onDismiss,
             confirmButton = {
-             /*   Button(
-                    onClick = onDismiss,
-                ) {
-                    Text(text = "CLOSE", style = MaterialTheme.typography.bodyLarge)
-                }*/
+                /*   Button(
+                       onClick = onDismiss,
+                   ) {
+                       Text(text = "CLOSE", style = MaterialTheme.typography.bodyLarge)
+                   }*/
             },
             title = {
-
                 Text(
                     text = "Room ${room.index}",
                     style = MaterialTheme.typography.titleLarge,
                 )
-
             },
             text = {
-                Column (
+                Column(
                     modifier = Modifier.verticalScroll(rememberScrollState())
-                ){
+                ) {
                     Row(
                         modifier = Modifier.fillMaxWidth(),
                         horizontalArrangement = Arrangement.Center
                     ) {
                         Text(text = "Dimensions: " + room.getDimensions())
                     }
-                    Text(text = room.contents)
-                }
+
+                    for (content in room.contents) {
+                        when (content) {
+                            is Monsters -> {
+                                for (monster in content.monsters) {
+                                    Text(text = "${monster.value}x ${monster.key.name}")
+                                }
+                            }
+                            is Obstacle ->{
+                                Text(text = "${content.name }\n${content.description}")
+                            }
+                            is Trap ->{
+                                Text(text = "${content.name }\n${content.description}")
+                            }
+
+                            else -> {
+                                Text(text = content.toString())
+                            }
+                        }
+                    }
+                }//end column
             }
         )
     }//end ifOpen

@@ -9,7 +9,7 @@ data class Room(
     val index: Int,
     var rectangle: Rect,
     var connected: Boolean = false,
-    var contents: String = ""
+    var contents: List<Content> = listOf()
 )
 
 fun Room.getOddCenter(): Offset {

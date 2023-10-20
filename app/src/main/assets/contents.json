@@ -23,22 +23,22 @@
     {
       "Name": "Obstacle",
       "Treasure": "None",
-      "Weight": "2"
+      "Weight": "1"
     },
     {
       "Name": "Trap",
       "Treasure": "None",
-      "Weight": "6"
+      "Weight": "5"
     },
     {
       "Name": "Trap with Treasure",
       "Treasure": "Hoard",
-      "Weight": "8"
+      "Weight": "7"
     },
     {
       "Name": "Trick",
       "Treasure": "None",
-      "Weight": "2"
+      "Weight": "1"
     },
     {
       "Name": "Empty",

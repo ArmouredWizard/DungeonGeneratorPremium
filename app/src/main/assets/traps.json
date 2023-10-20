@@ -1,0 +1,159 @@
+{
+  "Traps": [
+    {
+      "Name": "Magic Missiles",
+      "Description": "Magic missiles shoot from a statue or object.",
+      "Weight": "4"
+    },
+    {
+      "Name": "Collapsing Stair",
+      "Description": "Creates a ramp that deposits characters into a pit at its lower end.",
+      "Weight": "3"
+    },
+    {
+      "Name": "Falling Ceiling",
+      "Description": "Ceiling block falls , or entire ceiling collapses.",
+      "Weight": "3"
+    },
+    {
+      "Name": "Crushing Ceiling",
+      "Description": "Ceiling lowers slowly in locked room.",
+      "Weight": "2"
+    },
+    {
+      "Name": "Floor Chute",
+      "Description": "Chute opens in floor.",
+      "Weight": "2"
+    },
+    {
+      "Name": "Diverse Alarms",
+      "Description": "Clanging noise attracts nearby monsters.",
+      "Weight": "2"
+    },
+    {
+      "Name": "Disintegrate",
+      "Description": "Touching an object triggers a disintegrate spell.",
+      "Weight": "3"
+    },
+    {
+      "Name": "Poisoned Item",
+      "Description": "Door or other object is coated with contact poison.",
+      "Weight": "4"
+    },
+    {
+      "Name": "Flame Trap",
+      "Description": "Fire shoots out from wall, floor, or object.",
+      "Weight": "4"
+    },
+    {
+      "Name": "Flesh to Stone",
+      "Description": "Touching an object triggers a flesh to stone spell.",
+      "Weight": "3"
+    },
+    {
+      "Name": "Floor Trap",
+      "Description": "Floor collapses or is an illusion.",
+      "Weight": "3"
+    },
+    {
+      "Name": "Venting Gas",
+      "Description": "Blinding, acidic, obscuring, paralyzing, poisonous, or sleep-inducing gas.",
+      "Weight": "3"
+    },
+    {
+      "Name": "Electric Floor",
+      "Description": "Floor tiles are electrified.",
+      "Weight": "3"
+    },
+    {
+      "Name": "Glyph of Warding",
+      "Description": "Glyph of Warding spell upon place or item.",
+      "Weight": "4"
+    },
+    {
+      "Name": "Rolling Statue",
+      "Description": "Huge wheeled statue rolls down corridor.",
+      "Weight": "3"
+    },
+    {
+      "Name": "Lightning Trap",
+      "Description": "Lightning bolt shoots from wall or object.",
+      "Weight": "3"
+    },
+    {
+      "Name": "Flooded Room",
+      "Description": "Locked room floods with water or acid.",
+      "Weight": "3"
+    },
+    {
+      "Name": "Trapped Chest",
+      "Description": "Darts shoot out of an opened chest.",
+      "Weight": "3"
+    },
+    {
+      "Name": "Animated Object",
+      "Description": "A weapon, suit of armor, or rug animates and attacks when touched.",
+      "Weight": "3"
+    },
+    {
+      "Name": "Pendulum Trap",
+      "Description": "Pendulum , either bladed or weighted as a maul, swings across the room or hall.",
+      "Weight": "3"
+    },
+    {
+      "Name": "Ooze Pit Trap",
+      "Description": "Hidden pit opens under foot (25 pc chance that black pudding or gelatinous cube fills bottom of pit).",
+      "Weight": "5"
+    },
+    {
+      "Name": "Burning Pit Trap",
+      "Description": "Hidden pit floods with acid or fire.",
+      "Weight": "3"
+    },
+    {
+      "Name": "Flooded Pit",
+      "Description": "Locking pit floods with water.",
+      "Weight": "3"
+    },
+    {
+      "Name": "Scythe Trap",
+      "Description": "Scything blade emerges from wall or object.",
+      "Weight": "4"
+    },
+    {
+      "Name": "Spear Trap",
+      "Description": "Spears (25pc chance poisoned) spring out.",
+      "Weight": "4"
+    },
+    {
+      "Name": "Brittle Stairs",
+      "Description": "Brittle stairs collapse over spikes.",
+      "Weight": "3"
+    },
+    {
+      "Name": "Thunderwave",
+      "Description": "Thunderwave spell knocks characters into a pit or spikes.",
+      "Weight": "4"
+    },
+    {
+      "Name": "Trap Jaws",
+      "Description": "Steel or stone jaws restrain a character.",
+      "Weight": "3"
+    },
+    {
+      "Name": "Sliding Stone",
+      "Description": "Stone block smashes across hallway.",
+      "Weight": "5"
+    },
+    {
+      "Name": "Symbol",
+      "Description": "A Symbol Spell is inscribed in this room.",
+      "Weight": "3"
+    },
+    {
+      "Name": "Sliding Walls",
+      "Description": "Walls slide together.",
+      "Weight": "3"
+    }
+  ]
+}

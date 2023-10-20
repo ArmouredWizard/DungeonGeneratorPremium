@@ -1,0 +1,49 @@
+{
+  "Obstacles": [
+    {
+      "Name": "Anti-Life Aura",
+      "Description": "While in the aura, living creatures can't heal or rest",
+      "Weight": "1"
+    },
+    {
+      "Name": "Battering Winds",
+      "Description": "Reduce Speed by half. Ranged Attacks are at disadvantage",
+      "Weight": "1"
+    },
+    {
+      "Name": "Blade Barrier",
+      "Description": "Wall of whirling blades covers one Entrance",
+      "Weight": "1"
+    },
+    {
+      "Name": "Cave-In",
+      "Description": "This room can only be traversed once the blockage has been cleared. Even then, it may be unstable.",
+      "Weight": "5"
+    },
+    {
+      "Name": "Chasm",
+      "Description": "A 20' wide Chasm rips across the center of this room.",
+      "Weight": "4"
+    },
+    {
+      "Name": "Flooding",
+      "Description": "This room is lower than the surrounding area, and filled with 20' of water.",
+      "Weight": "2"
+    },
+    {
+      "Name": "Lava",
+      "Description": "Lava rises into the center of this room.",
+      "Weight": "1"
+    },
+    {
+      "Name": "Mushrooms",
+      "Description": "Huge mushrooms block egress.",
+      "Weight": "2"
+    },
+    {
+      "Name": "Poison Gas",
+      "Description": "Seeps in from cracks in tha wallls and fills room.",
+      "Weight": "1"
+    }
+    ]
+}

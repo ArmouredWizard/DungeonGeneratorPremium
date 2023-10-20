@@ -19,7 +19,7 @@ Log.d("MAKING DUNGEON", "LOADED")
 //create Dungeon
         //val numberOfRooms = (dungeonWidth / 7) + 1 //rewrite as WHEN with "sparsity" choice
         val numberOfRooms = 100
-        var roomsList = mutableListOf<Room>()
+        mutableListOf<Room>()
 
         //todo replace with Class
         /*
@@ -37,11 +37,10 @@ Log.d("MAKING DUNGEON", "LOADED")
         var mapArray = initializeMatrix(dungeonWidth, dungeonHeight)
 
         //create Rooms
-        createRooms(
+        var roomsList = createRooms(
             numberOfRooms,
             dungeonHeight,
-            dungeonWidth,
-            roomsList
+            dungeonWidth
         )
         for (room in roomsList) {
             addRoomToMatrix(room.rectangle, mapArray)
@@ -85,18 +84,18 @@ Log.d("MAKING DUNGEON", "LOADED")
     private fun createRooms(
         numberOfRooms: Int,
         dungeonHeight: Int,
-        dungeonWidth: Int,
-        roomsList: MutableList<Room>,
-    ) {
+        dungeonWidth: Int
+    ):MutableList<Room> {
         var index = 1
         var clashes = 0
+        var roomsList = mutableListOf<Room>()
 
         while (roomsList.size < numberOfRooms) {
             val roomRect = makeRect(dungeonHeight, dungeonWidth)
             if (intersect(roomRect, roomsList, dungeonWidth, dungeonHeight)) {
                 clashes++
              //   Log.d("CLASHES", "Room ${roomsList.size}, Clash:$clashes")
-                if (clashes > 50) return
+                if (clashes > 50) return roomsList
             } else {
                 roomsList.add(
                     Room(
@@ -108,6 +107,7 @@ Log.d("MAKING DUNGEON", "LOADED")
                 clashes = 0
             }
         }//end WHILE rooms < number of rooms
+        return roomsList
     }//end Create Rooms
 
     private fun initializeMatrix(

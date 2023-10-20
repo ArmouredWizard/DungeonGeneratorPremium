@@ -17,6 +17,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import uk.co.maddwarf.randomdungeongeneratorpremium.R
+import uk.co.maddwarf.randomdungeongeneratorpremium.domain.GetInhabitantsUseCase
 import uk.co.maddwarf.randomdungeongeneratorpremium.domain.MakeMapUseCase
 import uk.co.maddwarf.randomdungeongeneratorpremium.domain.PopulateRoomUseCase
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Dungeon
@@ -94,17 +95,23 @@ class MapViewModel(application: Application, savedStateHandle: SavedStateHandle)
             dungeonWidth = dungeonWidth
         )
 
-        populateRooms(newDungeon.roomList)
+        populateRooms(roomList = newDungeon.roomList, level = level.toInt())
 
         updateUiState(
             dungeon = newDungeon
         )
     }//end make map
 
-    fun populateRooms(roomList: List<Room>) {
+    fun populateRooms(roomList: List<Room>, level:Int) {
+        var theInhabitants = inhabitants
+        if (inhabitants == "RANDOM"){
+            Log.d("RANDOM", inhabitants)
+            theInhabitants = GetInhabitantsUseCase().getInhabitantsCategories(context = context, all = false).random()
+            Log.d("RANDOM", "Chosen: $theInhabitants")
+        }
         for (room in roomList) {
             room.contents =
-                PopulateRoomUseCase().populateRoom(context = context, inhabitants = inhabitants)
+                PopulateRoomUseCase().populateRoom(context = context, inhabitants = theInhabitants, level = level)
         }
     }
 

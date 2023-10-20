@@ -24,8 +24,8 @@ class FileHelper {
 
         try {
             tableArray = thisJSON.getJSONArray(table)
-            Log.d("Weighted List", tableArray.toString())
-            Log.d("JSON", tableArray.toString())
+          //  Log.d("Weighted List", tableArray.toString())
+          //  Log.d("JSON", tableArray.toString())
             for (i in 0 until tableArray.length()) {
                 val c = tableArray.getJSONObject(i)
                 val name = c.getString("Name")
@@ -41,22 +41,24 @@ class FileHelper {
     fun getFromWeightedList(thisList: HashMap<String, Int>): String {
         var listItem: String = ""
         var totalWeight = 0
+       // Log.d("LISTY", thisList.toString())
         for (weight in thisList.values) {
             totalWeight += weight
-            Log.d("Weight", "$weight out of $totalWeight")
+         //   Log.d("Weight", "$weight out of $totalWeight")
         }
         val roll: Int = (1..totalWeight).random()
-        Log.d("Roll", roll.toString() + "")
+      //  Log.d("Roll", roll.toString() + "")
         var testWeight = 0
         for ((name, thisWeight) in thisList) {
             testWeight += thisWeight
-            Log.d("Weights", "Roll: $roll testWeight: $testWeight")
-            if (roll < testWeight) {
+          //  Log.d("Weights", "Roll: $roll testWeight: $testWeight")
+            if (roll <= testWeight) {
                 listItem = name
-                Log.d("Chosen", listItem)
+             //   Log.d("Chosen", listItem)
                 break
             }
         }
+        if (listItem == "") Log.d("WEIGHT LIST","ERROR")
         return listItem
     }
 

@@ -1,0 +1,33 @@
+{ "Triggers": [
+    {
+      "Weight": "1",
+      "Name": "Stepped Upon",
+      "Description": "Stepped on floor, stairs, etc"
+    },
+    {
+      "Weight": "1",
+      "Name": "Moved Through",
+      "Description": "Moved through a space, doorway, hallway, etc"
+    },
+    {
+      "Weight": "1",
+      "Name": "Touched",
+      "Description": "Touched an item, such as door handle, statue, etc"
+    },
+    {
+      "Weight": "1",
+      "Name": "Opened",
+      "Description": "Opened an item, such as a door, chest, etc"
+    },
+    {
+      "Weight": "1",
+      "Name": "Looked At",
+      "Description": "Looked at an item such as a mirror, a symbol, etc"
+    },
+    {
+      "Weight": "1",
+      "Name": "Moved",
+      "Description": "Moved an item such as a brick, a cart, etc"
+    }
+  ]
+  }
