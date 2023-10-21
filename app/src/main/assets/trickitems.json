@@ -1,0 +1,84 @@
+{
+  "Trick Items": [
+    {
+      "Weight": "1",
+      "Name": "Book"
+    },
+    {
+      "Weight": "1",
+      "Name": "Brain in a Jar"
+    },
+    {
+      "Weight": "1",
+      "Name": "Burning Fire"
+    },
+    {
+      "Weight": "1",
+      "Name": "Cracked Gem"
+    },
+    {
+      "Weight": "1",
+      "Name": "Door"
+    },
+    {
+      "Weight": "1",
+      "Name": "Fresco"
+    },
+    {
+      "Weight": "1",
+      "Name": "Furniture"
+    },
+    {
+      "Weight": "1",
+      "Name": "Glass Sculpture"
+    },
+    {
+      "Weight": "1",
+      "Name": "Mushroom Field"
+    },
+    {
+      "Weight": "1",
+      "Name": "Painting"
+    },
+    {
+      "Weight": "1",
+      "Name": "Plant or Tree"
+    },
+    {
+      "Weight": "1",
+      "Name": "Pool of Water"
+    },
+    {
+      "Weight": "1",
+      "Name": "Engraved Runes"
+    },
+    {
+      "Weight": "1",
+      "Name": "Skull"
+    },
+    {
+      "Weight": "1",
+      "Name": "Sphere of Magical Energy"
+    },
+    {
+      "Weight": "1",
+      "Name": "Statue"
+    },
+    {
+      "Weight": "1",
+      "Name": "Stone Obelisk"
+    },
+    {
+      "Weight": "1",
+      "Name": "Suit of Armour"
+    },
+    {
+      "Weight": "1",
+      "Name": "Tapestry or Rug"
+    },
+    {
+      "Weight": "1",
+      "Name": "Target Dummy"
+    }
+  ]
+}

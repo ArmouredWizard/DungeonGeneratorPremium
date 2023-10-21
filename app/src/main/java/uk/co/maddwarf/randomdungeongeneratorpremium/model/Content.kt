@@ -21,12 +21,18 @@ data class Trap(
 
 data class Trigger(
     val name: String,
-    val description: String = ""
+    val description: String = "",
+    val weight:Int = 1
 )
 
 data class Trick(
     val name: String,
     val description: String = "",
     val weight: Int = 1,
-    val trickItem: String = ""
-)
+    val trickItem: TrickItem = TrickItem(name = "No Item")
+):Content()
+
+data class TrickItem(
+    val name:String,
+    val weight:Int = 1
+):Content()

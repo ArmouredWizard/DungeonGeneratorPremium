@@ -1,0 +1,159 @@
+ {
+ "Tricks": [
+    {
+      "Name": "Aging Trick",
+      "Weight": "3",
+      "Description": "Ages the first person to touch the object"
+    },
+    {
+      "Name": "Animating Object",
+      "Weight": "3",
+      "Description": "Animates, or it animates other objects nearby"
+    },
+    {
+      "Name": "Puzzle",
+      "Weight": "4",
+      "Description": "Asks three skill-testing questions (if all three are answered correctly, a reward appears)"
+    },
+    {
+      "Name": "Bonus Resistance",
+      "Weight": "3",
+      "Description": "Bestows resistance or vulnerability"
+    },
+    {
+      "Name": "Transmuter",
+      "Weight": "2",
+      "Description": "Changes a character's alignment, personality, size, appearance, or sex when touched"
+    },
+    {
+      "Name": "Transmuter",
+      "Weight": "3",
+      "Description": "Changes one substance to another, such as gold to lead or metal to brittle crystal"
+    },
+    {
+      "Name": "Protector",
+      "Weight": "3",
+      "Description": "Creates a force field around the room exits"
+    },
+    {
+      "Name": "Illusion",
+      "Weight": "4",
+      "Description": "Creates an illusion (DM choice)"
+    },
+    {
+      "Name": "Anti-Magic",
+      "Weight": "3",
+      "Description": "Suppresses magic items for a time"
+    },
+    {
+      "Name": "Size Changer",
+      "Weight": "3",
+      "Description": "Enlarges or reduces characters"
+    },
+    {
+      "Name": "Riddle",
+      "Weight": "3",
+      "Description": "Speaks a riddle"
+    },
+    {
+      "Name": "Confusor",
+      "Weight": "3",
+      "Description": "Causes Confusion to all creatures within 10ft"
+    },
+    {
+      "Name": "Director",
+      "Weight": "3",
+      "Description": "Gives directions (true or false)"
+    },
+    {
+      "Name": "Wishing Well",
+      "Weight": "1",
+      "Description": "Grants a wish"
+    },
+    {
+      "Name": "Flier",
+      "Weight": "3",
+      "Description": "Flies about to avoid being touched"
+    },
+    {
+      "Name": "Geas",
+      "Weight": "3",
+      "Description": "Casts Geas on the characters"
+    },
+    {
+      "Name": "Gravitron",
+      "Weight": "3",
+      "Description": "Increases, reduces, negates or reverses gravity"
+    },
+    {
+      "Name": "Prison",
+      "Weight": "3",
+      "Description": "Contains an imprisoned creature"
+    },
+    {
+      "Name": "Lock",
+      "Weight": "3",
+      "Description": "Locks or unlocks exits"
+    },
+    {
+      "Name": "Gamer",
+      "Weight": "3",
+      "Description": "Offers a game of chance, with the promise of a reward or valuable information"
+    },
+    {
+      "Name": "Helper",
+      "Weight": "3",
+      "Description": "Helps certain types of creatures"
+    },
+    {
+      "Name": "Polymorpher",
+      "Weight": "3",
+      "Description": "Casts polymorph on the characters (lasts 1 hour)"
+    },
+    {
+      "Name": "Puzzler",
+      "Weight": "3",
+      "Description": "Presents a puzzle or riddle"
+    },
+    {
+      "Name": "Holder",
+      "Weight": "3",
+      "Description": "Prevents movement"
+    },
+    {
+      "Name": "Treasure",
+      "Weight": "3",
+      "Description": "Releases coins , false coins, gems, false gems, a magic item , or a map"
+    },
+    {
+      "Name": "Monster",
+      "Weight": "3",
+      "Description": "Releases, summons, or turns into a monster"
+    },
+    {
+      "Name": "Suggestor",
+      "Weight": "3",
+      "Description": "Casts suggestion on the characters"
+    },
+    {
+      "Name": "Wailer",
+      "Weight": "3",
+      "Description": "Wails loudly when touched"
+    },
+    {
+      "Name": "Talker",
+      "Weight": "3",
+      "Description": "Talks (normal speech, nonsense, poetry and rhymes, singing, spellcasting, or screaming)"
+    },
+    {
+      "Name": "Teleporter",
+      "Weight": "4",
+      "Description": "Teleports characters to another place"
+    },
+    {
+      "Name": "Mind Swap",
+      "Weight": "1",
+      "Description": "Swaps two or more characters' minds"
+    }
+  ]
+  }

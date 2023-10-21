@@ -25,6 +25,7 @@ import uk.co.maddwarf.randomdungeongeneratorpremium.model.Monsters
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Obstacle
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Room
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Trap
+import uk.co.maddwarf.randomdungeongeneratorpremium.model.Trick
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.getDimensions
 
 @Composable
@@ -74,11 +75,23 @@ fun RoomDialog(
                                     Text(text = "${monster.value}x ${monster.key.name}")
                                 }
                             }
-                            is Obstacle ->{
-                                Text(text = "${content.name }\n${content.description}")
+
+                            is Obstacle -> {
+                                Text(text = "${content.name}")
+                                Text(text = "${content.description}")
                             }
-                            is Trap ->{
-                                Text(text = "${content.name }\n${content.description}")
+
+                            is Trap -> {
+                                Text(text = "${content.name}")
+                                Text(text = "${content.description}")
+                                Text(text = "Triggered when something is ${content.trigger.name}")
+
+                            }
+                            is Trick ->{
+                                Text(text = "${content.name}")
+                                Text(text = "${content.description}")
+                                Text(text = "Item: ${content.trickItem.name}")
+
                             }
 
                             else -> {

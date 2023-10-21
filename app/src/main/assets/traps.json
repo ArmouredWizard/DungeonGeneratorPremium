@@ -26,7 +26,7 @@
       "Weight": "2"
     },
     {
-      "Name": "Diverse Alarms",
+      "Name": "Loud Alarms",
       "Description": "Clanging noise attracts nearby monsters.",
       "Weight": "2"
     },
@@ -47,7 +47,7 @@
     },
     {
       "Name": "Flesh to Stone",
-      "Description": "Touching an object triggers a flesh to stone spell.",
+      "Description": "An object triggers a flesh to stone spell.",
       "Weight": "3"
     },
     {
@@ -87,12 +87,12 @@
     },
     {
       "Name": "Trapped Chest",
-      "Description": "Darts shoot out of an opened chest.",
+      "Description": "Darts shoot out of a chest.",
       "Weight": "3"
     },
     {
       "Name": "Animated Object",
-      "Description": "A weapon, suit of armor, or rug animates and attacks when touched.",
+      "Description": "A weapon, suit of armor, or rug animates and attacks",
       "Weight": "3"
     },
     {
@@ -102,7 +102,7 @@
     },
     {
       "Name": "Ooze Pit Trap",
-      "Description": "Hidden pit opens under foot (25 pc chance that black pudding or gelatinous cube fills bottom of pit).",
+      "Description": "Hidden pit opens under foot",
       "Weight": "5"
     },
     {
@@ -122,7 +122,7 @@
     },
     {
       "Name": "Spear Trap",
-      "Description": "Spears (25pc chance poisoned) spring out.",
+      "Description": "Spears spring out from walls and floor.",
       "Weight": "4"
     },
     {
