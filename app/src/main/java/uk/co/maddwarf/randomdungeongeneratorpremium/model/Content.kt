@@ -6,6 +6,14 @@ data class Monsters(
     val monsters: HashMap<Monster, Int>
 ) : Content()
 
+fun Monsters.totalXp():Int{
+    var totalXp = 0
+    monsters.forEach(){
+        totalXp+=it.value*it.key.xp
+    }
+    return totalXp
+}
+
 data class Obstacle(
     val name: String,
     val description: String = "",
@@ -22,7 +30,7 @@ data class Trap(
 data class Trigger(
     val name: String,
     val description: String = "",
-    val weight:Int = 1
+    val weight: Int = 1
 )
 
 data class Trick(
@@ -30,9 +38,20 @@ data class Trick(
     val description: String = "",
     val weight: Int = 1,
     val trickItem: TrickItem = TrickItem(name = "No Item")
-):Content()
+) : Content()
 
 data class TrickItem(
-    val name:String,
-    val weight:Int = 1
-):Content()
+    val name: String,
+    val weight: Int = 1
+) : Content()
+
+data class Hazard(
+    val name: String,
+    val description: String = "",
+    val weight: Int = 1
+) : Content()
+
+data class Empty(
+    val name: String,
+    val description: String = ""
+) : Content()

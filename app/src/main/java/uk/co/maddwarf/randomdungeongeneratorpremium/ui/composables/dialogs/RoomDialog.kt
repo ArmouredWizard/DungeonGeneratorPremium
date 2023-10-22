@@ -21,12 +21,14 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.DialogProperties
+import uk.co.maddwarf.randomdungeongeneratorpremium.model.Hazard
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Monsters
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Obstacle
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Room
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Trap
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Trick
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.getDimensions
+import uk.co.maddwarf.randomdungeongeneratorpremium.model.totalXp
 
 @Composable
 fun RoomDialog(
@@ -74,6 +76,7 @@ fun RoomDialog(
                                 for (monster in content.monsters) {
                                     Text(text = "${monster.value}x ${monster.key.name}")
                                 }
+                                Text(text = "Total XP: ${content.totalXp()}")
                             }
 
                             is Obstacle -> {
@@ -93,6 +96,11 @@ fun RoomDialog(
                                 Text(text = "Item: ${content.trickItem.name}")
 
                             }
+                            is Hazard -> {
+                                Text(text = "${content.name}")
+                                Text(text = "${content.description}")
+                            }
+
 
                             else -> {
                                 Text(text = content.toString())

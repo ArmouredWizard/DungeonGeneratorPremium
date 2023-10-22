@@ -1,0 +1,34 @@
+ {
+ "Hazards": [
+    {
+      "Weight": "3",
+      "Name": "Brown Mold",
+      "Description": "A 10' diameter patch of Brown Mold feeds on the heat around it. The area will be noticeably colder than its surroundings. The mold is immune to fire, but can be destroyed by Cold Effects"
+    },
+    {
+      "Weight": "5",
+      "Name": "Spiderwebs",
+      "Description": "Large, sticky webs, made by a giant spider. Traversing them is very tricky, and may attract their maker. They are vulnerable to Fire."
+    },
+    {
+      "Weight": "5",
+      "Name": "Green Slime",
+      "Description": "This acidic Slime covers a 5' diameter area, and can burn through almost anything that touches it. It is vulnerable to Fire and Radiant damage."
+    },
+    {
+      "Weight": "2",
+      "Name": "Violet Fungus",
+      "Description": "This bulbous fungi looks harmless, but can whip tentacles out to 30', causing Rotting damage."
+    },
+    {
+      "Weight": "2",
+      "Name": "Shrieker",
+      "Description": "A large mushroom-like protrusion, this creature will emit high-pitched screams if it detects living creatures within its presence. This might alert guards, or attract wandering Monsters."
+    },
+    {
+      "Weight": "3",
+      "Name": "Yellow Mold",
+      "Description": "This 5' diameter patch of Mold will emit a 10' diameter cloud of Poisonous spores if touched."
+    }
+  ]
+  }

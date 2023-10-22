@@ -3,6 +3,7 @@ package uk.co.maddwarf.randomdungeongeneratorpremium.domain
 import android.content.Context
 import android.util.Log
 import org.json.JSONObject
+import uk.co.maddwarf.randomdungeongeneratorpremium.model.Hazard
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Obstacle
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Trap
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Trick
@@ -221,6 +222,53 @@ class GetHindranceUseCase {
             trickItemList.add(thisTrickItem)
         }
         return trickItemList
+    }//end getTrickItemsList
+
+    fun getHazard(context: Context):Hazard{
+        val hazardsList: List<Hazard> = getHazardsList(context = context)
+        val chosenHazard: Hazard = getHazardFromList(list = hazardsList)
+        return chosenHazard
     }
+
+    fun getHazardsList(context: Context):List<Hazard>{
+        val hazardJsonString: String = FileHelper().readAsset(
+            context = context,
+            fileName = "hazards.json"
+        )
+
+        val hazardJsonObject = JSONObject(hazardJsonString)
+        val hazardArray = hazardJsonObject.getJSONArray("Hazards")
+
+        val hazardList = mutableListOf<Hazard>()
+        var thisHazard: Hazard
+
+        for (i in 0 until hazardArray.length()) {
+            val c = hazardArray.getJSONObject(i)
+            val name = c.getString("Name")
+            val weight = c.getString("Weight").toInt()
+            val description = c.getString("Description")
+            thisHazard = Hazard(name = name, weight = weight, description = description)
+            hazardList.add(thisHazard)
+        }
+        return hazardList
+    }//end getHazardsList
+
+    private fun getHazardFromList(list: List<Hazard>): Hazard {
+        var chosenHazard= Hazard(name = "Not Defined Yet")
+        var totalWeight = 0
+        for (hazard in list) {
+            totalWeight += hazard.weight
+        }
+        val roll: Int = (0..totalWeight).random()
+        var testWeight = 0
+        for (aHazard in list) {
+            testWeight += aHazard.weight
+            if (roll < testWeight) {
+                chosenHazard = aHazard
+                break
+            }
+        }
+        return chosenHazard
+    }//end getTrickFromList
 
 }//end Get Hindrance Use Case

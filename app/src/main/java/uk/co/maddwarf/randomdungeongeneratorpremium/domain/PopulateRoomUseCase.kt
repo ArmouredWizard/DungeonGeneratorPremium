@@ -4,12 +4,13 @@ import android.content.Context
 import android.util.Log
 import uk.co.maddwarf.randomdungeongeneratorpremium.domain.GetInhabitantsUseCase.Companion.buildMonstersContent
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Content
+import uk.co.maddwarf.randomdungeongeneratorpremium.model.Empty
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Monsters
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Trap
 
 class PopulateRoomUseCase {
 
-    fun populateRoom(context: Context, inhabitants: String, level: Int): List<Content> {
+    fun populateRoom(context: Context, inhabitants: String, level: Int, pcNumbers: Int): List<Content> {
 
         val fileHelper = FileHelper()
 
@@ -37,7 +38,8 @@ class PopulateRoomUseCase {
                         buildMonstersContent(
                             context = context,
                             inhabitants = inhabitants,
-                            level = level
+                            level = level,
+                            pcNumbers = pcNumbers
                         )
                     ),
                     //todo add personal loot
@@ -51,7 +53,8 @@ class PopulateRoomUseCase {
                         buildMonstersContent(
                             context = context,
                             inhabitants = inhabitants,
-                            level = level
+                            level = level,
+                            pcNumbers = pcNumbers
                         )
                     ),
                     //todo insert hoard Loot here
@@ -66,7 +69,8 @@ class PopulateRoomUseCase {
                         buildMonstersContent(
                             context = context,
                             inhabitants = "Wanderers",
-                            level = level
+                            level = level,
+                            pcNumbers = pcNumbers
                         )
                     )
                 )
@@ -79,7 +83,8 @@ class PopulateRoomUseCase {
                         buildMonstersContent(
                             context = context,
                             inhabitants = "Wanderers",
-                            level = level
+                            level = level,
+                            pcNumbers = pcNumbers
                         )
                     ),
                     //todo add hoard loot
@@ -113,22 +118,25 @@ class PopulateRoomUseCase {
                 //  "Tricks"
                 listOf(
                     GetHindranceUseCase().getTrick(context = context)
-                )            }
+                )
+            }
 
             "Hazard" -> {
                 //   "Hazards"
-                listOf(Trap(name = "Hazard"))
+                listOf(
+                    GetHindranceUseCase().getHazard(context = context)
+                )
             }
 
             "Empty" -> {
-                // "Nothing in this room\nJust a long test for text\nthat might overglowe\njust how uch room do we have\n and does it scroll?\n #DoesItScroll\nDoes it Heck\nmore\nmore\nLauren Ipsen"
-                listOf(Trap(name = "EMPTY"))
+                listOf(Empty(name = "There is nothing of note here"))
             }
 
             "Empty with Treasure" -> {
                 //  "Just loot"
                 listOf(
-                    Trap(name = "Just LOOTS"),//EMPTY
+                    Empty(name = "This treasure is unguarded"),
+                    Trap(name = "Just LOOTS"),
                     //todo add loot
                 )
             }

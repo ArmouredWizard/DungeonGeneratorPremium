@@ -54,6 +54,7 @@ class MapViewModel(application: Application, savedStateHandle: SavedStateHandle)
     var inhabitants = incomingData.split(",")[1].trim()
     var level = incomingData.split(",")[2].trim()
     var layers = incomingData.split(",")[3].trim()
+    var pcNumbers = incomingData.split(",")[4].trim()
 
     var tileSizeInPx = 0
 
@@ -95,14 +96,14 @@ class MapViewModel(application: Application, savedStateHandle: SavedStateHandle)
             dungeonWidth = dungeonWidth
         )
 
-        populateRooms(roomList = newDungeon.roomList, level = level.toInt())
+        populateRooms(roomList = newDungeon.roomList, level = level.toInt(), pcNumbers = pcNumbers.toInt())
 
         updateUiState(
             dungeon = newDungeon
         )
     }//end make map
 
-    fun populateRooms(roomList: List<Room>, level:Int) {
+    fun populateRooms(roomList: List<Room>, level: Int, pcNumbers: Int) {
         var theInhabitants = inhabitants
         if (inhabitants == "RANDOM"){
             Log.d("RANDOM", inhabitants)
@@ -111,7 +112,7 @@ class MapViewModel(application: Application, savedStateHandle: SavedStateHandle)
         }
         for (room in roomList) {
             room.contents =
-                PopulateRoomUseCase().populateRoom(context = context, inhabitants = theInhabitants, level = level)
+                PopulateRoomUseCase().populateRoom(context = context, inhabitants = theInhabitants, level = level, pcNumbers = pcNumbers)
         }
     }
 

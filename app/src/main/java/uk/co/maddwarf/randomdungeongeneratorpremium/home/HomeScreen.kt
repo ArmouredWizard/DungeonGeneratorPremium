@@ -138,6 +138,12 @@ fun HomeBody(
         levelExpanded = false
         chosenLevel = level
     }
+    var pcNumbersExpanded by remember { mutableStateOf(false) }
+    var chosenPcNumbers by remember { mutableStateOf(levelList[0]) }
+    fun pcNumbersChooser(pcNumbers: String) {
+        pcNumbersExpanded = false
+        chosenPcNumbers = pcNumbers
+    }
 
 
 
@@ -228,6 +234,20 @@ fun HomeBody(
                         report = chosenLevel
                     )
                 }
+                Row(
+                    modifier = Modifier
+                        .wrapContentWidth(),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Text(text = "Number of PCs: ")
+                    MySpinner(
+                        expanded = pcNumbersExpanded,
+                        onClick = { pcNumbersExpanded = !pcNumbersExpanded },
+                        list = levelList,
+                        chooser = ::pcNumbersChooser,
+                        report = chosenPcNumbers
+                    )
+                }
             }//end Column
 
         }//end outer row
@@ -239,7 +259,7 @@ fun HomeBody(
         ){
         MyButton(
             text = "Make the Map!",
-            onClick = { navigateToMapScreen("$chosenSize,$chosenInhabitants,$chosenLevel,$chosenLayers") },
+            onClick = { navigateToMapScreen("$chosenSize,$chosenInhabitants,$chosenLevel,$chosenLayers,$chosenPcNumbers") },
         )
         }
     }//end Box
