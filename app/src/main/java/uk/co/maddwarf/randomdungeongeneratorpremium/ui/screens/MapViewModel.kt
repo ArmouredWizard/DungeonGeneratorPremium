@@ -105,10 +105,8 @@ class MapViewModel(application: Application, savedStateHandle: SavedStateHandle)
 
     fun populateRooms(roomList: List<Room>, level: Int, pcNumbers: Int) {
         var theInhabitants = inhabitants
-        if (inhabitants == "RANDOM"){
-            Log.d("RANDOM", inhabitants)
+        if (inhabitants == "RANDOM TYPE"){
             theInhabitants = GetInhabitantsUseCase().getInhabitantsCategories(context = context, all = false).random()
-            Log.d("RANDOM", "Chosen: $theInhabitants")
         }
         for (room in roomList) {
             room.contents =

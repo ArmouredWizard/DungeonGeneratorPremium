@@ -23,8 +23,8 @@ class GetInhabitantsUseCase() {
         }
         calledThemes.sort()
         if (all) {
-            calledThemes.add(0, "RANDOM")
-            calledThemes.add(0, "ALL")
+            calledThemes.add(0, "RANDOM TYPE")
+            calledThemes.add(0, "ALL RANDOM")
         }
         return calledThemes
 
@@ -41,10 +41,8 @@ class GetInhabitantsUseCase() {
                 context = context,
                 fileName = "inhabitants.json"
             )
-            //  Log.d("MONSTER JSON STRING", monsterJsonString)
 
             val monsterJsonObject = JSONObject(monsterJsonString)
-
             val monsterArray = monsterJsonObject.getJSONArray(inhabitants)
 
             for (i in 0 until monsterArray.length()) {
@@ -54,7 +52,6 @@ class GetInhabitantsUseCase() {
                 val monsterCR = c.getInt("CR")
                 val monsterXP = c.getInt("XP")
                 thisMonster = Monster(name = name, weight = weight, cr = monsterCR, xp = monsterXP)
-                //     Log.d("Monster to add", thisMonster.name + "CR: $monsterCR")
                 if (level > 13 && monsterCR > 5 || level <= 13 && monsterCR < level * 2) {
                     inhabitantsList.add(thisMonster)
                     //   Log.d("Monster added", thisMonster.name)
@@ -104,46 +101,37 @@ class GetInhabitantsUseCase() {
                     inhabitants = inhabitants,
                     level = level
                 )
-            Log.d("CANDIDATE MONSTERS", monsterList.toString())
             var returnList = hashMapOf<Monster, Int>()
             var totalMonsterXp = 0
-            //for (i in 1..5) {//todo change to While XP < XP Cap,
             while (totalMonsterXp < partyXpLimit) {
                 val newMonster = chooseInhabitantFromList(monsterList)
                 if (returnList.isEmpty()) {
                     returnList[newMonster] = 1
-                    Log.d("Starting Monster", "$newMonster.name, XP: ${newMonster.xp}")
                 } else {
                     if ((0..1).random() == 0) {
                         //increment random existing monster
                         val randomIndex: Monster = returnList.keys.random()
                         returnList[randomIndex] = (returnList[randomIndex]!!) + 1
-                        Log.d("INCREMENTED RANDOM", randomIndex.name + " XP: ${randomIndex.xp}")
                     } else {
                         //add monster (new or existing)
                         if (returnList.containsKey(newMonster)) {
                             returnList[newMonster] = returnList[newMonster]!! + 1
-                            Log.d(
-                                "INCREMENTED EXISTING",
-                                newMonster.name + "up to " + returnList[newMonster] + " XP: ${newMonster.xp}"
-                            )
                         } else {
                             //add new monster
                             returnList[newMonster] = 1
-                            Log.d("ADDED", newMonster.name+" XP: ${newMonster.xp}")
                         }
                     }
                 }
 
-                var xpMultiplier = 1f
+                // var xpMultiplier = 1f
                 var xp = 0
                 var monsterNumbers = 0
 
                 returnList.forEach() {
                     monsterNumbers += it.value
-                    xp+=it.key.xp*it.value
+                    xp += it.key.xp * it.value
                 }
-                xpMultiplier = when (monsterNumbers) {
+                val xpMultiplier = when (monsterNumbers) {
                     1 -> 1f
                     2 -> 1.5f
                     3, 4, 5, 6 -> 2f
@@ -152,15 +140,10 @@ class GetInhabitantsUseCase() {
                     else -> 4f
                 }
 
-                totalMonsterXp = (xp*xpMultiplier).toInt()
-                Log.d("CALCULATION", "$xp * $xpMultiplier = $totalMonsterXp")
-                Log.d("XP LIMIT SO FAR", totalMonsterXp.toString()+"out of $partyXpLimit")
-
+                totalMonsterXp = (xp * xpMultiplier).toInt()
             }//end of Loop
-            Log.d("ACTUAL LIST OF MONSTERS", returnList.toString())
             return returnList
         }
     }//end build monster content
-
 
 }//end get inhabitants use case

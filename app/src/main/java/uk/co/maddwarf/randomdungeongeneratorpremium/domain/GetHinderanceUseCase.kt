@@ -10,7 +10,6 @@ import uk.co.maddwarf.randomdungeongeneratorpremium.model.Trick
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.TrickItem
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Trigger
 
-
 class GetHindranceUseCase {
     fun getObstacle(context: Context): Obstacle {
         val obstaclesList: List<Obstacle> = getObstaclesList(context = context)
@@ -77,7 +76,7 @@ class GetHindranceUseCase {
         var testWeight = 0
         for (aTrap in list) {
             testWeight += aTrap.weight
-            if (roll < testWeight) {
+            if (roll <= testWeight) {
                 chosenTrap = aTrap
                 break
             }
@@ -109,7 +108,7 @@ class GetHindranceUseCase {
         return trapList
     }//end getTrapsList
 
-    private fun getTrigger(context: Context):Trigger{
+    private fun getTrigger(context: Context): Trigger {
         val triggersList: List<Trigger> = getTriggersList(context = context)
         val chosenTrigger: Trigger = getTriggerFromList(list = triggersList)
         return chosenTrigger
@@ -198,11 +197,11 @@ class GetHindranceUseCase {
         return chosenTrickItem
     }
 
-    fun getTrickItemFromList(list:List<TrickItem>):TrickItem{
+    fun getTrickItemFromList(list: List<TrickItem>): TrickItem {
         return list.random()
     }
 
-    fun getTrickItemsList(context: Context):List<TrickItem>{
+    fun getTrickItemsList(context: Context): List<TrickItem> {
         val trickItemJsonString: String = FileHelper().readAsset(
             context = context,
             fileName = "trickitems.json"
@@ -224,13 +223,13 @@ class GetHindranceUseCase {
         return trickItemList
     }//end getTrickItemsList
 
-    fun getHazard(context: Context):Hazard{
+    fun getHazard(context: Context): Hazard {
         val hazardsList: List<Hazard> = getHazardsList(context = context)
         val chosenHazard: Hazard = getHazardFromList(list = hazardsList)
         return chosenHazard
     }
 
-    fun getHazardsList(context: Context):List<Hazard>{
+    fun getHazardsList(context: Context): List<Hazard> {
         val hazardJsonString: String = FileHelper().readAsset(
             context = context,
             fileName = "hazards.json"
@@ -254,7 +253,7 @@ class GetHindranceUseCase {
     }//end getHazardsList
 
     private fun getHazardFromList(list: List<Hazard>): Hazard {
-        var chosenHazard= Hazard(name = "Not Defined Yet")
+        var chosenHazard = Hazard(name = "Not Defined Yet")
         var totalWeight = 0
         for (hazard in list) {
             totalWeight += hazard.weight

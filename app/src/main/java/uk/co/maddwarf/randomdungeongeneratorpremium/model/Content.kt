@@ -6,10 +6,10 @@ data class Monsters(
     val monsters: HashMap<Monster, Int>
 ) : Content()
 
-fun Monsters.totalXp():Int{
+fun Monsters.totalXp(): Int {
     var totalXp = 0
-    monsters.forEach(){
-        totalXp+=it.value*it.key.xp
+    monsters.forEach() {
+        totalXp += it.value * it.key.xp
     }
     return totalXp
 }
@@ -54,4 +54,12 @@ data class Hazard(
 data class Empty(
     val name: String,
     val description: String = ""
+) : Content()
+
+data class Loot(
+    val name: String,
+    val coins: Cash = Cash(),
+    val gems: List<String> = listOf(), //make Gems class
+    val arts: List<String> = listOf(), //make Arts class
+    val magicItems: List<String> = listOf() //make MagicItem Class
 ) : Content()

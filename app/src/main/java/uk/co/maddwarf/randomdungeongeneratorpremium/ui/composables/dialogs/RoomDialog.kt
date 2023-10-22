@@ -21,7 +21,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.DialogProperties
+import uk.co.maddwarf.randomdungeongeneratorpremium.model.Empty
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Hazard
+import uk.co.maddwarf.randomdungeongeneratorpremium.model.Loot
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Monsters
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Obstacle
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Room
@@ -90,17 +92,38 @@ fun RoomDialog(
                                 Text(text = "Triggered when something is ${content.trigger.name}")
 
                             }
-                            is Trick ->{
+
+                            is Trick -> {
                                 Text(text = "${content.name}")
                                 Text(text = "${content.description}")
                                 Text(text = "Item: ${content.trickItem.name}")
 
                             }
+
                             is Hazard -> {
                                 Text(text = "${content.name}")
                                 Text(text = "${content.description}")
                             }
 
+                            is Loot -> {
+                                //  Text(text = content.name) //todo lots of work to do here
+                                Row(
+                                    modifier = Modifier
+                                        .fillMaxWidth(.8f),
+                                    horizontalArrangement = Arrangement.SpaceEvenly
+                                ) {
+                                    if (content.coins.pp > 0) Text(text = "${content.coins.pp}PP")
+                                    if (content.coins.gp > 0) Text(text = "${content.coins.gp}GP")
+                                    if (content.coins.ep > 0) Text(text = "${content.coins.ep}EP")
+                                    if (content.coins.sp > 0) Text(text = "${content.coins.sp}SP")
+                                    if (content.coins.cp > 0) Text(text = "${content.coins.cp}CP")
+                                }
+
+                            }
+
+                            is Empty -> {
+                                Text(text = "${content.name}")
+                            }
 
                             else -> {
                                 Text(text = content.toString())

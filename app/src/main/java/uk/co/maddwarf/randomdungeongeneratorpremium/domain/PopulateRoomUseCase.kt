@@ -10,7 +10,12 @@ import uk.co.maddwarf.randomdungeongeneratorpremium.model.Trap
 
 class PopulateRoomUseCase {
 
-    fun populateRoom(context: Context, inhabitants: String, level: Int, pcNumbers: Int): List<Content> {
+    fun populateRoom(
+        context: Context,
+        inhabitants: String,
+        level: Int,
+        pcNumbers: Int
+    ): List<Content> {
 
         val fileHelper = FileHelper()
 
@@ -21,12 +26,10 @@ class PopulateRoomUseCase {
         )
 
         var theInhabitants: String = inhabitants
-        if (inhabitants == "ALL") {
-            Log.d("ALL", inhabitants)
+        if (inhabitants == "ALL RANDOM") {
             theInhabitants =
                 GetInhabitantsUseCase().getInhabitantsCategories(context = context, all = false)
                     .random()
-            Log.d("RANDOM", "Chosen: $theInhabitants")
         }
 
         val contentsType = fileHelper.getFromWeightedList(contentsList)
@@ -37,13 +40,12 @@ class PopulateRoomUseCase {
                     Monsters(
                         buildMonstersContent(
                             context = context,
-                            inhabitants = inhabitants,
+                            inhabitants = theInhabitants,
                             level = level,
                             pcNumbers = pcNumbers
                         )
                     ),
-                    //todo add personal loot
-                    Trap(name = "THIS IS A SMALL LOOT")
+                    GetLootUseCase().buildLoot(type = "Individual", level = level, context = context)
                 )
             }
 
@@ -52,13 +54,12 @@ class PopulateRoomUseCase {
                     Monsters(
                         buildMonstersContent(
                             context = context,
-                            inhabitants = inhabitants,
+                            inhabitants = theInhabitants,
                             level = level,
                             pcNumbers = pcNumbers
                         )
                     ),
-                    //todo insert hoard Loot here
-                    Trap(name = "HOARD OF LOOT")
+                    GetLootUseCase().buildLoot(type = "Hoard", level = level, context = context)
                 )
             }
 
@@ -87,7 +88,7 @@ class PopulateRoomUseCase {
                             pcNumbers = pcNumbers
                         )
                     ),
-                    //todo add hoard loot
+                    GetLootUseCase().buildLoot(type = "Hoard", level = level, context = context)
                 )
             }
 
@@ -110,7 +111,7 @@ class PopulateRoomUseCase {
                 listOf(
                     GetHindranceUseCase().getTrap(context = context),
                     //insert loot here
-                    Trap(name = "LOOTS") //todo ADD LOOTS
+                    GetLootUseCase().buildLoot(type = "Hoard", level = level, context = context)
                 )
             }
 
@@ -136,8 +137,7 @@ class PopulateRoomUseCase {
                 //  "Just loot"
                 listOf(
                     Empty(name = "This treasure is unguarded"),
-                    Trap(name = "Just LOOTS"),
-                    //todo add loot
+                    GetLootUseCase().buildLoot(type = "Hoard", level = level, context = context)
                 )
             }
 
