@@ -59,7 +59,7 @@ data class Empty(
 data class Loot(
     val name: String,
     val coins: Cash = Cash(),
-    val gems: List<String> = listOf(), //make Gems class
-    val arts: List<String> = listOf(), //make Arts class
-    val magicItems: List<String> = listOf() //make MagicItem Class
+    val gemList:List<Gem> = listOf(),
+    val artList:List<Art> = listOf(),
+    val magicItemsList: List<String> = listOf() //make MagicItem Class
 ) : Content()

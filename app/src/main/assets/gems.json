@@ -1,0 +1,326 @@
+{
+  "50": [
+    {
+      "description": "Opaque Dark Gray With Red Flecks",
+      "id": 1,
+      "name": "Bloodstone",
+      "value": 50
+    },
+    {
+      "description": "Opaque Orange To Red-Brown",
+      "id": 2,
+      "name": "Carnelian",
+      "value": 50
+    },
+    {
+      "description": "Opaque White",
+      "id": 3,
+      "name": "Chalcedony",
+      "value": 50
+    },
+    {
+      "description": "Translucent Green",
+      "id": 4,
+      "name": "Chrysoprase",
+      "value": 50
+    },
+    {
+      "description": "Transparent Pale Yellow-Brown",
+      "id": 5,
+      "name": "Citrine",
+      "value": 50
+    },
+    {
+      "description": "Opaque Blue, Black, Or Brown",
+      "id": 6,
+      "name": "Jasper",
+      "value": 50
+    },
+    {
+      "description": "Translucent White With Pale Blue Glow",
+      "id": 7,
+      "name": "Moonstone",
+      "value": 50
+    },
+    {
+      "description": "Opaque Bands Of Black And White",
+      "id": 8,
+      "name": "Onyx",
+      "value": 50
+    },
+    {
+      "description": "Transparent White, Smoky Yellow",
+      "id": 9,
+      "name": "Quartz",
+      "value": 50
+    },
+    {
+      "description": "Opaque Bands of Red And White",
+      "id": 10,
+      "name": "Sardonyx",
+      "value": 50
+    },
+    {
+      "description": "Translucent Rosy Stone With White Star-Shaped Center",
+      "id": 11,
+      "name": "Star Rose Quartz",
+      "value": 50
+    },
+    {
+      "description": "Transparent Pale Blue-Green",
+      "id": 12,
+      "name": "Zircon",
+      "value": 50
+    }
+  ],
+  "10": [
+    {
+      "description": "Opaque Mottled Deep Blue",
+      "id": 13,
+      "name": "Azurite",
+      "value": 10
+    },
+    {
+      "description": "Translucent Striped",
+      "id": 14,
+      "name": "Banded Agate",
+      "value": 10
+    },
+    {
+      "description": "Transparent Pale Blue",
+      "id": 15,
+      "name": "Blue Quartz",
+      "value": 10
+    },
+    {
+      "description": "Translucent Circles of Gray",
+      "id": 16,
+      "name": "Eye Agate",
+      "value": 10
+    },
+    {
+      "description": "Opaque Gray-Black",
+      "id": 17,
+      "name": "Haematite",
+      "value": 10
+    },
+    {
+      "description": "Opaque Light And Dark Blue With Yellow Flecks",
+      "id": 18,
+      "name": "Lapis Lazuli",
+      "value": 10
+    },
+    {
+      "description": "Opaque Striated Light And Dark Green",
+      "id": 19,
+      "name": "Malachite",
+      "value": 10
+    },
+    {
+      "description": "Translucent Pink With Mossy Gray Markings",
+      "id": 20,
+      "name": "Moss Agate",
+      "value": 10
+    },
+    {
+      "description": "Opaque Black",
+      "id": 21,
+      "name": "Obsidian",
+      "value": 10
+    },
+    {
+      "description": "Opaque Light Pink",
+      "id": 22,
+      "name": "Rhodochrosite",
+      "value": 10
+    },
+    {
+      "description": "Translucent Brown With Golden Center",
+      "id": 23,
+      "name": "Tiger Eye",
+      "value": 10
+    },
+    {
+      "description": "Opaque Light Blue-Green",
+      "id": 24,
+      "name": "Turquoise",
+      "value": 10
+    }
+  ],
+  "100": [
+    {
+      "description": "Transparent Watery Gold",
+      "id": 25,
+      "name": "Amber",
+      "value": 100
+    },
+    {
+      "description": "Transparent Deep Purple",
+      "id": 26,
+      "name": "Amethyst",
+      "value": 100
+    },
+    {
+      "description": "Transparent Yellow",
+      "id": 27,
+      "name": "Chrysoberyl",
+      "value": 100
+    },
+    {
+      "description": "Opaque Crimson",
+      "id": 28,
+      "name": "Coral",
+      "value": 100
+    },
+    {
+      "description": "Transparent Red",
+      "id": 29,
+      "name": "Garnet",
+      "value": 100
+    },
+    {
+      "description": "Translucent Light Green",
+      "id": 30,
+      "name": "Jade",
+      "value": 100
+    },
+    {
+      "description": "Opaque Deep Black",
+      "id": 31,
+      "name": "Jet",
+      "value": 100
+    },
+    {
+      "description": "Opaque Lustrous White",
+      "id": 32,
+      "name": "Pearl",
+      "value": 100
+    },
+    {
+      "description": "Transparent Red",
+      "id": 33,
+      "name": "Spinel",
+      "value": 100
+    },
+    {
+      "description": "Transparent Pale Green",
+      "id": 34,
+      "name": "Tourmaline",
+      "value": 100
+    }
+  ],
+  "500": [
+    {
+      "description": "Transparent Dark Green",
+      "id": 35,
+      "name": "Alexandrite",
+      "value": 500
+    },
+    {
+      "description": "Transparent Pale Blue-Green",
+      "id": 36,
+      "name": "Aquamarine",
+      "value": 500
+    },
+    {
+      "description": "Opaque Pure Black",
+      "id": 37,
+      "name": "Black Pearl",
+      "value": 500
+    },
+    {
+      "description": "Transparent Deep Blue",
+      "id": 38,
+      "name": "Blue Spinel",
+      "value": 500
+    },
+    {
+      "description": "Transparent Rich Olive Green",
+      "id": 39,
+      "name": "Peridot",
+      "value": 500
+    },
+    {
+      "description": "Transparent Golden Yellow",
+      "id": 40,
+      "name": "Topaz",
+      "value": 500
+    }
+  ],
+  "1000": [
+    {
+      "description": "Translucent Dark Green With Black Mottling And Golden Flecks",
+      "id": 41,
+      "name": "Black Opal",
+      "value": 1000
+    },
+    {
+      "description": "Transparent Blue-White",
+      "id": 42,
+      "name": "Blue Sapphire",
+      "value": 1000
+    },
+    {
+      "description": "Transparent Deep Bright Green",
+      "id": 43,
+      "name": "Emerald",
+      "value": 1000
+    },
+    {
+      "description": "Translucent Fiery Red",
+      "id": 44,
+      "name": "Fire Opal",
+      "value": 1000
+    },
+    {
+      "description": "Translucent Pale Blue With Green And Golden Mottling",
+      "id": 45,
+      "name": "Opal",
+      "value": 1000
+    },
+    {
+      "description": "Translucent Ruby With White Star-Shaped Center",
+      "id": 46,
+      "name": "Star Ruby",
+      "value": 1000
+    },
+    {
+      "description": "Translucent Blue Sapphire With White Star-Shaped Center",
+      "id": 47,
+      "name": "Star Sapphire",
+      "value": 1000
+    },
+    {
+      "description": "Transparent Fiery Yellow",
+      "id": 48,
+      "name": "Yellow Sapphire",
+      "value": 1000
+    }
+  ],
+  "5000": [
+    {
+      "description": "Translucent Lustrous Black With Glowing Highlights",
+      "id": 49,
+      "name": "Black Sapphire",
+      "value": 5000
+    },
+    {
+      "description": "Transparent Blue-White",
+      "id": 50,
+      "name": "Diamond",
+      "value": 5000
+    },
+    {
+      "description": "Transparent Fiery Orange",
+      "id": 51,
+      "name": "Jacinth",
+      "value": 5000
+    },
+    {
+      "description": "Transparent Clear Red To Deep Crimson",
+      "id": 52,
+      "name": "Ruby",
+      "value": 5000
+    }
+  ]
+}

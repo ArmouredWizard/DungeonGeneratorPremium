@@ -1,0 +1,300 @@
+{
+  "25": [
+    {
+      "description": "Stitched with silver thread",
+      "id": 1,
+      "name": "Black Velvet Mask",
+      "value": 25
+    },
+    {
+      "description": "Small. Gold. Plain",
+      "id": 2,
+      "name": "Bracelet",
+      "value": 25
+    },
+    {
+      "description": "Silver filigree",
+      "id": 3,
+      "name": "Copper chalice",
+      "value": 25
+    },
+    {
+      "description": "Large Silver Jug",
+      "id": 4,
+      "name": "Ewer",
+      "value": 25
+    },
+    {
+      "description": "Painted portrait inside",
+      "id": 5,
+      "name": "Gold locket",
+      "value": 25
+    },
+    {
+      "description": "Embroidered silk",
+      "id": 6,
+      "name": "Handkerchief",
+      "value": 25
+    },
+    {
+      "description": "Engraved bone",
+      "id": 7,
+      "name": "Pair of dice",
+      "value": 25
+    },
+    {
+      "description": "Painted wooden frame",
+      "id": 8,
+      "name": "Small mirror",
+      "value": 25
+    },
+    {
+      "description": "Carved Bone",
+      "id": 9,
+      "name": "Statuette",
+      "value": 25
+    },
+    {
+      "description": "Cloth-of-gold",
+      "id": 10,
+      "name": "Vestments",
+      "value": 25
+    }
+  ],
+  "250": [
+    {
+      "description": "Turquoise",
+      "id": 11,
+      "name": "Box Of Animal Figurines",
+      "value": 250
+    },
+    {
+      "description": "Large. Gold",
+      "id": 12,
+      "name": "Bracelet",
+      "value": 250
+    },
+    {
+      "description": "Jade Inlay",
+      "id": 13,
+      "name": "Brass Mug",
+      "value": 250
+    },
+    {
+      "description": "Bronze",
+      "id": 14,
+      "name": "Crown",
+      "value": 250
+    },
+    {
+      "description": "Electrum Filigree",
+      "id": 15,
+      "name": "Gold Bird Cage",
+      "value": 250
+    },
+    {
+      "description": "Set With Bloodstones",
+      "id": 16,
+      "name": "Gold Ring",
+      "value": 250
+    },
+    {
+      "description": "Gold Embroidery",
+      "id": 17,
+      "name": "Silk Robe",
+      "value": 250
+    },
+    {
+      "description": "With Gemstone Pendant",
+      "id": 18,
+      "name": "Silver Necklace",
+      "value": 250
+    },
+    {
+      "description": "Carved Ivory",
+      "id": 19,
+      "name": "Statuette",
+      "value": 250
+    },
+    {
+      "description": "Large. Well-Made",
+      "id": 20,
+      "name": "Tapestry",
+      "value": 250
+    }
+  ],
+  "750": [
+    {
+      "description": "Embossed With Gold Leaf And Set With Amethysts",
+      "id": 21,
+      "name": "Bottle Stopper Cork",
+      "value": 750
+    },
+    {
+      "description": "Silver And Gold",
+      "id": 22,
+      "name": "Brooch",
+      "value": 750
+    },
+    {
+      "description": "Ivory Inlay And Zircon Gems",
+      "id": 23,
+      "name": "Carved Harp Of Exotic Wood",
+      "value": 750
+    },
+    {
+      "description": "Black Pearl In The Pommel",
+      "id": 24,
+      "name": "Ceremonial Electrum Dagger",
+      "value": 750
+    },
+    {
+      "description": "Set With Red Garnets As Eyes",
+      "id": 25,
+      "name": "Gold Dragon Comb",
+      "value": 750
+    },
+    {
+      "description": "Gold Fittings And Inlay",
+      "id": 26,
+      "name": "Obsidian Statuette",
+      "value": 750
+    },
+    {
+      "description": "Gold",
+      "id": 27,
+      "name": "Painted War Mask",
+      "value": 750
+    },
+    {
+      "description": "Set With Moonstones",
+      "id": 28,
+      "name": "Silver Chalice",
+      "value": 750
+    },
+    {
+      "description": "Jet Set In Hilt",
+      "id": 29,
+      "name": "Silver-Plated Steel Longsword",
+      "value": 750
+    },
+    {
+      "description": "Gold",
+      "id": 30,
+      "name": "Small Idol",
+      "value": 750
+    }
+  ],
+  "2500": [
+    {
+      "description": "Jewelled",
+      "id": 31,
+      "name": "Anklet",
+      "value": 2500
+    },
+    {
+      "description": "Set With Jewel Chips",
+      "id": 32,
+      "name": "Embroidered Glove",
+      "value": 2500
+    },
+    {
+      "description": "Set With Numerous Moonstones",
+      "id": 33,
+      "name": "Embroidered Silk Mantle",
+      "value": 2500
+    },
+    {
+      "description": "Set In Blue Sapphire And Moonstone",
+      "id": 34,
+      "name": "Eye Patch With A Mock Eye",
+      "value": 2500
+    },
+    {
+      "description": "Set With A Fire Opal",
+      "id": 35,
+      "name": "Fine Gold Chain",
+      "value": 2500
+    },
+    {
+      "description": "Set With Four Aquamarines",
+      "id": 36,
+      "name": "Gold Circlet",
+      "value": 2500
+    },
+    {
+      "description": "Gold",
+      "id": 37,
+      "name": "Music Box",
+      "value": 2500
+    },
+    {
+      "description": "Small Pink Pearls",
+      "id": 38,
+      "name": "Necklace",
+      "value": 2500
+    },
+    {
+      "description": "Expensive Frame",
+      "id": 39,
+      "name": "Old Masterpiece Painting",
+      "value": 2500
+    },
+    {
+      "description": "Set With A Sapphire",
+      "id": 40,
+      "name": "Platinum Bracelet",
+      "value": 2500
+    }
+  ],
+  "7500": [
+    {
+      "description": "Gold",
+      "id": 41,
+      "name": "Crown",
+      "value": 7500
+    },
+    {
+      "description": "Jewelled",
+      "id": 42,
+      "name": "Platinum Ring",
+      "value": 7500
+    },
+    {
+      "description": "Set With Rubies",
+      "id": 43,
+      "name": "Small Gold Statuette",
+      "value": 7500
+    },
+    {
+      "description": "Set With Emeralds",
+      "id": 44,
+      "name": "Gold Cup",
+      "value": 7500
+    },
+    {
+      "description": "Platinum Filigree",
+      "id": 45,
+      "name": "Gold Jewellery Box",
+      "value": 7500
+    },
+    {
+      "description": "Painted Gold",
+      "id": 46,
+      "name": "Child's Sarcophagus",
+      "value": 7500
+    },
+    {
+      "description": "Solid Gold Playing Pieces",
+      "id": 47,
+      "name": "Jade Game Board",
+      "value": 7500
+    },
+    {
+      "description": "Gold Filigree",
+      "id": 48,
+      "name": "Bejewelled Ivory Drinking Horn",
+      "value": 7500
+    }
+  ]
+}
