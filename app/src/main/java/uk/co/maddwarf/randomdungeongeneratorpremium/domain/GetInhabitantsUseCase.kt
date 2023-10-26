@@ -50,15 +50,8 @@ class GetInhabitantsUseCase() {
 
             for (i in 0 until monsterArray.length()) {
                 val c = monsterArray.getJSONObject(i)
-              /*  val name = c.getString("Name")
-                val weight = c.getString("Weight").toInt()
-                val monsterCR = c.getInt("CR")
-                val monsterXP = c.getInt("XP")
-                thisMonster = Monster(name = name, weight = weight, cr = monsterCR, xp = monsterXP)
-*/
                 val typeToken = object : TypeToken<Monster>() {}.type
                 thisMonster = Gson().fromJson(c.toString(), typeToken)
-
 
                 if (level > 13 && thisMonster.cr > 5 || level <= 13 && thisMonster.cr < level * 2) {
                     inhabitantsList.add(thisMonster)
@@ -131,7 +124,6 @@ class GetInhabitantsUseCase() {
                     }
                 }
 
-                // var xpMultiplier = 1f
                 var xp = 0
                 var monsterNumbers = 0
 

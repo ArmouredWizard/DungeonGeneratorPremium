@@ -103,7 +103,11 @@ fun WideTraitText(
                 .clickable { onClick(text) }
                 .fillMaxWidth()
         ) {
-            Text(text = title, style = MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Bold)
+            Text(
+                text = title,
+                style = MaterialTheme.typography.bodySmall,
+                fontWeight = FontWeight.Bold
+            )
             Text(text = text)
         }
     }

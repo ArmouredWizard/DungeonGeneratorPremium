@@ -33,7 +33,7 @@ class PopulateRoomUseCase {
         }
 
         val contentsType = fileHelper.getFromWeightedList(contentsList)
-Log.d("ROOM CONTETNS", contentsType)
+Log.d("ROOM CONTENTS", contentsType)
         val contents: List<Content> = when (contentsType) {
             "Dominant Inhabitant" -> {
                 listOf(
@@ -64,7 +64,6 @@ Log.d("ROOM CONTETNS", contentsType)
             }
 
             "Random Monster" -> {
-                //"RANDOM"
                 listOf(
                     Monsters(
                         buildMonstersContent(
@@ -78,7 +77,6 @@ Log.d("ROOM CONTETNS", contentsType)
             }
 
             "Random Monster with Treasure" -> {
-                //"RANDOM WITH LOOT"
                 listOf(
                     Monsters(
                         buildMonstersContent(
@@ -93,37 +91,31 @@ Log.d("ROOM CONTETNS", contentsType)
             }
 
             "Obstacle" -> {
-                // "Obstacles"
                 listOf(
                     GetHindranceUseCase().getObstacle(context = context)
                 )
             }
 
             "Trap" -> {
-                //"Traps"
                 listOf(
                     GetHindranceUseCase().getTrap(context = context)
                 )
             }
 
             "Trap with Treasure" -> {
-                // "Traps and Loots"
                 listOf(
                     GetHindranceUseCase().getTrap(context = context),
-                    //insert loot here
                     GetLootUseCase().buildLoot(type = "Hoard", level = level, context = context)
                 )
             }
 
             "Trick" -> {
-                //  "Tricks"
                 listOf(
                     GetHindranceUseCase().getTrick(context = context)
                 )
             }
 
             "Hazard" -> {
-                //   "Hazards"
                 listOf(
                     GetHindranceUseCase().getHazard(context = context)
                 )
@@ -134,7 +126,6 @@ Log.d("ROOM CONTETNS", contentsType)
             }
 
             "Empty with Treasure" -> {
-                //  "Just loot"
                 listOf(
                     Empty(name = "This treasure is unguarded"),
                     GetLootUseCase().buildLoot(type = "Hoard", level = level, context = context)
@@ -149,7 +140,6 @@ Log.d("ROOM CONTETNS", contentsType)
 
         return contents
     }
-
 
 }//end PopulateRoom Use Case
 

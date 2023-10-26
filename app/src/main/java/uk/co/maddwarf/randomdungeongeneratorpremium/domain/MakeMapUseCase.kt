@@ -14,7 +14,7 @@ class MakeMapUseCase {
 
     fun makeMap(dungeonWidth: Int, dungeonHeight: Int): Dungeon {
 
-Log.d("MAKING DUNGEON", "LOADED")
+        Log.d("MAKING DUNGEON", "LOADED")
 
 //create Dungeon
         //val numberOfRooms = (dungeonWidth / 7) + 1 //rewrite as WHEN with "sparsity" choice
@@ -85,16 +85,15 @@ Log.d("MAKING DUNGEON", "LOADED")
         numberOfRooms: Int,
         dungeonHeight: Int,
         dungeonWidth: Int
-    ):MutableList<Room> {
+    ): MutableList<Room> {
         var index = 1
         var clashes = 0
-        var roomsList = mutableListOf<Room>()
+        val roomsList = mutableListOf<Room>()
 
         while (roomsList.size < numberOfRooms) {
             val roomRect = makeRect(dungeonHeight, dungeonWidth)
             if (intersect(roomRect, roomsList, dungeonWidth, dungeonHeight)) {
                 clashes++
-             //   Log.d("CLASHES", "Room ${roomsList.size}, Clash:$clashes")
                 if (clashes > 50) return roomsList
             } else {
                 roomsList.add(
@@ -192,7 +191,7 @@ Log.d("MAKING DUNGEON", "LOADED")
             if (roomIndex == roomsList.size - 1) {
                 break
             }
-           if (roomsList[roomIndex + 1].connected) continue
+            if (roomsList[roomIndex + 1].connected) continue
             val corridor: Corridor = Corridor(
                 start = roomsList[roomIndex].getOddCenter(),
                 end = roomsList[roomIndex + 1].getOddCenter()

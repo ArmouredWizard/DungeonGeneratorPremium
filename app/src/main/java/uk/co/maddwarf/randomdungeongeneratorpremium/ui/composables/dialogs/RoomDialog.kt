@@ -117,7 +117,6 @@ fun RoomDialog(
                                 //magic items
 
 
-
                             }
 
                             is Empty -> {

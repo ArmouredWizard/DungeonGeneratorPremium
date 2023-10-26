@@ -38,7 +38,7 @@ fun TextEntryRowWithInfoIcon(
     width: Float = 0.9f,
     limited: Boolean = true,
     next: ImeAction = ImeAction.Next,
-    required:Boolean = false
+    required: Boolean = false
 ) {
     val showDialog = remember { mutableStateOf(false) }
     Row(

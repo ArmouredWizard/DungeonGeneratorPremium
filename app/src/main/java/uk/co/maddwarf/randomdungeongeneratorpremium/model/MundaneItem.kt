@@ -1,7 +1,7 @@
 package uk.co.maddwarf.randomdungeongeneratorpremium.model
 
- open class MundaneItem(
-     open val name:String
+open class MundaneItem(
+    open val name: String
 )
 
 data class Gem(

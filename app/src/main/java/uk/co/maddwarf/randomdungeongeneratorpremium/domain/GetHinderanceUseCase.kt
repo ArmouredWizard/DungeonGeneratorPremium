@@ -34,17 +34,9 @@ class GetHindranceUseCase {
 
         for (i in 0 until obstacleArray.length()) {
             val c = obstacleArray.getJSONObject(i)
-            Log.d("JSON OBJECT", c.toString())
-            /*    val name = c.getString("Name")
-             val weight = c.getString("Weight").toInt()
-             val description = c.getString("Description")
-             thisObstacle = Obstacle(name = name, weight = weight, description = description)
-             obstaclesList.add(thisObstacle)*/
-
             val typeToken = object : TypeToken<Obstacle>() {}.type
             thisObstacle = Gson().fromJson(c.toString(), typeToken)
             obstaclesList.add(thisObstacle)
-
         }
         Log.d("OBSTACLE LIST", obstaclesList.toString())
         return obstaclesList
@@ -108,14 +100,8 @@ class GetHindranceUseCase {
 
         for (i in 0 until trapArray.length()) {
             val c = trapArray.getJSONObject(i)
-      /*      val name = c.getString("Name")
-            val weight = c.getString("Weight").toInt()
-            val description = c.getString("description")
-            thisTrap = Trap(name = name, weight = weight, description = description)*/
-
             val typeToken = object : TypeToken<Trap>() {}.type
             thisTrap = Gson().fromJson(c.toString(), typeToken)
-
             trapList.add(thisTrap)
         }
         return trapList
@@ -146,16 +132,8 @@ class GetHindranceUseCase {
 
         for (i in 0 until triggerArray.length()) {
             val c = triggerArray.getJSONObject(i)
-        /*    val name = c.getString("Name")
-            val description = c.getString("description")
-            val weight = c.getString("Weight").toInt()
-            thisTrigger = Trigger(name = name, description = description, weight = weight)
-*/
-
             val typeToken = object : TypeToken<Trigger>() {}.type
             thisTrigger = Gson().fromJson(c.toString(), typeToken)
-            triggerList.add(thisTrigger)
-
             triggerList.add(thisTrigger)
         }
         return triggerList
@@ -183,14 +161,8 @@ class GetHindranceUseCase {
 
         for (i in 0 until trickArray.length()) {
             val c = trickArray.getJSONObject(i)
-           /* val name = c.getString("Name")
-            val weight = c.getString("Weight").toInt()
-            val description = c.getString("description")
-            thisTrick = Trick(name = name, weight = weight, description = description)
-*/
             val typeToken = object : TypeToken<Trick>() {}.type
             thisTrick = Gson().fromJson(c.toString(), typeToken)
-
             trickList.add(thisTrick)
         }
         return trickList
@@ -238,13 +210,8 @@ class GetHindranceUseCase {
 
         for (i in 0 until trickItemArray.length()) {
             val c = trickItemArray.getJSONObject(i)
-    /*        val name = c.getString("Name")
-            val weight = c.getString("Weight").toInt()
-            thisTrickItem = TrickItem(name = name, weight = weight)*/
-
             val typeToken = object : TypeToken<TrickItem>() {}.type
             thisTrickItem = Gson().fromJson(c.toString(), typeToken)
-
             trickItemList.add(thisTrickItem)
         }
         return trickItemList
@@ -270,11 +237,6 @@ class GetHindranceUseCase {
 
         for (i in 0 until hazardArray.length()) {
             val c = hazardArray.getJSONObject(i)
-         /*   val name = c.getString("Name")
-            val weight = c.getString("Weight").toInt()
-            val description = c.getString("description")
-            thisHazard = Hazard(name = name, weight = weight, description = description)
-*/
             val typeToken = object : TypeToken<Hazard>() {}.type
             thisHazard = Gson().fromJson(c.toString(), typeToken)
             hazardList.add(thisHazard)

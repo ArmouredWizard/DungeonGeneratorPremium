@@ -43,8 +43,8 @@ class GetLootUseCase {
                 cashTableList = makeCashTables(cashJsonString, lootLevel)
 //todo ADD ITEMS, ART, ETC
 
-                var itemTable = getItemTable(context = context, lootLevel = lootLevel)
-                var itemTableEntry = chooseFromItemTable(itemTable = itemTable)
+                val itemTable = getItemTable(context = context, lootLevel = lootLevel)
+                val itemTableEntry = chooseFromItemTable(itemTable = itemTable)
 
                 loot = rollOnLootTable(itemTableEntry = itemTableEntry, context = context)
             }
@@ -58,7 +58,7 @@ class GetLootUseCase {
         val cash = buildCash(cashTable)
 
 
-
+//todo add magic items!
 
         loot = loot.copy(coins = cash)
 
@@ -111,8 +111,6 @@ class GetLootUseCase {
         val ep = cashTable.ep * (1..6).random()
         val sp = cashTable.sp * (1..6).random()
         val cp = cashTable.cp * (1..6).random()
-
-
         return Cash(pp = pp, gp = gp, ep = ep, sp = sp, cp = cp)
     }
 
@@ -218,14 +216,8 @@ class GetLootUseCase {
 
         for (i in 0 until gemArray.length()) {
             val c = gemArray.getJSONObject(i)
-         /*   val name = c.getString("Name")
-//            val weight = c.getString("Weight").toInt()
-            val description = c.getString("description")
-            thisGem = Gem(name = name, description = description, value = gemValue)*/
-
             val typeToken = object : TypeToken<Gem>() {}.type
             thisGem = Gson().fromJson(c.toString(), typeToken)
-
             gemList.add(thisGem)
         }
 
@@ -247,14 +239,8 @@ class GetLootUseCase {
 
         for (i in 0 until artArray.length()) {
             val c = artArray.getJSONObject(i)
-       /*     val name = c.getString("name")
-            val value = c.getString("value").toInt()
-            val description = c.getString("description")
-            thisArt = Art(name = name, description = description, value = value)*/
-
             val typeToken = object : TypeToken<Art>() {}.type
             thisArt = Gson().fromJson(c.toString(), typeToken)
-
             artList.add(thisArt)
         }
 
@@ -262,6 +248,5 @@ class GetLootUseCase {
         return newArt
 
     }//end Make Art
-
 
 }//end Gey Loot Use Case

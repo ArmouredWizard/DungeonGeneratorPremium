@@ -14,7 +14,7 @@ object OddifyUseCase {
         return returnInt
     }//end oddifier
 
-    fun evenify(toEvenify:Int):Int{
+    fun evenify(toEvenify: Int): Int {
         var returnInt = toEvenify
         if (returnInt % 2 != 0) {
             val RANDY: Int = (1..2).random()

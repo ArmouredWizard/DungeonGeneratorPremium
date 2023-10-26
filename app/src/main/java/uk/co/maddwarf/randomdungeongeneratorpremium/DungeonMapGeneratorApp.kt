@@ -18,11 +18,11 @@ import androidx.navigation.compose.rememberNavController
 import uk.co.maddwarf.randomdungeongeneratorpremium.navigation.DungeonMapGeneratorNavHost
 
 @Composable
-fun DungeonMapGeneratorApp (
+fun DungeonMapGeneratorApp(
     navController: NavHostController = rememberNavController()
-    ) {
-        DungeonMapGeneratorNavHost(navController = navController)
-    }
+) {
+    DungeonMapGeneratorNavHost(navController = navController)
+}
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
