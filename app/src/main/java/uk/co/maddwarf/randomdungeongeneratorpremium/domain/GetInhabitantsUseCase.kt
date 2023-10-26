@@ -2,10 +2,13 @@ package uk.co.maddwarf.randomdungeongeneratorpremium.domain
 
 import android.content.Context
 import android.util.Log
+import com.google.gson.Gson
 import com.google.gson.JsonObject
 import com.google.gson.JsonParser
+import com.google.gson.reflect.TypeToken
 import org.json.JSONObject
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Monster
+import uk.co.maddwarf.randomdungeongeneratorpremium.model.Obstacle
 
 class GetInhabitantsUseCase() {
     fun getInhabitantsCategories(context: Context, all: Boolean = false): List<String> {
@@ -47,16 +50,21 @@ class GetInhabitantsUseCase() {
 
             for (i in 0 until monsterArray.length()) {
                 val c = monsterArray.getJSONObject(i)
-                val name = c.getString("Name")
+              /*  val name = c.getString("Name")
                 val weight = c.getString("Weight").toInt()
                 val monsterCR = c.getInt("CR")
                 val monsterXP = c.getInt("XP")
                 thisMonster = Monster(name = name, weight = weight, cr = monsterCR, xp = monsterXP)
-                if (level > 13 && monsterCR > 5 || level <= 13 && monsterCR < level * 2) {
+*/
+                val typeToken = object : TypeToken<Monster>() {}.type
+                thisMonster = Gson().fromJson(c.toString(), typeToken)
+
+
+                if (level > 13 && thisMonster.cr > 5 || level <= 13 && thisMonster.cr < level * 2) {
                     inhabitantsList.add(thisMonster)
-                    //   Log.d("Monster added", thisMonster.name)
+                       Log.d("Monster added", thisMonster.name)
                 } else {
-                    //   Log.d("Monster Not Added", thisMonster.name)
+                       Log.d("Monster Not Added", thisMonster.name)
                 }
             }
 
@@ -101,7 +109,7 @@ class GetInhabitantsUseCase() {
                     inhabitants = inhabitants,
                     level = level
                 )
-            var returnList = hashMapOf<Monster, Int>()
+            val returnList = hashMapOf<Monster, Int>()
             var totalMonsterXp = 0
             while (totalMonsterXp < partyXpLimit) {
                 val newMonster = chooseInhabitantFromList(monsterList)

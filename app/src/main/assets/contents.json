@@ -1,59 +1,59 @@
 {
   "Contents": [
     {
-      "Name": "Dominant Inhabitant",
+      "name": "Dominant Inhabitant",
       "Treasure": "Individual",
-      "Weight": "28"
+      "weight": 28
     },
     {
-      "Name": "Dominant Inhabitant with Treasure",
+      "name": "Dominant Inhabitant with Treasure",
       "Treasure": "Hoard",
-      "Weight": "10"
+      "weight": 10
     },
     {
-      "Name": "Random Monster",
+      "name": "Random Monster",
       "Treasure": "Individual",
-      "Weight": "9"
+      "weight": 9
     },
     {
-      "Name": "Random Monster with Treasure",
+      "name": "Random Monster with Treasure",
       "Treasure": "Hoard",
-      "Weight": "3"
+      "weight": 3
     },
     {
-      "Name": "Obstacle",
+      "name": "Obstacle",
       "Treasure": "None",
-      "Weight": "1"
+      "weight": 1
     },
     {
-      "Name": "Trap",
+      "name": "Trap",
       "Treasure": "None",
-      "Weight": "5"
+      "weight": 5
     },
     {
-      "Name": "Trap with Treasure",
+      "name": "Trap with Treasure",
       "Treasure": "Hoard",
-      "Weight": "7"
+      "weight": 7
     },
     {
-      "Name": "Trick",
+      "name": "Trick",
       "Treasure": "None",
-      "Weight": "1"
+      "weight": 1
     },
     {
-      "Name": "Empty",
+      "name": "Empty",
       "Treasure": "None",
-      "Weight": "6"
+      "weight": 6
     },
     {
-      "Name": "Hazard",
+      "name": "Hazard",
       "Treasure": "None",
-      "Weight": "2"
+      "weight": 2
     },
     {
-      "Name": "Empty with Treasure",
+      "name": "Empty with Treasure",
       "Treasure": "Hoard",
-      "Weight": "2"
+      "weight": 2
     }
   ]
 }

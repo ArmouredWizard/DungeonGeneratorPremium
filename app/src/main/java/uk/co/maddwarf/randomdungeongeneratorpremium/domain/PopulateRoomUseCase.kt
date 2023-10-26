@@ -33,7 +33,7 @@ class PopulateRoomUseCase {
         }
 
         val contentsType = fileHelper.getFromWeightedList(contentsList)
-
+Log.d("ROOM CONTETNS", contentsType)
         val contents: List<Content> = when (contentsType) {
             "Dominant Inhabitant" -> {
                 listOf(

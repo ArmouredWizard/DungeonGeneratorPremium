@@ -1,2486 +1,2486 @@
 {
   "Orcs": [
     {
-      "Name": "Orc",
-      "CR": "1",
-      "Weight": "5",
-      "XP": "100"
+      "name": "Orc",
+      "cr": 1,
+      "weight": 5,
+      "xp": 100
     },
     {
-      "Name": "Orc Veteran",
-      "CR": "4",
-      "Weight": "2",
-      "XP": "1100"
+      "name": "Orc Veteran",
+      "cr": 4,
+      "weight": 2,
+      "xp": 1100
     },
     {
-      "Name": "Orc War Chief",
-      "CR": "4",
-      "Weight": "1",
-      "XP": "1100"
+      "name": "Orc War Chief",
+      "cr": 4,
+      "weight": 1,
+      "xp": 1100
     },
     {
-      "Name": "Orc Shaman",
-      "CR": "2",
-      "Weight": "1",
-      "XP": "450"
+      "name": "Orc Shaman",
+      "cr": 2,
+      "weight": 1,
+      "xp": 450
     },
     {
-      "Name": "Orog",
-      "CR": "2",
-      "Weight": "1",
-      "XP": "450"
+      "name": "Orog",
+      "cr": 2,
+      "weight": 1,
+      "xp": 450
     },
     {
-      "Name": "Red Fang Orc",
-      "CR": "3",
-      "Weight": "1",
-      "XP": "700"
+      "name": "Red Fang Orc",
+      "cr": 3,
+      "weight": 1,
+      "xp": 700
     },
     {
-      "Name": "Wolf",
-      "CR": "1",
-      "Weight": "5",
-      "XP": "50"
+      "name": "Wolf",
+      "cr": 1,
+      "weight": 5,
+      "xp": 50
     },
     {
-      "Name": "Dire Wolf",
-      "CR": "3",
-      "Weight": "1",
-      "XP": "700"
+      "name": "Dire Wolf",
+      "cr": 3,
+      "weight": 1,
+      "xp": 700
     },
     {
-      "Name": "Uruk-Hai",
-      "CR": "8",
-      "Weight": "1",
-      "XP": "3900"
+      "name": "Uruk-Hai",
+      "cr": 8,
+      "weight": 1,
+      "xp": 3900
     }
   ],
   "Goblinoids": [
     {
-      "Name": "Bugbear",
-      "Weight": "3",
-      "XP": "200",
-      "CR": "1"
+      "name": "Bugbear",
+      "weight": 3,
+      "xp": 200,
+      "cr": 1
     },
     {
-      "Name": "Bugbear Chief",
-      "Weight": "1",
-      "XP": "700",
-      "CR": "3"
+      "name": "Bugbear Chief",
+      "weight": 1,
+      "xp": 700,
+      "cr": 3
     },
     {
-      "Name": "Goblin",
-      "Weight": "8",
-      "XP": "50",
-      "CR": "1"
+      "name": "Goblin",
+      "weight": 8,
+      "xp": 50,
+      "cr": 1
     },
     {
-      "Name": "Goblin Boss",
-      "Weight": "1",
-      "XP": "200",
-      "CR": "1"
+      "name": "Goblin Boss",
+      "weight": 1,
+      "xp": 200,
+      "cr": 1
     },
     {
-      "Name": "Hobgoblin",
-      "Weight": "4",
-      "XP": "200",
-      "CR": "1"
+      "name": "Hobgoblin",
+      "weight": 4,
+      "xp": 200,
+      "cr": 1
     },
     {
-      "Name": "Hobgoblin Captain",
-      "Weight": "1",
-      "XP": "700",
-      "CR": "3"
+      "name": "Hobgoblin Captain",
+      "weight": 1,
+      "xp": 700,
+      "cr": 3
     },
     {
-      "Name": "Hobgoblin Devastator",
-      "Weight": "1",
-      "XP": "1100",
-      "CR": "4"
+      "name": "Hobgoblin Devastator",
+      "weight": 1,
+      "xp": 1100,
+      "cr": 4
     },
     {
-      "Name": "Hobgoblin Iron Shadow",
-      "Weight": "1",
-      "XP": "450",
-      "CR": "2"
+      "name": "Hobgoblin Iron Shadow",
+      "weight": 1,
+      "xp": 450,
+      "cr": 2
     },
     {
-      "Name": "Hobgoblin Warlord",
-      "Weight": "1",
-      "XP": "2300",
-      "CR": "6"
+      "name": "Hobgoblin Warlord",
+      "weight": 1,
+      "xp": 2300,
+      "cr": 6
     },
     {
-      "Name": "Nilbog",
-      "Weight": "1",
-      "XP": "200",
-      "CR": "1"
+      "name": "Nilbog",
+      "weight": 1,
+      "xp": 200,
+      "cr": 1
     },
     {
-      "Name": "Worg",
-      "Weight": "2",
-      "XP": "100",
-      "CR": "1"
+      "name": "Worg",
+      "weight": 2,
+      "xp": 100,
+      "cr": 1
     }
   ],
   "Undead": [
     {
-      "Name": "Adult Blue Dracolich",
-      "CR": "17",
-      "Weight": "1",
-      "XP": "18000"
+      "name": "Adult Blue Dracolich",
+      "cr": 17,
+      "weight": 1,
+      "xp": 18000
     },
     {
-      "Name": "Banshee",
-      "CR": "4",
-      "Weight": "2",
-      "XP": "1100"
+      "name": "Banshee",
+      "cr": 4,
+      "weight": 2,
+      "xp": 1100
     },
     {
-      "Name": "Beholder Zombie",
-      "CR": "5",
-      "Weight": "3",
-      "XP": "1800"
+      "name": "Beholder Zombie",
+      "cr": 5,
+      "weight": 3,
+      "xp": 1800
     },
     {
-      "Name": "Bone Naga",
-      "CR": "4",
-      "Weight": "2",
-      "XP": "1100"
+      "name": "Bone Naga",
+      "cr": 4,
+      "weight": 2,
+      "xp": 1100
     },
     {
-      "Name": "Crawling Claw",
-      "CR": "1",
-      "Weight": "2",
-      "XP": "100"
+      "name": "Crawling Claw",
+      "cr": 1,
+      "weight": 2,
+      "xp": 100
     },
     {
-      "Name": "Death Knight",
-      "CR": "17",
-      "Weight": "4",
-      "XP": "18000"
+      "name": "Death Knight",
+      "cr": 17,
+      "weight": 4,
+      "xp": 18000
     },
     {
-      "Name": "Death Tyrant",
-      "CR": "14",
-      "Weight": "2",
-      "XP": "11500"
+      "name": "Death Tyrant",
+      "cr": 14,
+      "weight": 2,
+      "xp": 11500
     },
     {
-      "Name": "Demilich",
-      "CR": "18",
-      "Weight": "1",
-      "XP": "20000"
+      "name": "Demilich",
+      "cr": 18,
+      "weight": 1,
+      "xp": 20000
     },
     {
-      "Name": "Flameskull",
-      "CR": "4",
-      "Weight": "5",
-      "XP": "1100"
+      "name": "Flameskull",
+      "cr": 4,
+      "weight": 5,
+      "xp": 1100
     },
     {
-      "Name": "Ghast",
-      "CR": "2",
-      "Weight": "8",
-      "XP": "450"
+      "name": "Ghast",
+      "cr": 2,
+      "weight": 8,
+      "xp": 450
     },
     {
-      "Name": "Ghost",
-      "CR": "4",
-      "Weight": "10",
-      "XP": "1100"
+      "name": "Ghost",
+      "cr": 4,
+      "weight": 10,
+      "xp": 1100
     },
     {
-      "Name": "Ghoul",
-      "CR": "1",
-      "Weight": "10",
-      "XP": "200"
+      "name": "Ghoul",
+      "cr": 1,
+      "weight": 10,
+      "xp": 200
     },
     {
-      "Name": "Lich",
-      "CR": "21",
-      "Weight": "2",
-      "XP": "25000"
+      "name": "Lich",
+      "cr": 21,
+      "weight": 2,
+      "xp": 25000
     },
     {
-      "Name": "Minotaur Skeleton",
-      "CR": "2",
-      "Weight": "5",
-      "XP": "450"
+      "name": "Minotaur Skeleton",
+      "cr": 2,
+      "weight": 5,
+      "xp": 450
     },
     {
-      "Name": "Mummy",
-      "CR": "3",
-      "Weight": "5",
-      "XP": "700"
+      "name": "Mummy",
+      "cr": 3,
+      "weight": 5,
+      "xp": 700
     },
     {
-      "Name": "Mummy Lord",
-      "CR": "15",
-      "Weight": "1",
-      "XP": "13000"
+      "name": "Mummy Lord",
+      "cr": 15,
+      "weight": 1,
+      "xp": 13000
     },
     {
-      "Name": "Ogre Zombie",
-      "CR": "2",
-      "Weight": "20",
-      "XP": "450"
+      "name": "Ogre Zombie",
+      "cr": 2,
+      "weight": 20,
+      "xp": 450
     },
     {
-      "Name": "Poltergeist",
-      "CR": "2",
-      "Weight": "1",
-      "XP": "450"
+      "name": "Poltergeist",
+      "cr": 2,
+      "weight": 1,
+      "xp": 450
     },
     {
-      "Name": "Revenant",
-      "CR": "5",
-      "Weight": "5",
-      "XP": "1800"
+      "name": "Revenant",
+      "cr": 5,
+      "weight": 5,
+      "xp": 1800
     },
     {
-      "Name": "Shadow",
-      "CR": "1",
-      "Weight": "2",
-      "XP": "200"
+      "name": "Shadow",
+      "cr": 1,
+      "weight": 2,
+      "xp": 200
     },
     {
-      "Name": "Skeleton",
-      "CR": "1",
-      "Weight": "40",
-      "XP": "100"
+      "name": "Skeleton",
+      "cr": 1,
+      "weight": 40,
+      "xp": 100
     },
     {
-      "Name": "Specter",
-      "CR": "1",
-      "Weight": "5",
-      "XP": "200"
+      "name": "Specter",
+      "cr": 1,
+      "weight": 5,
+      "xp": 200
     },
     {
-      "Name": "Vampire",
-      "CR": "13",
-      "Weight": "10",
-      "XP": "10000"
+      "name": "Vampire",
+      "cr": 13,
+      "weight": 10,
+      "xp": 10000
     },
     {
-      "Name": "Skeletal Warhorse",
-      "CR": "1",
-      "Weight": "5",
-      "XP": "200"
+      "name": "Skeletal Warhorse",
+      "cr": 1,
+      "weight": 5,
+      "xp": 200
     },
     {
-      "Name": "Wight",
-      "CR": "3",
-      "Weight": "20",
-      "XP": "700"
+      "name": "Wight",
+      "cr": 3,
+      "weight": 20,
+      "xp": 700
     },
     {
-      "Name": "Will-o-Wisp",
-      "CR": "2",
-      "Weight": "2",
-      "XP": "450"
+      "name": "Will-o-Wisp",
+      "cr": 2,
+      "weight": 2,
+      "xp": 450
     },
     {
-      "Name": "Wraith",
-      "CR": "5",
-      "Weight": "9",
-      "XP": "1800"
+      "name": "Wraith",
+      "cr": 5,
+      "weight": 9,
+      "xp": 1800
     },
     {
-      "Name": "Zombie",
-      "CR": "1",
-      "Weight": "40",
-      "XP": "200"
+      "name": "Zombie",
+      "cr": 1,
+      "weight": 40,
+      "xp": 200
     }
   ],
   "Elementals": [
     {
-      "Name": "Air Elemental",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "5"
+      "name": "Air Elemental",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 5
     },
     {
-      "Name": "Azer",
-      "CR": "2",
-      "XP": "450",
-      "Weight": "1"
+      "name": "Azer",
+      "cr": 2,
+      "xp": 450,
+      "weight": 1
     },
     {
-      "Name": "Dao",
-      "CR": "11",
-      "XP": "7200",
-      "Weight": "1"
+      "name": "Dao",
+      "cr": 11,
+      "xp": 7200,
+      "weight": 1
     },
     {
-      "Name": "Djinni",
-      "CR": "11",
-      "XP": "7200",
-      "Weight": "2"
+      "name": "Djinni",
+      "cr": 11,
+      "xp": 7200,
+      "weight": 2
     },
     {
-      "Name": "Dust Mephit",
-      "CR": "1",
-      "XP": "100",
-      "Weight": "5"
+      "name": "Dust Mephit",
+      "cr": 1,
+      "xp": 100,
+      "weight": 5
     },
     {
-      "Name": "Earth Elemental",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "5"
+      "name": "Earth Elemental",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 5
     },
     {
-      "Name": "Efreeti",
-      "CR": "11",
-      "XP": "7200",
-      "Weight": "3"
+      "name": "Efreeti",
+      "cr": 11,
+      "xp": 7200,
+      "weight": 3
     },
     {
-      "Name": "Fire Elemental",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "5"
+      "name": "Fire Elemental",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 5
     },
     {
-      "Name": "Fire Snake",
-      "CR": "1",
-      "XP": "200",
-      "Weight": "6"
+      "name": "Fire Snake",
+      "cr": 1,
+      "xp": 200,
+      "weight": 6
     },
     {
-      "Name": "Galeb Duhr",
-      "CR": "6",
-      "XP": "2300",
-      "Weight": "2"
+      "name": "Galeb Duhr",
+      "cr": 6,
+      "xp": 2300,
+      "weight": 2
     },
     {
-      "Name": "Gargoyle",
-      "CR": "2",
-      "XP": "450",
-      "Weight": "7"
+      "name": "Gargoyle",
+      "cr": 2,
+      "xp": 450,
+      "weight": 7
     },
     {
-      "Name": "Ice Mephit",
-      "CR": "1",
-      "XP": "100",
-      "Weight": "6"
+      "name": "Ice Mephit",
+      "cr": 1,
+      "xp": 100,
+      "weight": 6
     },
     {
-      "Name": "Invisible Stalker",
-      "CR": "6",
-      "XP": "2300",
-      "Weight": "2"
+      "name": "Invisible Stalker",
+      "cr": 6,
+      "xp": 2300,
+      "weight": 2
     },
     {
-      "Name": "Magma Mephit",
-      "CR": "1",
-      "XP": "100",
-      "Weight": "7"
+      "name": "Magma Mephit",
+      "cr": 1,
+      "xp": 100,
+      "weight": 7
     },
     {
-      "Name": "Magmin",
-      "CR": "1",
-      "XP": "100",
-      "Weight": "2"
+      "name": "Magmin",
+      "cr": 1,
+      "xp": 100,
+      "weight": 2
     },
     {
-      "Name": "Marid",
-      "CR": "11",
-      "XP": "7200",
-      "Weight": "2"
+      "name": "Marid",
+      "cr": 11,
+      "xp": 7200,
+      "weight": 2
     },
     {
-      "Name": "Mud Mephit",
-      "CR": "1",
-      "XP": "50",
-      "Weight": "6"
+      "name": "Mud Mephit",
+      "cr": 1,
+      "xp": 50,
+      "weight": 6
     },
     {
-      "Name": "Salamander",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "4"
+      "name": "Salamander",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 4
     },
     {
-      "Name": "Smoke Mephit",
-      "CR": "1",
-      "XP": "50",
-      "Weight": "6"
+      "name": "Smoke Mephit",
+      "cr": 1,
+      "xp": 50,
+      "weight": 6
     },
     {
-      "Name": "Steam Mephit",
-      "CR": "1",
-      "XP": "50",
-      "Weight": "6"
+      "name": "Steam Mephit",
+      "cr": 1,
+      "xp": 50,
+      "weight": 6
     },
     {
-      "Name": "Water Elemental",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "6"
+      "name": "Water Elemental",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 6
     },
     {
-      "Name": "Water Weird",
-      "CR": "3",
-      "XP": "700",
-      "Weight": "3"
+      "name": "Water Weird",
+      "cr": 3,
+      "xp": 700,
+      "weight": 3
     },
     {
-      "Name": "Xorn",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "7"
+      "name": "Xorn",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 7
     }
   ],
   "Dragons": [
     {
-      "Name": "Adult Black Dragon",
-      "CR": "14",
-      "Weight": "1",
-      "XP": "11500"
+      "name": "Adult Black Dragon",
+      "cr": 14,
+      "weight": 1,
+      "xp": 11500
     },
     {
-      "Name": "Adult Blue Dragon",
-      "CR": "16",
-      "Weight": "1",
-      "XP": "15000"
+      "name": "Adult Blue Dragon",
+      "cr": 16,
+      "weight": 1,
+      "xp": 15000
     },
     {
-      "Name": "Adult Brass Dragon",
-      "CR": "13",
-      "Weight": "1",
-      "XP": "10000"
+      "name": "Adult Brass Dragon",
+      "cr": 13,
+      "weight": 1,
+      "xp": 10000
     },
     {
-      "Name": "Adult Bronze Dragon",
-      "CR": "15",
-      "Weight": "1",
-      "XP": "13000"
+      "name": "Adult Bronze Dragon",
+      "cr": 15,
+      "weight": 1,
+      "xp": 13000
     },
     {
-      "Name": "Adult Copper Dragon",
-      "CR": "14",
-      "Weight": "1",
-      "XP": "11500"
+      "name": "Adult Copper Dragon",
+      "cr": 14,
+      "weight": 1,
+      "xp": 11500
     },
     {
-      "Name": "Adult Gold Dragon",
-      "CR": "17",
-      "Weight": "1",
-      "XP": "18000"
+      "name": "Adult Gold Dragon",
+      "cr": 17,
+      "weight": 1,
+      "xp": 18000
     },
     {
-      "Name": "Adult Green Dragon",
-      "CR": "15",
-      "Weight": "1",
-      "XP": "13000"
+      "name": "Adult Green Dragon",
+      "cr": 15,
+      "weight": 1,
+      "xp": 13000
     },
     {
-      "Name": "Adult Red Dragon",
-      "CR": "17",
-      "Weight": "1",
-      "XP": "18000"
+      "name": "Adult Red Dragon",
+      "cr": 17,
+      "weight": 1,
+      "xp": 18000
     },
     {
-      "Name": "Adult Silver Dragon",
-      "CR": "16",
-      "Weight": "1",
-      "XP": "15000"
+      "name": "Adult Silver Dragon",
+      "cr": 16,
+      "weight": 1,
+      "xp": 15000
     },
     {
-      "Name": "Adult White Dragon",
-      "CR": "13",
-      "Weight": "1",
-      "XP": "10000"
+      "name": "Adult White Dragon",
+      "cr": 13,
+      "weight": 1,
+      "xp": 10000
     },
     {
-      "Name": "Young Black Dragon",
-      "CR": "7",
-      "Weight": "1",
-      "XP": "2900"
+      "name": "Young Black Dragon",
+      "cr": 7,
+      "weight": 1,
+      "xp": 2900
     },
     {
-      "Name": "Young Blue Dragon",
-      "CR": "9",
-      "Weight": "1",
-      "XP": "5000"
+      "name": "Young Blue Dragon",
+      "cr": 9,
+      "weight": 1,
+      "xp": 5000
     },
     {
-      "Name": "Young Brass Dragon",
-      "CR": "6",
-      "Weight": "1",
-      "XP": "2300"
+      "name": "Young Brass Dragon",
+      "cr": 6,
+      "weight": 1,
+      "xp": 2300
     },
     {
-      "Name": "Young Bronze Dragon",
-      "CR": "8",
-      "Weight": "1",
-      "XP": "3900"
+      "name": "Young Bronze Dragon",
+      "cr": 8,
+      "weight": 1,
+      "xp": 3900
     },
     {
-      "Name": "Young Copper Dragon",
-      "CR": "7",
-      "Weight": "1",
-      "XP": "2900"
+      "name": "Young Copper Dragon",
+      "cr": 7,
+      "weight": 1,
+      "xp": 2900
     },
     {
-      "Name": "Young Gold Dragon",
-      "CR": "10",
-      "Weight": "1",
-      "XP": "5900"
+      "name": "Young Gold Dragon",
+      "cr": 10,
+      "weight": 1,
+      "xp": 5900
     },
     {
-      "Name": "Young Green Dragon",
-      "CR": "8",
-      "Weight": "1",
-      "XP": "3900"
+      "name": "Young Green Dragon",
+      "cr": 8,
+      "weight": 1,
+      "xp": 3900
     },
     {
-      "Name": "Young Red Dragon",
-      "CR": "10",
-      "Weight": "1",
-      "XP": "5900"
+      "name": "Young Red Dragon",
+      "cr": 10,
+      "weight": 1,
+      "xp": 5900
     },
     {
-      "Name": "Young Red Shadow Dragon",
-      "CR": "13",
-      "Weight": "1",
-      "XP": "10000"
+      "name": "Young Red Shadow Dragon",
+      "cr": 13,
+      "weight": 1,
+      "xp": 10000
     },
     {
-      "Name": "Young Silver Dragon",
-      "CR": "9",
-      "Weight": "1",
-      "XP": "5000"
+      "name": "Young Silver Dragon",
+      "cr": 9,
+      "weight": 1,
+      "xp": 5000
     },
     {
-      "Name": "Young White Dragon",
-      "CR": "6",
-      "Weight": "1",
-      "XP": "2300"
+      "name": "Young White Dragon",
+      "cr": 6,
+      "weight": 1,
+      "xp": 2300
     },
     {
-      "Name": "Black Dragon Wyrmling",
-      "CR": "2",
-      "Weight": "1",
-      "XP": "200"
+      "name": "Black Dragon Wyrmling",
+      "cr": 2,
+      "weight": 1,
+      "xp": 200
     },
     {
-      "Name": "Blue Dragon Wyrmling",
-      "CR": "3",
-      "Weight": "1",
-      "XP": "450"
+      "name": "Blue Dragon Wyrmling",
+      "cr": 3,
+      "weight": 1,
+      "xp": 450
     },
     {
-      "Name": "Brass Dragon Wyrmling",
-      "CR": "1",
-      "Weight": "1",
-      "XP": "100"
+      "name": "Brass Dragon Wyrmling",
+      "cr": 1,
+      "weight": 1,
+      "xp": 100
     },
     {
-      "Name": "Bronze Dragon Wyrmling",
-      "CR": "2",
-      "Weight": "1",
-      "XP": "200"
+      "name": "Bronze Dragon Wyrmling",
+      "cr": 2,
+      "weight": 1,
+      "xp": 200
     },
     {
-      "Name": "Copper Dragon Wyrmling",
-      "CR": "1",
-      "Weight": "1",
-      "XP": "100"
+      "name": "Copper Dragon Wyrmling",
+      "cr": 1,
+      "weight": 1,
+      "xp": 100
     }
   ],
   "Drow": [
     {
-      "Name": "Drow Warrior",
-      "Weight": "8",
-      "CR": "0.25",
-      "XP": "50"
+      "name": "Drow Warrior",
+      "weight": 8,
+      "cr": "0.25",
+      "xp": 50
     },
     {
-      "Name": "Drow Elite Warrior",
-      "Weight": "2",
-      "CR": "5",
-      "XP": "1800"
+      "name": "Drow Elite Warrior",
+      "weight": 2,
+      "cr": 5,
+      "xp": 1800
     },
     {
-      "Name": "Drow Mage",
-      "Weight": "2",
-      "CR": "7",
-      "XP": "2900"
+      "name": "Drow Mage",
+      "weight": 2,
+      "cr": 7,
+      "xp": 2900
     },
     {
-      "Name": "Drow Priestess",
-      "Weight": "1",
-      "CR": "8",
-      "XP": "3900"
+      "name": "Drow Priestess",
+      "weight": 1,
+      "cr": 8,
+      "xp": 3900
     },
     {
-      "Name": "Drider",
-      "Weight": "2",
-      "CR": "6",
-      "XP": "2300"
+      "name": "Drider",
+      "weight": 2,
+      "cr": 6,
+      "xp": 2300
     },
     {
-      "Name": "Drider Mage",
-      "Weight": "1",
-      "CR": "6",
-      "XP": "2300"
+      "name": "Drider Mage",
+      "weight": 1,
+      "cr": 6,
+      "xp": 2300
     },
     {
-      "Name": "Giant Spider",
-      "Weight": "3",
-      "CR": "1",
-      "XP": "200"
+      "name": "Giant Spider",
+      "weight": 3,
+      "cr": 1,
+      "xp": 200
     },
     {
-      "Name": "Spore Servant",
-      "Weight": "4",
-      "CR": "0.125",
-      "XP": "25"
+      "name": "Spore Servant",
+      "weight": 4,
+      "cr": "0.125",
+      "xp": 25
     }
   ],
   "Wanderers": [
     {
-      "Name": "Carrion Crawler",
-      "Weight": "1",
-      "CR": "2",
-      "XP": "450"
+      "name": "Carrion Crawler",
+      "weight": 1,
+      "cr": 2,
+      "xp": 450
     },
     {
-      "Name": "Giant Rat",
-      "Weight": "2",
-      "CR": "1",
-      "XP": "25"
+      "name": "Giant Rat",
+      "weight": 2,
+      "cr": 1,
+      "xp": 25
     },
     {
-      "Name": "Gelatinous Cube",
-      "Weight": "1",
-      "CR": "2",
-      "XP": "450"
+      "name": "Gelatinous Cube",
+      "weight": 1,
+      "cr": 2,
+      "xp": 450
     },
     {
-      "Name": "Raiding Goblin",
-      "Weight": "3",
-      "CR": "1",
-      "XP": "50"
+      "name": "Raiding Goblin",
+      "weight": 3,
+      "cr": 1,
+      "xp": 50
     },
     {
-      "Name": "Black Pudding",
-      "Weight": "1",
-      "CR": "4",
-      "XP": "1100"
+      "name": "Black Pudding",
+      "weight": 1,
+      "cr": 4,
+      "xp": 1100
     },
     {
-      "Name": "Giant Scorpion",
-      "Weight": "1",
-      "CR": "3",
-      "XP": "700"
+      "name": "Giant Scorpion",
+      "weight": 1,
+      "cr": 3,
+      "xp": 700
     },
     {
-      "Name": "Redcap",
-      "Weight": "1",
-      "CR": "3",
-      "XP": "700"
+      "name": "Redcap",
+      "weight": 1,
+      "cr": 3,
+      "xp": 700
     },
     {
-      "Name": "Umber Hulk",
-      "Weight": "1",
-      "CR": "5",
-      "XP": "1800"
+      "name": "Umber Hulk",
+      "weight": 1,
+      "cr": 5,
+      "xp": 1800
     },
     {
-      "Name": "Purple Worm",
-      "Weight": "1",
-      "CR": "15",
-      "XP": "13000"
+      "name": "Purple Worm",
+      "weight": 1,
+      "cr": 15,
+      "xp": 13000
     },
     {
-      "Name": "Beholder",
-      "Weight": "5",
-      "CR": "13",
-      "XP": "10000"
+      "name": "Beholder",
+      "weight": 5,
+      "cr": 13,
+      "xp": 10000
     },
     {
-      "Name": "Bone Devil",
-      "Weight": "3",
-      "CR": "9",
-      "XP": "5000"
+      "name": "Bone Devil",
+      "weight": 3,
+      "cr": 9,
+      "xp": 5000
     },
     {
-      "Name": "Formian",
-      "Weight": "1",
-      "CR": "8",
-      "XP": "3900"
+      "name": "Formian",
+      "weight": 1,
+      "cr": 8,
+      "xp": 3900
     }
   ],
   "Beasts": [
     {
-      "Name": "Aurochs",
-      "CR": "2",
-      "Weight": "2",
-      "XP": "450"
+      "name": "Aurochs",
+      "cr": 2,
+      "weight": 2,
+      "xp": 450
     },
     {
-      "Name": "Axe Beak",
-      "CR": "0.25",
-      "Weight": "1",
-      "XP": "50"
+      "name": "Axe Beak",
+      "cr": "0.25",
+      "weight": 1,
+      "xp": 50
     },
     {
-      "Name": "Brown Bear",
-      "CR": "1",
-      "Weight": "3",
-      "XP": "200"
+      "name": "Brown Bear",
+      "cr": 1,
+      "weight": 3,
+      "xp": 200
     },
     {
-      "Name": "Cave Bear",
-      "CR": "2",
-      "Weight": "3",
-      "XP": "450"
+      "name": "Cave Bear",
+      "cr": 2,
+      "weight": 3,
+      "xp": 450
     },
     {
-      "Name": "Constrictor Snake",
-      "CR": "0.25",
-      "Weight": "2",
-      "XP": "50"
+      "name": "Constrictor Snake",
+      "cr": "0.25",
+      "weight": 2,
+      "xp": 50
     },
     {
-      "Name": "Crocodile",
-      "CR": "0.5",
-      "Weight": "1",
-      "XP": "100"
+      "name": "Crocodile",
+      "cr": "0.5",
+      "weight": 1,
+      "xp": 100
     },
     {
-      "Name": "Dire Wolf",
-      "CR": "1",
-      "Weight": "4",
-      "XP": "200"
+      "name": "Dire Wolf",
+      "cr": 1,
+      "weight": 4,
+      "xp": 200
     },
     {
-      "Name": "Giant Bat",
-      "CR": "0.25",
-      "Weight": "3",
-      "XP": "50"
+      "name": "Giant Bat",
+      "cr": "0.25",
+      "weight": 3,
+      "xp": 50
     },
     {
-      "Name": "Giant Boar",
-      "CR": "2",
-      "Weight": "4",
-      "XP": "450"
+      "name": "Giant Boar",
+      "cr": 2,
+      "weight": 4,
+      "xp": 450
     },
     {
-      "Name": "Giant Eagle",
-      "CR": "1",
-      "Weight": "2",
-      "XP": "200"
+      "name": "Giant Eagle",
+      "cr": 1,
+      "weight": 2,
+      "xp": 200
     },
     {
-      "Name": "Giant Goat",
-      "CR": "0.5",
-      "Weight": "1",
-      "XP": "100"
+      "name": "Giant Goat",
+      "cr": "0.5",
+      "weight": 1,
+      "xp": 100
     },
     {
-      "Name": "Giant Hyena",
-      "CR": "1",
-      "Weight": "2",
-      "XP": "200"
+      "name": "Giant Hyena",
+      "cr": 1,
+      "weight": 2,
+      "xp": 200
     },
     {
-      "Name": "Giant Lizard",
-      "CR": "0.25",
-      "Weight": "2",
-      "XP": "50"
+      "name": "Giant Lizard",
+      "cr": "0.25",
+      "weight": 2,
+      "xp": 50
     },
     {
-      "Name": "Giant Owl",
-      "CR": "0.25",
-      "Weight": "1",
-      "XP": "50"
+      "name": "Giant Owl",
+      "cr": "0.25",
+      "weight": 1,
+      "xp": 50
     },
     {
-      "Name": "Giant Scorpion",
-      "CR": "3",
-      "Weight": "3",
-      "XP": "700"
+      "name": "Giant Scorpion",
+      "cr": 3,
+      "weight": 3,
+      "xp": 700
     },
     {
-      "Name": "Giant Spider",
-      "CR": "1",
-      "Weight": "5",
-      "XP": "200"
+      "name": "Giant Spider",
+      "cr": 1,
+      "weight": 5,
+      "xp": 200
     },
     {
-      "Name": "Giant Toad",
-      "CR": "1",
-      "Weight": "2",
-      "XP": "200"
+      "name": "Giant Toad",
+      "cr": 1,
+      "weight": 2,
+      "xp": 200
     },
     {
-      "Name": "Giant Vulture",
-      "CR": "1",
-      "Weight": "2",
-      "XP": "200"
+      "name": "Giant Vulture",
+      "cr": 1,
+      "weight": 2,
+      "xp": 200
     },
     {
-      "Name": "Lion",
-      "CR": "1",
-      "Weight": "2",
-      "XP": "200"
+      "name": "Lion",
+      "cr": 1,
+      "weight": 2,
+      "xp": 200
     },
     {
-      "Name": "Ox",
-      "CR": "0.25",
-      "Weight": "1",
-      "XP": "50"
+      "name": "Ox",
+      "cr": "0.25",
+      "weight": 1,
+      "xp": 50
     },
     {
-      "Name": "Polar Bear",
-      "CR": "2",
-      "Weight": "2",
-      "XP": "450"
+      "name": "Polar Bear",
+      "cr": 2,
+      "weight": 2,
+      "xp": 450
     },
     {
-      "Name": "Rhinoceros",
-      "CR": "2",
-      "Weight": "2",
-      "XP": "450"
+      "name": "Rhinoceros",
+      "cr": 2,
+      "weight": 2,
+      "xp": 450
     },
     {
-      "Name": "Rothe",
-      "CR": "0.25",
-      "Weight": "1",
-      "XP": "50"
+      "name": "Rothe",
+      "cr": "0.25",
+      "weight": 1,
+      "xp": 50
     },
     {
-      "Name": "Saber-toothed Tiger",
-      "CR": "2",
-      "Weight": "2",
-      "XP": "450"
+      "name": "Saber-toothed Tiger",
+      "cr": 2,
+      "weight": 2,
+      "xp": 450
     },
     {
-      "Name": "Stench Kow",
-      "CR": "0.25",
-      "Weight": "1",
-      "XP": "50"
+      "name": "Stench Kow",
+      "cr": "0.25",
+      "weight": 1,
+      "xp": 50
     },
     {
-      "Name": "Tiger",
-      "CR": "1",
-      "Weight": "2",
-      "XP": "200"
+      "name": "Tiger",
+      "cr": 1,
+      "weight": 2,
+      "xp": 200
     },
     {
-      "Name": "Ape",
-      "CR": "0.5",
-      "Weight": "1",
-      "XP": "100"
+      "name": "Ape",
+      "cr": "0.5",
+      "weight": 1,
+      "xp": 100
     },
     {
-      "Name": "Black Bear",
-      "CR": "0.5",
-      "Weight": "2",
-      "XP": "100"
+      "name": "Black Bear",
+      "cr": "0.5",
+      "weight": 2,
+      "xp": 100
     },
     {
-      "Name": "Boar",
-      "CR": "0.25",
-      "Weight": "2",
-      "XP": "50"
+      "name": "Boar",
+      "cr": "0.25",
+      "weight": 2,
+      "xp": 50
     },
     {
-      "Name": "Deep Rothe",
-      "CR": "0.25",
-      "Weight": "1",
-      "XP": "50"
+      "name": "Deep Rothe",
+      "cr": "0.25",
+      "weight": 1,
+      "xp": 50
     },
     {
-      "Name": "Giant Badger",
-      "CR": "0.25",
-      "Weight": "2",
-      "XP": "50"
+      "name": "Giant Badger",
+      "cr": "0.25",
+      "weight": 2,
+      "xp": 50
     },
     {
-      "Name": "Giant Frog",
-      "CR": "0.25",
-      "Weight": "1",
-      "XP": "50"
+      "name": "Giant Frog",
+      "cr": "0.25",
+      "weight": 1,
+      "xp": 50
     },
     {
-      "Name": "Giant Poisonous Snake",
-      "CR": "0.25",
-      "Weight": "1",
-      "XP": "50"
+      "name": "Giant Poisonous Snake",
+      "cr": "0.25",
+      "weight": 1,
+      "xp": 50
     },
     {
-      "Name": "Giant Wasp",
-      "CR": "0.5",
-      "Weight": "1",
-      "XP": "100"
+      "name": "Giant Wasp",
+      "cr": "0.5",
+      "weight": 1,
+      "xp": 100
     },
     {
-      "Name": "Giant Weasel",
-      "CR": "0.125",
-      "Weight": "3",
-      "XP": "25"
+      "name": "Giant Weasel",
+      "cr": "0.125",
+      "weight": 3,
+      "xp": 25
     },
     {
-      "Name": "Giant Wolf Spider",
-      "CR": "0.25",
-      "Weight": "3",
-      "XP": "50"
+      "name": "Giant Wolf Spider",
+      "cr": "0.25",
+      "weight": 3,
+      "xp": 50
     },
     {
-      "Name": "Hyena",
-      "CR": "0",
-      "Weight": "1",
-      "XP": "10"
+      "name": "Hyena",
+      "cr": 0,
+      "weight": 1,
+      "xp": 10
     },
     {
-      "Name": "Mastiff",
-      "CR": "0.25",
-      "Weight": "2",
-      "XP": "25"
+      "name": "Mastiff",
+      "cr": "0.25",
+      "weight": 2,
+      "xp": 25
     },
     {
-      "Name": "Panther",
-      "CR": "0.25",
-      "Weight": "1",
-      "XP": "50"
+      "name": "Panther",
+      "cr": "0.25",
+      "weight": 1,
+      "xp": 50
     },
     {
-      "Name": "Vulture",
-      "CR": "0",
-      "Weight": "2",
-      "XP": "10"
+      "name": "Vulture",
+      "cr": 0,
+      "weight": 2,
+      "xp": 10
     },
     {
-      "Name": "Wolf",
-      "CR": "0.25",
-      "Weight": "4",
-      "XP": "50"
+      "name": "Wolf",
+      "cr": "0.25",
+      "weight": 4,
+      "xp": 50
     },
     {
-      "Name": "Baboon",
-      "CR": "0",
-      "Weight": "1",
-      "XP": "10"
+      "name": "Baboon",
+      "cr": 0,
+      "weight": 1,
+      "xp": 10
     },
     {
-      "Name": "Blood Hawk",
-      "CR": "0.125",
-      "Weight": "2",
-      "XP": "25"
+      "name": "Blood Hawk",
+      "cr": "0.125",
+      "weight": 2,
+      "xp": 25
     },
     {
-      "Name": "Eagle",
-      "CR": "0",
-      "Weight": "2",
-      "XP": "10"
+      "name": "Eagle",
+      "cr": 0,
+      "weight": 2,
+      "xp": 10
     },
     {
-      "Name": "Giant Centipede",
-      "CR": "0.25",
-      "Weight": "4",
-      "XP": "50"
+      "name": "Giant Centipede",
+      "cr": "0.25",
+      "weight": 4,
+      "xp": 50
     },
     {
-      "Name": "Giant Fire Beetle",
-      "CR": "0",
-      "Weight": "4",
-      "XP": "10"
+      "name": "Giant Fire Beetle",
+      "cr": 0,
+      "weight": 4,
+      "xp": 10
     },
     {
-      "Name": "Giant Rat",
-      "CR": "0.25",
-      "Weight": "5",
-      "XP": "25"
+      "name": "Giant Rat",
+      "cr": "0.25",
+      "weight": 5,
+      "xp": 25
     },
     {
-      "Name": "Jackal",
-      "CR": "0",
-      "Weight": "1",
-      "XP": "10"
+      "name": "Jackal",
+      "cr": 0,
+      "weight": 1,
+      "xp": 10
     },
     {
-      "Name": "Badger",
-      "CR": "0",
-      "Weight": "1",
-      "XP": "10"
+      "name": "Badger",
+      "cr": 0,
+      "weight": 1,
+      "xp": 10
     },
     {
-      "Name": "Bat",
-      "CR": "0",
-      "Weight": "2",
-      "XP": "10"
+      "name": "Bat",
+      "cr": 0,
+      "weight": 2,
+      "xp": 10
     },
     {
-      "Name": "Cranium Rat",
-      "CR": "0",
-      "Weight": "1",
-      "XP": "10"
+      "name": "Cranium Rat",
+      "cr": 0,
+      "weight": 1,
+      "xp": 10
     },
     {
-      "Name": "Flying Snake",
-      "CR": "0.125",
-      "Weight": "1",
-      "XP": "25"
+      "name": "Flying Snake",
+      "cr": "0.125",
+      "weight": 1,
+      "xp": 25
     },
     {
-      "Name": "Poisonous Snake",
-      "CR": "0.125",
-      "Weight": "1",
-      "XP": "25"
+      "name": "Poisonous Snake",
+      "cr": "0.125",
+      "weight": 1,
+      "xp": 25
     },
     {
-      "Name": "Quipper",
-      "CR": "0",
-      "Weight": "1",
-      "XP": "10"
+      "name": "Quipper",
+      "cr": 0,
+      "weight": 1,
+      "xp": 10
     },
     {
-      "Name": "Rat",
-      "CR": "0",
-      "Weight": "1",
-      "XP": "10"
+      "name": "Rat",
+      "cr": 0,
+      "weight": 1,
+      "xp": 10
     },
     {
-      "Name": "Raven",
-      "CR": "0",
-      "Weight": "1",
-      "XP": "10"
+      "name": "Raven",
+      "cr": 0,
+      "weight": 1,
+      "xp": 10
     },
     {
-      "Name": "Scorpion",
-      "CR": "0",
-      "Weight": "1",
-      "XP": "10"
+      "name": "Scorpion",
+      "cr": 0,
+      "weight": 1,
+      "xp": 10
     },
     {
-      "Name": "Spider",
-      "CR": "0",
-      "Weight": "2",
-      "XP": "10"
+      "name": "Spider",
+      "cr": 0,
+      "weight": 2,
+      "xp": 10
     },
     {
-      "Name": "Stirge",
-      "CR": "0.125",
-      "Weight": "5",
-      "XP": "25"
+      "name": "Stirge",
+      "cr": "0.125",
+      "weight": 5,
+      "xp": 25
     },
     {
-      "Name": "Giant Ape",
-      "CR": "7",
-      "Weight": "3",
-      "XP": "2900"
+      "name": "Giant Ape",
+      "cr": 7,
+      "weight": 3,
+      "xp": 2900
     },
     {
-      "Name": "Mammoth",
-      "CR": "6",
-      "Weight": "2",
-      "XP": "2300"
+      "name": "Mammoth",
+      "cr": 6,
+      "weight": 2,
+      "xp": 2300
     },
     {
-      "Name": "Giant Crocodile",
-      "CR": "5",
-      "Weight": "3",
-      "XP": "1800"
+      "name": "Giant Crocodile",
+      "cr": 5,
+      "weight": 3,
+      "xp": 1800
     }
   ],
   "Dinosaurs": [
     {
-      "Name": "Ankylosaurus",
-      "CR": "3",
-      "XP": "700",
-      "Weight": "1"
+      "name": "Ankylosaurus",
+      "cr": 3,
+      "xp": 700,
+      "weight": 1
     },
     {
-      "Name": "Giant Scorpion",
-      "CR": "3",
-      "XP": "700",
-      "Weight": "1"
+      "name": "Giant Scorpion",
+      "cr": 3,
+      "xp": 700,
+      "weight": 1
     },
     {
-      "Name": "Stegosaurus",
-      "CR": "4",
-      "XP": "1100",
-      "Weight": "1"
+      "name": "Stegosaurus",
+      "cr": 4,
+      "xp": 1100,
+      "weight": 1
     },
     {
-      "Name": "Brontosaurus",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "1"
+      "name": "Brontosaurus",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 1
     },
     {
-      "Name": "Giant Crocodile",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "1"
+      "name": "Giant Crocodile",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 1
     },
     {
-      "Name": "Triceratops",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "1"
+      "name": "Triceratops",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 1
     },
     {
-      "Name": "Mammoth",
-      "CR": "6",
-      "XP": "2300",
-      "Weight": "1"
+      "name": "Mammoth",
+      "cr": 6,
+      "xp": 2300,
+      "weight": 1
     },
     {
-      "Name": "Giant Ape",
-      "CR": "7",
-      "XP": "2900",
-      "Weight": "1"
+      "name": "Giant Ape",
+      "cr": 7,
+      "xp": 2900,
+      "weight": 1
     },
     {
-      "Name": "Tyrannosaurus Rex",
-      "CR": "8",
-      "XP": "3900",
-      "Weight": "1"
+      "name": "Tyrannosaurus Rex",
+      "cr": 8,
+      "xp": 3900,
+      "weight": 1
     },
     {
-      "Name": "Allosaurus",
-      "CR": "2",
-      "Weight": "1",
-      "XP": "450"
+      "name": "Allosaurus",
+      "cr": 2,
+      "weight": 1,
+      "xp": 450
     },
     {
-      "Name": "Hadrosaurus",
-      "CR": "0.25",
-      "Weight": "1",
-      "XP": "50"
+      "name": "Hadrosaurus",
+      "cr": "0.25",
+      "weight": 1,
+      "xp": 50
     },
     {
-      "Name": "Saber-toothed Tiger",
-      "CR": "2",
-      "Weight": "1",
-      "XP": "450"
+      "name": "Saber-toothed Tiger",
+      "cr": 2,
+      "weight": 1,
+      "xp": 450
     },
     {
-      "Name": "Deinonychus",
-      "CR": "1",
-      "Weight": "1",
-      "XP": "200"
+      "name": "Deinonychus",
+      "cr": 1,
+      "weight": 1,
+      "xp": 200
     },
     {
-      "Name": "Dimetrodon",
-      "CR": "0.25",
-      "Weight": "1",
-      "XP": "50"
+      "name": "Dimetrodon",
+      "cr": "0.25",
+      "weight": 1,
+      "xp": 50
     },
     {
-      "Name": "Pteranodon",
-      "CR": "0.25",
-      "Weight": "1",
-      "XP": "50"
+      "name": "Pteranodon",
+      "cr": "0.25",
+      "weight": 1,
+      "xp": 50
     },
     {
-      "Name": "Velociraptor",
-      "CR": "0.25",
-      "Weight": "1",
-      "XP": "50"
+      "name": "Velociraptor",
+      "cr": "0.25",
+      "weight": 1,
+      "xp": 50
     },
     {
-      "Name": "Aurochs",
-      "CR": "2",
-      "Weight": "1",
-      "XP": "450"
+      "name": "Aurochs",
+      "cr": 2,
+      "weight": 1,
+      "xp": 450
     }
   ],
   "Oozes": [
     {
-      "Name": "Oblex Spawn",
-      "CR": "0.25",
-      "XP": "50",
-      "Weight": "1"
+      "name": "Oblex Spawn",
+      "cr": "0.25",
+      "xp": 50,
+      "weight": 1
     },
     {
-      "Name": "Gray Ooze",
-      "CR": "0.5",
-      "XP": "100",
-      "Weight": "1"
+      "name": "Gray Ooze",
+      "cr": "0.5",
+      "xp": 100,
+      "weight": 1
     },
     {
-      "Name": "Gelatinous Cube",
-      "CR": "2",
-      "XP": "450",
-      "Weight": "3"
+      "name": "Gelatinous Cube",
+      "cr": 2,
+      "xp": 450,
+      "weight": 3
     },
     {
-      "Name": "Ochre Jelly",
-      "CR": "2",
-      "XP": "450",
-      "Weight": "1"
+      "name": "Ochre Jelly",
+      "cr": 2,
+      "xp": 450,
+      "weight": 1
     },
     {
-      "Name": "Slithering Tracker",
-      "CR": "3",
-      "XP": "700",
-      "Weight": "1"
+      "name": "Slithering Tracker",
+      "cr": 3,
+      "xp": 700,
+      "weight": 1
     },
     {
-      "Name": "Black Pudding",
-      "CR": "4",
-      "XP": "1100",
-      "Weight": "1"
+      "name": "Black Pudding",
+      "cr": 4,
+      "xp": 1100,
+      "weight": 1
     },
     {
-      "Name": "Adult Oblex",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "1"
+      "name": "Adult Oblex",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 1
     },
     {
-      "Name": "Elder Oblex",
-      "CR": "10",
-      "XP": "5900",
-      "Weight": "1"
+      "name": "Elder Oblex",
+      "cr": 10,
+      "xp": 5900,
+      "weight": 1
     }
   ],
   "Monstrosity": [
     {
-      "Name": "Chitine",
-      "CR": "0.5",
-      "XP": "100",
-      "Weight": "1"
+      "name": "Chitine",
+      "cr": "0.5",
+      "xp": 100,
+      "weight": 1
     },
     {
-      "Name": "Cockatrice",
-      "CR": "0.5",
-      "XP": "100",
-      "Weight": "2"
+      "name": "Cockatrice",
+      "cr": "0.5",
+      "xp": 100,
+      "weight": 2
     },
     {
-      "Name": "Darkmantle",
-      "CR": "0.5",
-      "XP": "100",
-      "Weight": "1"
+      "name": "Darkmantle",
+      "cr": "0.5",
+      "xp": 100,
+      "weight": 1
     },
     {
-      "Name": "Piercer",
-      "CR": "0.5",
-      "XP": "100",
-      "Weight": "3"
+      "name": "Piercer",
+      "cr": "0.5",
+      "xp": 100,
+      "weight": 3
     },
     {
-      "Name": "Rust Monster",
-      "CR": "0.5",
-      "XP": "100",
-      "Weight": "5"
+      "name": "Rust Monster",
+      "cr": "0.5",
+      "xp": 100,
+      "weight": 5
     },
     {
-      "Name": "Worg",
-      "CR": "0.5",
-      "XP": "100",
-      "Weight": "3"
+      "name": "Worg",
+      "cr": "0.5",
+      "xp": 100,
+      "weight": 3
     },
     {
-      "Name": "Death Dog",
-      "CR": "1",
-      "XP": "200",
-      "Weight": "1"
+      "name": "Death Dog",
+      "cr": 1,
+      "xp": 200,
+      "weight": 1
     },
     {
-      "Name": "Giant Strider",
-      "CR": "1",
-      "XP": "200",
-      "Weight": "1"
+      "name": "Giant Strider",
+      "cr": 1,
+      "xp": 200,
+      "weight": 1
     },
     {
-      "Name": "Harpy",
-      "CR": "1",
-      "XP": "200",
-      "Weight": "4"
+      "name": "Harpy",
+      "cr": 1,
+      "xp": 200,
+      "weight": 4
     },
     {
-      "Name": "Hippogriff",
-      "CR": "1",
-      "XP": "200",
-      "Weight": "2"
+      "name": "Hippogriff",
+      "cr": 1,
+      "xp": 200,
+      "weight": 2
     },
     {
-      "Name": "Ankheg",
-      "CR": "2",
-      "XP": "450",
-      "Weight": "1"
+      "name": "Ankheg",
+      "cr": 2,
+      "xp": 450,
+      "weight": 1
     },
     {
-      "Name": "Carrion Crawler",
-      "CR": "2",
-      "XP": "450",
-      "Weight": "4"
+      "name": "Carrion Crawler",
+      "cr": 2,
+      "xp": 450,
+      "weight": 4
     },
     {
-      "Name": "Ettercap",
-      "CR": "2",
-      "XP": "450",
-      "Weight": "1"
+      "name": "Ettercap",
+      "cr": 2,
+      "xp": 450,
+      "weight": 1
     },
     {
-      "Name": "Grick",
-      "CR": "2",
-      "XP": "450",
-      "Weight": "1"
+      "name": "Grick",
+      "cr": 2,
+      "xp": 450,
+      "weight": 1
     },
     {
-      "Name": "Griffon",
-      "CR": "2",
-      "XP": "450",
-      "Weight": "1"
+      "name": "Griffon",
+      "cr": 2,
+      "xp": 450,
+      "weight": 1
     },
     {
-      "Name": "Merrow",
-      "CR": "2",
-      "XP": "450",
-      "Weight": "1"
+      "name": "Merrow",
+      "cr": 2,
+      "xp": 450,
+      "weight": 1
     },
     {
-      "Name": "Mimic",
-      "CR": "2",
-      "XP": "450",
-      "Weight": "7"
+      "name": "Mimic",
+      "cr": 2,
+      "xp": 450,
+      "weight": 7
     },
     {
-      "Name": "Shadow Mastiff",
-      "CR": "2",
-      "XP": "450",
-      "Weight": "1"
+      "name": "Shadow Mastiff",
+      "cr": 2,
+      "xp": 450,
+      "weight": 1
     },
     {
-      "Name": "Basilisk",
-      "CR": "3",
-      "XP": "700",
-      "Weight": "2"
+      "name": "Basilisk",
+      "cr": 3,
+      "xp": 700,
+      "weight": 2
     },
     {
-      "Name": "Cave Fisher",
-      "CR": "3",
-      "XP": "700",
-      "Weight": "1"
+      "name": "Cave Fisher",
+      "cr": 3,
+      "xp": 700,
+      "weight": 1
     },
     {
-      "Name": "Displacer Beast",
-      "CR": "3",
-      "XP": "700",
-      "Weight": "3"
+      "name": "Displacer Beast",
+      "cr": 3,
+      "xp": 700,
+      "weight": 3
     },
     {
-      "Name": "Doppelganger",
-      "CR": "3",
-      "XP": "700",
-      "Weight": "1"
+      "name": "Doppelganger",
+      "cr": 3,
+      "xp": 700,
+      "weight": 1
     },
     {
-      "Name": "Hook Horror",
-      "CR": "3",
-      "XP": "700",
-      "Weight": "5"
+      "name": "Hook Horror",
+      "cr": 3,
+      "xp": 700,
+      "weight": 5
     },
     {
-      "Name": "Manticore",
-      "CR": "3",
-      "XP": "700",
-      "Weight": "1"
+      "name": "Manticore",
+      "cr": 3,
+      "xp": 700,
+      "weight": 1
     },
     {
-      "Name": "Minotaur",
-      "CR": "3",
-      "XP": "700",
-      "Weight": "5"
+      "name": "Minotaur",
+      "cr": 3,
+      "xp": 700,
+      "weight": 5
     },
     {
-      "Name": "Owlbear",
-      "CR": "3",
-      "XP": "700",
-      "Weight": "8"
+      "name": "Owlbear",
+      "cr": 3,
+      "xp": 700,
+      "weight": 8
     },
     {
-      "Name": "Phase Spider",
-      "CR": "3",
-      "XP": "700",
-      "Weight": "1"
+      "name": "Phase Spider",
+      "cr": 3,
+      "xp": 700,
+      "weight": 1
     },
     {
-      "Name": "Trapper",
-      "CR": "3",
-      "XP": "700",
-      "Weight": "1"
+      "name": "Trapper",
+      "cr": 3,
+      "xp": 700,
+      "weight": 1
     },
     {
-      "Name": "Winter Wolf",
-      "CR": "3",
-      "XP": "700",
-      "Weight": "1"
+      "name": "Winter Wolf",
+      "cr": 3,
+      "xp": 700,
+      "weight": 1
     },
     {
-      "Name": "Yeti",
-      "CR": "3",
-      "XP": "700",
-      "Weight": "1"
+      "name": "Yeti",
+      "cr": 3,
+      "xp": 700,
+      "weight": 1
     },
     {
-      "Name": "Lamia",
-      "CR": "4",
-      "XP": "1100",
-      "Weight": "1"
+      "name": "Lamia",
+      "cr": 4,
+      "xp": 1100,
+      "weight": 1
     },
     {
-      "Name": "Banderhobb",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "1"
+      "name": "Banderhobb",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 1
     },
     {
-      "Name": "Bulette",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "4"
+      "name": "Bulette",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 4
     },
     {
-      "Name": "Catoblepas",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "1"
+      "name": "Catoblepas",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 1
     },
     {
-      "Name": "Gorgon",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "1"
+      "name": "Gorgon",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 1
     },
     {
-      "Name": "Roper",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "2"
+      "name": "Roper",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 2
     },
     {
-      "Name": "Tlincalli",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "1"
+      "name": "Tlincalli",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 1
     },
     {
-      "Name": "Umber Hulk",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "3"
+      "name": "Umber Hulk",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 3
     },
     {
-      "Name": "Chimera",
-      "CR": "6",
-      "XP": "2300",
-      "Weight": "1"
+      "name": "Chimera",
+      "cr": 6,
+      "xp": 2300,
+      "weight": 1
     },
     {
-      "Name": "Medusa",
-      "CR": "6",
-      "XP": "2300",
-      "Weight": "1"
+      "name": "Medusa",
+      "cr": 6,
+      "xp": 2300,
+      "weight": 1
     },
     {
-      "Name": "Grick Alpha",
-      "CR": "7",
-      "XP": "2900",
-      "Weight": "1"
+      "name": "Grick Alpha",
+      "cr": 7,
+      "xp": 2900,
+      "weight": 1
     },
     {
-      "Name": "Lost Sorrowsworn",
-      "CR": "7",
-      "XP": "2900",
-      "Weight": "1"
+      "name": "Lost Sorrowsworn",
+      "cr": 7,
+      "xp": 2900,
+      "weight": 1
     },
     {
-      "Name": "Hydra",
-      "CR": "8",
-      "XP": "3900",
-      "Weight": "5"
+      "name": "Hydra",
+      "cr": 8,
+      "xp": 3900,
+      "weight": 5
     },
     {
-      "Name": "Spirit Naga",
-      "CR": "8",
-      "XP": "3900",
-      "Weight": "1"
+      "name": "Spirit Naga",
+      "cr": 8,
+      "xp": 3900,
+      "weight": 1
     },
     {
-      "Name": "Abominable Yeti",
-      "CR": "9",
-      "XP": "5000",
-      "Weight": "1"
+      "name": "Abominable Yeti",
+      "cr": 9,
+      "xp": 5000,
+      "weight": 1
     },
     {
-      "Name": "Lonely Sorrowsworn",
-      "CR": "9",
-      "XP": "5000",
-      "Weight": "1"
+      "name": "Lonely Sorrowsworn",
+      "cr": 9,
+      "xp": 5000,
+      "weight": 1
     },
     {
-      "Name": "Froghemoth",
-      "CR": "10",
-      "XP": "5900",
-      "Weight": "1"
+      "name": "Froghemoth",
+      "cr": 10,
+      "xp": 5900,
+      "weight": 1
     },
     {
-      "Name": "Guardian Naga",
-      "CR": "10",
-      "XP": "5900",
-      "Weight": "1"
+      "name": "Guardian Naga",
+      "cr": 10,
+      "xp": 5900,
+      "weight": 1
     },
     {
-      "Name": "Behir",
-      "CR": "11",
-      "XP": "7200",
-      "Weight": "1"
+      "name": "Behir",
+      "cr": 11,
+      "xp": 7200,
+      "weight": 1
     },
     {
-      "Name": "Gynosphinx",
-      "CR": "11",
-      "XP": "7200",
-      "Weight": "1"
+      "name": "Gynosphinx",
+      "cr": 11,
+      "xp": 7200,
+      "weight": 1
     },
     {
-      "Name": "Hungry Sorrowsworn",
-      "CR": "11",
-      "XP": "7200",
-      "Weight": "1"
+      "name": "Hungry Sorrowsworn",
+      "cr": 11,
+      "xp": 7200,
+      "weight": 1
     },
     {
-      "Name": "Remorhaz",
-      "CR": "11",
-      "XP": "7200",
-      "Weight": "1"
+      "name": "Remorhaz",
+      "cr": 11,
+      "xp": 7200,
+      "weight": 1
     },
     {
-      "Name": "Roc",
-      "CR": "11",
-      "XP": "7200",
-      "Weight": "4"
+      "name": "Roc",
+      "cr": 11,
+      "xp": 7200,
+      "weight": 4
     },
     {
-      "Name": "Gray Render",
-      "CR": "12",
-      "XP": "8400",
-      "Weight": "1"
+      "name": "Gray Render",
+      "cr": 12,
+      "xp": 8400,
+      "weight": 1
     },
     {
-      "Name": "Angry Sorrowsworn",
-      "CR": "13",
-      "XP": "10000",
-      "Weight": "1"
+      "name": "Angry Sorrowsworn",
+      "cr": 13,
+      "xp": 10000,
+      "weight": 1
     },
     {
-      "Name": "Purple Worm",
-      "CR": "15",
-      "XP": "13000",
-      "Weight": "1"
+      "name": "Purple Worm",
+      "cr": 15,
+      "xp": 13000,
+      "weight": 1
     },
     {
-      "Name": "Androsphinx",
-      "CR": "17",
-      "XP": "18000",
-      "Weight": "1"
+      "name": "Androsphinx",
+      "cr": 17,
+      "xp": 18000,
+      "weight": 1
     },
     {
-      "Name": "Astral Dreadnought",
-      "CR": "21",
-      "XP": "33000",
-      "Weight": "1"
+      "name": "Astral Dreadnought",
+      "cr": 21,
+      "xp": 33000,
+      "weight": 1
     },
     {
-      "Name": "Kraken",
-      "CR": "23",
-      "XP": "50000",
-      "Weight": "1"
+      "name": "Kraken",
+      "cr": 23,
+      "xp": 50000,
+      "weight": 1
     },
     {
-      "Name": "Tarrasque",
-      "CR": "30",
-      "XP": "155000",
-      "Weight": "1"
+      "name": "Tarrasque",
+      "cr": 30,
+      "xp": 155000,
+      "weight": 1
     }
   ],
   "Plants": [
     {
-      "Name": "Awakened Shrub",
-      "CR": "0",
-      "XP": "10",
-      "Weight": "1"
+      "name": "Awakened Shrub",
+      "cr": 0,
+      "xp": 10,
+      "weight": 1
     },
     {
-      "Name": "Myconid Sprout",
-      "CR": "0",
-      "XP": "10",
-      "Weight": "2"
+      "name": "Myconid Sprout",
+      "cr": 0,
+      "xp": 10,
+      "weight": 2
     },
     {
-      "Name": "Shrieker",
-      "CR": "0",
-      "XP": "10",
-      "Weight": "1"
+      "name": "Shrieker",
+      "cr": 0,
+      "xp": 10,
+      "weight": 1
     },
     {
-      "Name": "Twig Blight",
-      "CR": "0.125",
-      "XP": "25",
-      "Weight": "1"
+      "name": "Twig Blight",
+      "cr": "0.125",
+      "xp": 25,
+      "weight": 1
     },
     {
-      "Name": "Needle Blight",
-      "CR": "0.25",
-      "XP": "50",
-      "Weight": "1"
+      "name": "Needle Blight",
+      "cr": "0.25",
+      "xp": 50,
+      "weight": 1
     },
     {
-      "Name": "Vegepygmy",
-      "CR": "0.25",
-      "XP": "50",
-      "Weight": "1"
+      "name": "Vegepygmy",
+      "cr": "0.25",
+      "xp": 50,
+      "weight": 1
     },
     {
-      "Name": "Violet Fungus",
-      "CR": "0.25",
-      "XP": "50",
-      "Weight": "1"
+      "name": "Violet Fungus",
+      "cr": "0.25",
+      "xp": 50,
+      "weight": 1
     },
     {
-      "Name": "Gas Spore",
-      "CR": "0.5",
-      "XP": "100",
-      "Weight": "1"
+      "name": "Gas Spore",
+      "cr": "0.5",
+      "xp": 100,
+      "weight": 1
     },
     {
-      "Name": "Myconid Adult",
-      "CR": "0.5",
-      "XP": "100",
-      "Weight": "3"
+      "name": "Myconid Adult",
+      "cr": "0.5",
+      "xp": 100,
+      "weight": 3
     },
     {
-      "Name": "Vine Blight",
-      "CR": "0.5",
-      "XP": "100",
-      "Weight": "1"
+      "name": "Vine Blight",
+      "cr": "0.5",
+      "xp": 100,
+      "weight": 1
     },
     {
-      "Name": "Quaggoth Spore Servant",
-      "CR": "1",
-      "XP": "200",
-      "Weight": "1"
+      "name": "Quaggoth Spore Servant",
+      "cr": 1,
+      "xp": 200,
+      "weight": 1
     },
     {
-      "Name": "Thorny",
-      "CR": "1",
-      "XP": "200",
-      "Weight": "1"
+      "name": "Thorny",
+      "cr": 1,
+      "xp": 200,
+      "weight": 1
     },
     {
-      "Name": "Awakened Tree",
-      "CR": "2",
-      "XP": "450",
-      "Weight": "1"
+      "name": "Awakened Tree",
+      "cr": 2,
+      "xp": 450,
+      "weight": 1
     },
     {
-      "Name": "Myconid Sovereign",
-      "CR": "2",
-      "XP": "450",
-      "Weight": "1"
+      "name": "Myconid Sovereign",
+      "cr": 2,
+      "xp": 450,
+      "weight": 1
     },
     {
-      "Name": "Vegepygmy Chief",
-      "CR": "2",
-      "XP": "450",
-      "Weight": "1"
+      "name": "Vegepygmy Chief",
+      "cr": 2,
+      "xp": 450,
+      "weight": 1
     },
     {
-      "Name": "Shambling Mound",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "1"
+      "name": "Shambling Mound",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 1
     },
     {
-      "Name": "Wood Woad",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "1"
+      "name": "Wood Woad",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 1
     },
     {
-      "Name": "Corpse Flower",
-      "CR": "8",
-      "XP": "3900",
-      "Weight": "1"
+      "name": "Corpse Flower",
+      "cr": 8,
+      "xp": 3900,
+      "weight": 1
     },
     {
-      "Name": "Treant",
-      "CR": "9",
-      "XP": "5000",
-      "Weight": "1"
+      "name": "Treant",
+      "cr": 9,
+      "xp": 5000,
+      "weight": 1
     }
   ],
   "Giants": [
     {
-      "Name": "Half-ogre",
-      "CR": "1",
-      "XP": "200",
-      "Weight": "2"
+      "name": "Half-ogre",
+      "cr": 1,
+      "xp": 200,
+      "weight": 2
     },
     {
-      "Name": "Ogre",
-      "CR": "2",
-      "XP": "450",
-      "Weight": "4"
+      "name": "Ogre",
+      "cr": 2,
+      "xp": 450,
+      "weight": 4
     },
     {
-      "Name": "Ogre Bolt Launcher",
-      "CR": "2",
-      "XP": "450",
-      "Weight": "1"
+      "name": "Ogre Bolt Launcher",
+      "cr": 2,
+      "xp": 450,
+      "weight": 1
     },
     {
-      "Name": "Ogre Howdah",
-      "CR": "2",
-      "XP": "450",
-      "Weight": "1"
+      "name": "Ogre Howdah",
+      "cr": 2,
+      "xp": 450,
+      "weight": 1
     },
     {
-      "Name": "Ogre Chain Brute",
-      "CR": "3",
-      "XP": "700",
-      "Weight": "1"
+      "name": "Ogre Chain Brute",
+      "cr": 3,
+      "xp": 700,
+      "weight": 1
     },
     {
-      "Name": "Ettin",
-      "CR": "4",
-      "XP": "1100",
-      "Weight": "2"
+      "name": "Ettin",
+      "cr": 4,
+      "xp": 1100,
+      "weight": 2
     },
     {
-      "Name": "Ogre Battering Ram",
-      "CR": "4",
-      "XP": "1100",
-      "Weight": "1"
+      "name": "Ogre Battering Ram",
+      "cr": 4,
+      "xp": 1100,
+      "weight": 1
     },
     {
-      "Name": "Hill Giant",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "3"
+      "name": "Hill Giant",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 3
     },
     {
-      "Name": "Troll",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "1"
+      "name": "Troll",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 1
     },
     {
-      "Name": "Cyclops",
-      "CR": "6",
-      "XP": "2300",
-      "Weight": "1"
+      "name": "Cyclops",
+      "cr": 6,
+      "xp": 2300,
+      "weight": 1
     },
     {
-      "Name": "Mouth of Grolantor",
-      "CR": "6",
-      "XP": "2300",
-      "Weight": "1"
+      "name": "Mouth of Grolantor",
+      "cr": 6,
+      "xp": 2300,
+      "weight": 1
     },
     {
-      "Name": "Oni",
-      "CR": "7",
-      "XP": "2900",
-      "Weight": "2"
+      "name": "Oni",
+      "cr": 7,
+      "xp": 2900,
+      "weight": 2
     },
     {
-      "Name": "Stone Giant",
-      "CR": "7",
-      "XP": "2900",
-      "Weight": "3"
+      "name": "Stone Giant",
+      "cr": 7,
+      "xp": 2900,
+      "weight": 3
     },
     {
-      "Name": "Venom Troll",
-      "CR": "7",
-      "XP": "2900",
-      "Weight": "1"
+      "name": "Venom Troll",
+      "cr": 7,
+      "xp": 2900,
+      "weight": 1
     },
     {
-      "Name": "Fomorian",
-      "CR": "8",
-      "XP": "3900",
-      "Weight": "1"
+      "name": "Fomorian",
+      "cr": 8,
+      "xp": 3900,
+      "weight": 1
     },
     {
-      "Name": "Frost Giant",
-      "CR": "8",
-      "XP": "3900",
-      "Weight": "3"
+      "name": "Frost Giant",
+      "cr": 8,
+      "xp": 3900,
+      "weight": 3
     },
     {
-      "Name": "Cloud Giant",
-      "CR": "9",
-      "XP": "5000",
-      "Weight": "3"
+      "name": "Cloud Giant",
+      "cr": 9,
+      "xp": 5000,
+      "weight": 3
     },
     {
-      "Name": "Fire Giant",
-      "CR": "9",
-      "XP": "5000",
-      "Weight": "3"
+      "name": "Fire Giant",
+      "cr": 9,
+      "xp": 5000,
+      "weight": 3
     },
     {
-      "Name": "Rot Troll",
-      "CR": "9",
-      "XP": "5000",
-      "Weight": "1"
+      "name": "Rot Troll",
+      "cr": 9,
+      "xp": 5000,
+      "weight": 1
     },
     {
-      "Name": "Stone Giant Dreamwalker",
-      "CR": "10",
-      "XP": "5900",
-      "Weight": "1"
+      "name": "Stone Giant Dreamwalker",
+      "cr": 10,
+      "xp": 5900,
+      "weight": 1
     },
     {
-      "Name": "Cloud Giant Smiling One",
-      "CR": "11",
-      "XP": "7200",
-      "Weight": "1"
+      "name": "Cloud Giant Smiling One",
+      "cr": 11,
+      "xp": 7200,
+      "weight": 1
     },
     {
-      "Name": "Spirit Troll",
-      "CR": "11",
-      "XP": "7200",
-      "Weight": "1"
+      "name": "Spirit Troll",
+      "cr": 11,
+      "xp": 7200,
+      "weight": 1
     },
     {
-      "Name": "Frost Giant Everlasting One",
-      "CR": "12",
-      "XP": "8400",
-      "Weight": "1"
+      "name": "Frost Giant Everlasting One",
+      "cr": 12,
+      "xp": 8400,
+      "weight": 1
     },
     {
-      "Name": "Dire Troll",
-      "CR": "13",
-      "XP": "10000",
-      "Weight": "1"
+      "name": "Dire Troll",
+      "cr": 13,
+      "xp": 10000,
+      "weight": 1
     },
     {
-      "Name": "Storm Giant",
-      "CR": "13",
-      "XP": "10000",
-      "Weight": "2"
+      "name": "Storm Giant",
+      "cr": 13,
+      "xp": 10000,
+      "weight": 2
     },
     {
-      "Name": "Fire Giant Dreadnought",
-      "CR": "14",
-      "XP": "11500",
-      "Weight": "1"
+      "name": "Fire Giant Dreadnought",
+      "cr": 14,
+      "xp": 11500,
+      "weight": 1
     },
     {
-      "Name": "Storm Giant Quintessent",
-      "CR": "16",
-      "XP": "15000",
-      "Weight": "1"
+      "name": "Storm Giant Quintessent",
+      "cr": 16,
+      "xp": 15000,
+      "weight": 1
     }
   ],
   "Constructs": [
     {
-      "Name": "Homunculus",
-      "CR": "0",
-      "XP": "10",
-      "Weight": "1"
+      "name": "Homunculus",
+      "cr": 0,
+      "xp": 10,
+      "weight": 1
     },
     {
-      "Name": "Monodrone",
-      "CR": "0.125",
-      "XP": "25",
-      "Weight": "1"
+      "name": "Monodrone",
+      "cr": "0.125",
+      "xp": 25,
+      "weight": 1
     },
     {
-      "Name": "Duodrone",
-      "CR": "0.25",
-      "XP": "50",
-      "Weight": "1"
+      "name": "Duodrone",
+      "cr": "0.25",
+      "xp": 50,
+      "weight": 1
     },
     {
-      "Name": "Flying Sword",
-      "CR": "0.25",
-      "XP": "50",
-      "Weight": "1"
+      "name": "Flying Sword",
+      "cr": "0.25",
+      "xp": 50,
+      "weight": 1
     },
     {
-      "Name": "Tridrone",
-      "CR": "0.5",
-      "XP": "100",
-      "Weight": "1"
+      "name": "Tridrone",
+      "cr": "0.5",
+      "xp": 100,
+      "weight": 1
     },
     {
-      "Name": "Animated Armor",
-      "CR": "1",
-      "XP": "200",
-      "Weight": "1"
+      "name": "Animated Armor",
+      "cr": 1,
+      "xp": 200,
+      "weight": 1
     },
     {
-      "Name": "Bronze Scout",
-      "CR": "1",
-      "XP": "200",
-      "Weight": "1"
+      "name": "Bronze Scout",
+      "cr": 1,
+      "xp": 200,
+      "weight": 1
     },
     {
-      "Name": "Quadrone",
-      "CR": "1",
-      "XP": "200",
-      "Weight": "1"
+      "name": "Quadrone",
+      "cr": 1,
+      "xp": 200,
+      "weight": 1
     },
     {
-      "Name": "Scarecrow",
-      "CR": "1",
-      "XP": "200",
-      "Weight": "1"
+      "name": "Scarecrow",
+      "cr": 1,
+      "xp": 200,
+      "weight": 1
     },
     {
-      "Name": "Stone Cursed",
-      "CR": "1",
-      "XP": "200",
-      "Weight": "1"
+      "name": "Stone Cursed",
+      "cr": 1,
+      "xp": 200,
+      "weight": 1
     },
     {
-      "Name": "Duergar Hammerer",
-      "CR": "2",
-      "XP": "450",
-      "Weight": "1"
+      "name": "Duergar Hammerer",
+      "cr": 2,
+      "xp": 450,
+      "weight": 1
     },
     {
-      "Name": "Pentadrone",
-      "CR": "2",
-      "XP": "450",
-      "Weight": "1"
+      "name": "Pentadrone",
+      "cr": 2,
+      "xp": 450,
+      "weight": 1
     },
     {
-      "Name": "Duergar Screamer",
-      "CR": "3",
-      "XP": "700",
-      "Weight": "1"
+      "name": "Duergar Screamer",
+      "cr": 3,
+      "xp": 700,
+      "weight": 1
     },
     {
-      "Name": "Helmed Horror",
-      "CR": "4",
-      "XP": "1100",
-      "Weight": "1"
+      "name": "Helmed Horror",
+      "cr": 4,
+      "xp": 1100,
+      "weight": 1
     },
     {
-      "Name": "Iron Cobra",
-      "CR": "4",
-      "XP": "1100",
-      "Weight": "1"
+      "name": "Iron Cobra",
+      "cr": 4,
+      "xp": 1100,
+      "weight": 1
     },
     {
-      "Name": "Stone Defender",
-      "CR": "4",
-      "XP": "1100",
-      "Weight": "1"
+      "name": "Stone Defender",
+      "cr": 4,
+      "xp": 1100,
+      "weight": 1
     },
     {
-      "Name": "Flesh Golem",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "1"
+      "name": "Flesh Golem",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 1
     },
     {
-      "Name": "Oaken Bolter",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "1"
+      "name": "Oaken Bolter",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 1
     },
     {
-      "Name": "Shield Guardian",
-      "CR": "7",
-      "XP": "2900",
-      "Weight": "1"
+      "name": "Shield Guardian",
+      "cr": 7,
+      "xp": 2900,
+      "weight": 1
     },
     {
-      "Name": "Clay Golem",
-      "CR": "9",
-      "XP": "5000",
-      "Weight": "1"
+      "name": "Clay Golem",
+      "cr": 9,
+      "xp": 5000,
+      "weight": 1
     },
     {
-      "Name": "Stone Golem",
-      "CR": "10",
-      "XP": "5900",
-      "Weight": "1"
+      "name": "Stone Golem",
+      "cr": 10,
+      "xp": 5900,
+      "weight": 1
     },
     {
-      "Name": "Cadaver Collector",
-      "CR": "14",
-      "XP": "11500",
-      "Weight": "1"
+      "name": "Cadaver Collector",
+      "cr": 14,
+      "xp": 11500,
+      "weight": 1
     },
     {
-      "Name": "Retriever",
-      "CR": "14",
-      "XP": "11500",
-      "Weight": "1"
+      "name": "Retriever",
+      "cr": 14,
+      "xp": 11500,
+      "weight": 1
     },
     {
-      "Name": "Hellfire Engine",
-      "CR": "16",
-      "XP": "15000",
-      "Weight": "1"
+      "name": "Hellfire Engine",
+      "cr": 16,
+      "xp": 15000,
+      "weight": 1
     },
     {
-      "Name": "Iron Golem",
-      "CR": "16",
-      "XP": "15000",
-      "Weight": "1"
+      "name": "Iron Golem",
+      "cr": 16,
+      "xp": 15000,
+      "weight": 1
     },
     {
-      "Name": "Steel Predator",
-      "CR": "16",
-      "XP": "15000",
-      "Weight": "1"
+      "name": "Steel Predator",
+      "cr": 16,
+      "xp": 15000,
+      "weight": 1
     }
   ],
   "Fiends": [
     {
-      "Name": "Lemure",
-      "CR": "0",
-      "XP": "10",
-      "Weight": "1"
+      "name": "Lemure",
+      "cr": 0,
+      "xp": 10,
+      "weight": 1
     },
     {
-      "Name": "Manes",
-      "CR": "0.125",
-      "XP": "25",
-      "Weight": "1"
+      "name": "Manes",
+      "cr": "0.125",
+      "xp": 25,
+      "weight": 1
     },
     {
-      "Name": "Abyssal Wretch",
-      "CR": "0.25",
-      "XP": "50",
-      "Weight": "1"
+      "name": "Abyssal Wretch",
+      "cr": "0.25",
+      "xp": 50,
+      "weight": 1
     },
     {
-      "Name": "Dretch",
-      "CR": "0.25",
-      "XP": "50",
-      "Weight": "1"
+      "name": "Dretch",
+      "cr": "0.25",
+      "xp": 50,
+      "weight": 1
     },
     {
-      "Name": "Nupperibo",
-      "CR": "0.5",
-      "XP": "100",
-      "Weight": "1"
+      "name": "Nupperibo",
+      "cr": "0.5",
+      "xp": 100,
+      "weight": 1
     },
     {
-      "Name": "Imp",
-      "CR": "1",
-      "XP": "200",
-      "Weight": "1"
+      "name": "Imp",
+      "cr": 1,
+      "xp": 200,
+      "weight": 1
     },
     {
-      "Name": "Maw Demon",
-      "CR": "1",
-      "XP": "200",
-      "Weight": "1"
+      "name": "Maw Demon",
+      "cr": 1,
+      "xp": 200,
+      "weight": 1
     },
     {
-      "Name": "Quasit",
-      "CR": "1",
-      "XP": "200",
-      "Weight": "1"
+      "name": "Quasit",
+      "cr": 1,
+      "xp": 200,
+      "weight": 1
     },
     {
-      "Name": "Vargouille",
-      "CR": "1",
-      "XP": "200",
-      "Weight": "1"
+      "name": "Vargouille",
+      "cr": 1,
+      "xp": 200,
+      "weight": 1
     },
     {
-      "Name": "Rutterkin",
-      "CR": "2",
-      "XP": "450",
-      "Weight": "1"
+      "name": "Rutterkin",
+      "cr": 2,
+      "xp": 450,
+      "weight": 1
     },
     {
-      "Name": "Spined Devil",
-      "CR": "2",
-      "XP": "450",
-      "Weight": "1"
+      "name": "Spined Devil",
+      "cr": 2,
+      "xp": 450,
+      "weight": 1
     },
     {
-      "Name": "Bearded Devil",
-      "CR": "3",
-      "XP": "700",
-      "Weight": "1"
+      "name": "Bearded Devil",
+      "cr": 3,
+      "xp": 700,
+      "weight": 1
     },
     {
-      "Name": "Bulezau",
-      "CR": "3",
-      "XP": "700",
-      "Weight": "1"
+      "name": "Bulezau",
+      "cr": 3,
+      "xp": 700,
+      "weight": 1
     },
     {
-      "Name": "Hell Hound",
-      "CR": "3",
-      "XP": "700",
-      "Weight": "1"
+      "name": "Hell Hound",
+      "cr": 3,
+      "xp": 700,
+      "weight": 1
     },
     {
-      "Name": "Merrenoloth",
-      "CR": "3",
-      "XP": "700",
-      "Weight": "1"
+      "name": "Merrenoloth",
+      "cr": 3,
+      "xp": 700,
+      "weight": 1
     },
     {
-      "Name": "Nightmare",
-      "CR": "3",
-      "XP": "700",
-      "Weight": "1"
+      "name": "Nightmare",
+      "cr": 3,
+      "xp": 700,
+      "weight": 1
     },
     {
-      "Name": "Babau",
-      "CR": "4",
-      "XP": "1100",
-      "Weight": "1"
+      "name": "Babau",
+      "cr": 4,
+      "xp": 1100,
+      "weight": 1
     },
     {
-      "Name": "Barghest",
-      "CR": "4",
-      "XP": "1100",
-      "Weight": "1"
+      "name": "Barghest",
+      "cr": 4,
+      "xp": 1100,
+      "weight": 1
     },
     {
-      "Name": "Dybbuk",
-      "CR": "4",
-      "XP": "1100",
-      "Weight": "1"
+      "name": "Dybbuk",
+      "cr": 4,
+      "xp": 1100,
+      "weight": 1
     },
     {
-      "Name": "Gnoll Fang of Yeenoghu",
-      "CR": "4",
-      "XP": "1100",
-      "Weight": "1"
+      "name": "Gnoll Fang of Yeenoghu",
+      "cr": 4,
+      "xp": 1100,
+      "weight": 1
     },
     {
-      "Name": "Incubus",
-      "CR": "4",
-      "XP": "1100",
-      "Weight": "1"
+      "name": "Incubus",
+      "cr": 4,
+      "xp": 1100,
+      "weight": 1
     },
     {
-      "Name": "Merregon",
-      "CR": "4",
-      "XP": "1100",
-      "Weight": "1"
+      "name": "Merregon",
+      "cr": 4,
+      "xp": 1100,
+      "weight": 1
     },
     {
-      "Name": "Shadow Demon",
-      "CR": "4",
-      "XP": "1100",
-      "Weight": "1"
+      "name": "Shadow Demon",
+      "cr": 4,
+      "xp": 1100,
+      "weight": 1
     },
     {
-      "Name": "Succubus",
-      "CR": "4",
-      "XP": "1100",
-      "Weight": "1"
+      "name": "Succubus",
+      "cr": 4,
+      "xp": 1100,
+      "weight": 1
     },
     {
-      "Name": "Barbed Devil",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "1"
+      "name": "Barbed Devil",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 1
     },
     {
-      "Name": "Barlgura",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "1"
+      "name": "Barlgura",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 1
     },
     {
-      "Name": "Cambion",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "1"
+      "name": "Cambion",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 1
     },
     {
-      "Name": "Mezzoloth",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "1"
+      "name": "Mezzoloth",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 1
     },
     {
-      "Name": "Night Hag",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "1"
+      "name": "Night Hag",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 1
     },
     {
-      "Name": "Tanarukk",
-      "CR": "5",
-      "XP": "1800",
-      "Weight": "1"
+      "name": "Tanarukk",
+      "cr": 5,
+      "xp": 1800,
+      "weight": 1
     },
     {
-      "Name": "Chasme",
-      "CR": "6",
-      "XP": "2300",
-      "Weight": "1"
+      "name": "Chasme",
+      "cr": 6,
+      "xp": 2300,
+      "weight": 1
     },
     {
-      "Name": "Vrock",
-      "CR": "6",
-      "XP": "2300",
-      "Weight": "1"
+      "name": "Vrock",
+      "cr": 6,
+      "xp": 2300,
+      "weight": 1
     },
     {
-      "Name": "White Abishai",
-      "CR": "6",
-      "XP": "2300",
-      "Weight": "1"
+      "name": "White Abishai",
+      "cr": 6,
+      "xp": 2300,
+      "weight": 1
     },
     {
-      "Name": "Armanite",
-      "CR": "7",
-      "XP": "2900",
-      "Weight": "1"
+      "name": "Armanite",
+      "cr": 7,
+      "xp": 2900,
+      "weight": 1
     },
     {
-      "Name": "Black Abishai",
-      "CR": "7",
-      "XP": "2900",
-      "Weight": "1"
+      "name": "Black Abishai",
+      "cr": 7,
+      "xp": 2900,
+      "weight": 1
     },
     {
-      "Name": "Dhergoloth",
-      "CR": "7",
-      "XP": "2900",
-      "Weight": "1"
+      "name": "Dhergoloth",
+      "cr": 7,
+      "xp": 2900,
+      "weight": 1
     },
     {
-      "Name": "Draegloth",
-      "CR": "7",
-      "XP": "2900",
-      "Weight": "1"
+      "name": "Draegloth",
+      "cr": 7,
+      "xp": 2900,
+      "weight": 1
     },
     {
-      "Name": "Maurezhi",
-      "CR": "7",
-      "XP": "2900",
-      "Weight": "1"
+      "name": "Maurezhi",
+      "cr": 7,
+      "xp": 2900,
+      "weight": 1
     },
     {
-      "Name": "Canoloth",
-      "CR": "8",
-      "XP": "3900",
-      "Weight": "1"
+      "name": "Canoloth",
+      "cr": 8,
+      "xp": 3900,
+      "weight": 1
     },
     {
-      "Name": "Chain Devil",
-      "CR": "8",
-      "XP": "3900",
-      "Weight": "1"
+      "name": "Chain Devil",
+      "cr": 8,
+      "xp": 3900,
+      "weight": 1
     },
     {
-      "Name": "Hezrou",
-      "CR": "8",
-      "XP": "3900",
-      "Weight": "1"
+      "name": "Hezrou",
+      "cr": 8,
+      "xp": 3900,
+      "weight": 1
     },
     {
-      "Name": "Howler",
-      "CR": "8",
-      "XP": "3900",
-      "Weight": "1"
+      "name": "Howler",
+      "cr": 8,
+      "xp": 3900,
+      "weight": 1
     },
     {
-      "Name": "Shoosuva",
-      "CR": "8",
-      "XP": "3900",
-      "Weight": "1"
+      "name": "Shoosuva",
+      "cr": 8,
+      "xp": 3900,
+      "weight": 1
     },
     {
-      "Name": "Bone Devil",
-      "CR": "9",
-      "XP": "5000",
-      "Weight": "1"
+      "name": "Bone Devil",
+      "cr": 9,
+      "xp": 5000,
+      "weight": 1
     },
     {
-      "Name": "Glabrezu",
-      "CR": "9",
-      "XP": "5000",
-      "Weight": "1"
+      "name": "Glabrezu",
+      "cr": 9,
+      "xp": 5000,
+      "weight": 1
     },
     {
-      "Name": "Hydroloth",
-      "CR": "9",
-      "XP": "5000",
-      "Weight": "1"
+      "name": "Hydroloth",
+      "cr": 9,
+      "xp": 5000,
+      "weight": 1
     },
     {
-      "Name": "Nycaloth",
-      "CR": "9",
-      "XP": "5000",
-      "Weight": "1"
+      "name": "Nycaloth",
+      "cr": 9,
+      "xp": 5000,
+      "weight": 1
     },
     {
-      "Name": "Orthon",
-      "CR": "10",
-      "XP": "5900",
-      "Weight": "1"
+      "name": "Orthon",
+      "cr": 10,
+      "xp": 5900,
+      "weight": 1
     },
     {
-      "Name": "Yochlol",
-      "CR": "10",
-      "XP": "5900",
-      "Weight": "1"
+      "name": "Yochlol",
+      "cr": 10,
+      "xp": 5900,
+      "weight": 1
     },
     {
-      "Name": "Alkilith",
-      "CR": "11",
-      "XP": "7200",
-      "Weight": "1"
+      "name": "Alkilith",
+      "cr": 11,
+      "xp": 7200,
+      "weight": 1
     },
     {
-      "Name": "Horned Devil",
-      "CR": "11",
-      "XP": "7200",
-      "Weight": "1"
+      "name": "Horned Devil",
+      "cr": 11,
+      "xp": 7200,
+      "weight": 1
     },
     {
-      "Name": "Yagnoloth",
-      "CR": "11",
-      "XP": "7200",
-      "Weight": "1"
+      "name": "Yagnoloth",
+      "cr": 11,
+      "xp": 7200,
+      "weight": 1
     },
     {
-      "Name": "Arcanaloth",
-      "CR": "12",
-      "XP": "8400",
-      "Weight": "1"
+      "name": "Arcanaloth",
+      "cr": 12,
+      "xp": 8400,
+      "weight": 1
     },
     {
-      "Name": "Erinyes",
-      "CR": "12",
-      "XP": "8400",
-      "Weight": "1"
+      "name": "Erinyes",
+      "cr": 12,
+      "xp": 8400,
+      "weight": 1
     },
     {
-      "Name": "Oinoloth",
-      "CR": "12",
-      "XP": "8400",
-      "Weight": "1"
+      "name": "Oinoloth",
+      "cr": 12,
+      "xp": 8400,
+      "weight": 1
     },
     {
-      "Name": "Devourer",
-      "CR": "13",
-      "XP": "10000",
-      "Weight": "1"
+      "name": "Devourer",
+      "cr": 13,
+      "xp": 10000,
+      "weight": 1
     },
     {
-      "Name": "Nalfeshnee",
-      "CR": "13",
-      "XP": "10000",
-      "Weight": "1"
+      "name": "Nalfeshnee",
+      "cr": 13,
+      "xp": 10000,
+      "weight": 1
     },
     {
-      "Name": "Narzugon",
-      "CR": "13",
-      "XP": "10000",
-      "Weight": "1"
+      "name": "Narzugon",
+      "cr": 13,
+      "xp": 10000,
+      "weight": 1
     },
     {
-      "Name": "Rakshasa",
-      "CR": "13",
-      "XP": "10000",
-      "Weight": "1"
+      "name": "Rakshasa",
+      "cr": 13,
+      "xp": 10000,
+      "weight": 1
     },
     {
-      "Name": "Ultroloth",
-      "CR": "13",
-      "XP": "10000",
-      "Weight": "1"
+      "name": "Ultroloth",
+      "cr": 13,
+      "xp": 10000,
+      "weight": 1
     },
     {
-      "Name": "Wastrilith",
-      "CR": "13",
-      "XP": "10000",
-      "Weight": "1"
+      "name": "Wastrilith",
+      "cr": 13,
+      "xp": 10000,
+      "weight": 1
     },
     {
-      "Name": "Ice Devil",
-      "CR": "14",
-      "XP": "11500",
-      "Weight": "1"
+      "name": "Ice Devil",
+      "cr": 14,
+      "xp": 11500,
+      "weight": 1
     },
     {
-      "Name": "Green Abishai",
-      "CR": "15",
-      "XP": "13000",
-      "Weight": "1"
+      "name": "Green Abishai",
+      "cr": 15,
+      "xp": 13000,
+      "weight": 1
     },
     {
-      "Name": "Nabassu",
-      "CR": "15",
-      "XP": "13000",
-      "Weight": "1"
+      "name": "Nabassu",
+      "cr": 15,
+      "xp": 13000,
+      "weight": 1
     },
     {
-      "Name": "Marilith",
-      "CR": "16",
-      "XP": "15000",
-      "Weight": "1"
+      "name": "Marilith",
+      "cr": 16,
+      "xp": 15000,
+      "weight": 1
     },
     {
-      "Name": "Blue Abishai",
-      "CR": "17",
-      "XP": "18000",
-      "Weight": "1"
+      "name": "Blue Abishai",
+      "cr": 17,
+      "xp": 18000,
+      "weight": 1
     },
     {
-      "Name": "Goristro",
-      "CR": "17",
-      "XP": "18000",
-      "Weight": "1"
+      "name": "Goristro",
+      "cr": 17,
+      "xp": 18000,
+      "weight": 1
     },
     {
-      "Name": "Amnizu",
-      "CR": "18",
-      "XP": "20000",
-      "Weight": "1"
+      "name": "Amnizu",
+      "cr": 18,
+      "xp": 20000,
+      "weight": 1
     },
     {
-      "Name": "Sibriex",
-      "CR": "18",
-      "XP": "20000",
-      "Weight": "1"
+      "name": "Sibriex",
+      "cr": 18,
+      "xp": 20000,
+      "weight": 1
     },
     {
-      "Name": "Balor",
-      "CR": "19",
-      "XP": "22000",
-      "Weight": "1"
+      "name": "Balor",
+      "cr": 19,
+      "xp": 22000,
+      "weight": 1
     },
     {
-      "Name": "Red Abishai",
-      "CR": "19",
-      "XP": "22000",
-      "Weight": "1"
+      "name": "Red Abishai",
+      "cr": 19,
+      "xp": 22000,
+      "weight": 1
     },
     {
-      "Name": "Pit Fiend",
-      "CR": "20",
-      "XP": "25000",
-      "Weight": "1"
+      "name": "Pit Fiend",
+      "cr": 20,
+      "xp": 25000,
+      "weight": 1
     },
     {
-      "Name": "Molydeus",
-      "CR": "21",
-      "XP": "33000",
-      "Weight": "1"
+      "name": "Molydeus",
+      "cr": 21,
+      "xp": 33000,
+      "weight": 1
     }
   ]
 }

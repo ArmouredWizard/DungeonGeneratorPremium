@@ -1,159 +1,159 @@
 {
   "Traps": [
     {
-      "Name": "Magic Missiles",
-      "Description": "Magic missiles shoot from a statue or object.",
-      "Weight": "4"
+      "name": "Magic Missiles",
+      "description": "Magic missiles shoot from a statue or object.",
+      "weight": 4
     },
     {
-      "Name": "Collapsing Stair",
-      "Description": "Creates a ramp that deposits characters into a pit at its lower end.",
-      "Weight": "3"
+      "name": "Collapsing Stair",
+      "description": "Creates a ramp that deposits characters into a pit at its lower end.",
+      "weight": 3
     },
     {
-      "Name": "Falling Ceiling",
-      "Description": "Ceiling block falls , or entire ceiling collapses.",
-      "Weight": "3"
+      "name": "Falling Ceiling",
+      "description": "Ceiling block falls , or entire ceiling collapses.",
+      "weight": 3
     },
     {
-      "Name": "Crushing Ceiling",
-      "Description": "Ceiling lowers slowly in locked room.",
-      "Weight": "2"
+      "name": "Crushing Ceiling",
+      "description": "Ceiling lowers slowly in locked room.",
+      "weight": 2
     },
     {
-      "Name": "Floor Chute",
-      "Description": "Chute opens in floor.",
-      "Weight": "2"
+      "name": "Floor Chute",
+      "description": "Chute opens in floor.",
+      "weight": 2
     },
     {
-      "Name": "Loud Alarms",
-      "Description": "Clanging noise attracts nearby monsters.",
-      "Weight": "2"
+      "name": "Loud Alarms",
+      "description": "Clanging noise attracts nearby monsters.",
+      "weight": 2
     },
     {
-      "Name": "Disintegrate",
-      "Description": "Touching an object triggers a disintegrate spell.",
-      "Weight": "3"
+      "name": "Disintegrate",
+      "description": "Touching an object triggers a disintegrate spell.",
+      "weight": 3
     },
     {
-      "Name": "Poisoned Item",
-      "Description": "Door or other object is coated with contact poison.",
-      "Weight": "4"
+      "name": "Poisoned Item",
+      "description": "Door or other object is coated with contact poison.",
+      "weight": 4
     },
     {
-      "Name": "Flame Trap",
-      "Description": "Fire shoots out from wall, floor, or object.",
-      "Weight": "4"
+      "name": "Flame Trap",
+      "description": "Fire shoots out from wall, floor, or object.",
+      "weight": 4
     },
     {
-      "Name": "Flesh to Stone",
-      "Description": "An object triggers a flesh to stone spell.",
-      "Weight": "3"
+      "name": "Flesh to Stone",
+      "description": "An object triggers a flesh to stone spell.",
+      "weight": 3
     },
     {
-      "Name": "Floor Trap",
-      "Description": "Floor collapses or is an illusion.",
-      "Weight": "3"
+      "name": "Floor Trap",
+      "description": "Floor collapses or is an illusion.",
+      "weight": 3
     },
     {
-      "Name": "Venting Gas",
-      "Description": "Blinding, acidic, obscuring, paralyzing, poisonous, or sleep-inducing gas.",
-      "Weight": "3"
+      "name": "Venting Gas",
+      "description": "Blinding, acidic, obscuring, paralyzing, poisonous, or sleep-inducing gas.",
+      "weight": 3
     },
     {
-      "Name": "Electric Floor",
-      "Description": "Floor tiles are electrified.",
-      "Weight": "3"
+      "name": "Electric Floor",
+      "description": "Floor tiles are electrified.",
+      "weight": 3
     },
     {
-      "Name": "Glyph of Warding",
-      "Description": "Glyph of Warding spell upon place or item.",
-      "Weight": "4"
+      "name": "Glyph of Warding",
+      "description": "Glyph of Warding spell upon place or item.",
+      "weight": 4
     },
     {
-      "Name": "Rolling Statue",
-      "Description": "Huge wheeled statue rolls down corridor.",
-      "Weight": "3"
+      "name": "Rolling Statue",
+      "description": "Huge wheeled statue rolls down corridor.",
+      "weight": 3
     },
     {
-      "Name": "Lightning Trap",
-      "Description": "Lightning bolt shoots from wall or object.",
-      "Weight": "3"
+      "name": "Lightning Trap",
+      "description": "Lightning bolt shoots from wall or object.",
+      "weight": 3
     },
     {
-      "Name": "Flooded Room",
-      "Description": "Locked room floods with water or acid.",
-      "Weight": "3"
+      "name": "Flooded Room",
+      "description": "Locked room floods with water or acid.",
+      "weight": 3
     },
     {
-      "Name": "Trapped Chest",
-      "Description": "Darts shoot out of a chest.",
-      "Weight": "3"
+      "name": "Trapped Chest",
+      "description": "Darts shoot out of a chest.",
+      "weight": 3
     },
     {
-      "Name": "Animated Object",
-      "Description": "A weapon, suit of armor, or rug animates and attacks",
-      "Weight": "3"
+      "name": "Animated Object",
+      "description": "A weapon, suit of armor, or rug animates and attacks",
+      "weight": 3
     },
     {
-      "Name": "Pendulum Trap",
-      "Description": "Pendulum , either bladed or weighted as a maul, swings across the room or hall.",
-      "Weight": "3"
+      "name": "Pendulum Trap",
+      "description": "Pendulum , either bladed or weighted as a maul, swings across the room or hall.",
+      "weight": 3
     },
     {
-      "Name": "Ooze Pit Trap",
-      "Description": "Hidden pit opens under foot",
-      "Weight": "5"
+      "name": "Ooze Pit Trap",
+      "description": "Hidden pit opens under foot",
+      "weight": 5
     },
     {
-      "Name": "Burning Pit Trap",
-      "Description": "Hidden pit floods with acid or fire.",
-      "Weight": "3"
+      "name": "Burning Pit Trap",
+      "description": "Hidden pit floods with acid or fire.",
+      "weight": 3
     },
     {
-      "Name": "Flooded Pit",
-      "Description": "Locking pit floods with water.",
-      "Weight": "3"
+      "name": "Flooded Pit",
+      "description": "Locking pit floods with water.",
+      "weight": 3
     },
     {
-      "Name": "Scythe Trap",
-      "Description": "Scything blade emerges from wall or object.",
-      "Weight": "4"
+      "name": "Scythe Trap",
+      "description": "Scything blade emerges from wall or object.",
+      "weight": 4
     },
     {
-      "Name": "Spear Trap",
-      "Description": "Spears spring out from walls and floor.",
-      "Weight": "4"
+      "name": "Spear Trap",
+      "description": "Spears spring out from walls and floor.",
+      "weight": 4
     },
     {
-      "Name": "Brittle Stairs",
-      "Description": "Brittle stairs collapse over spikes.",
-      "Weight": "3"
+      "name": "Brittle Stairs",
+      "description": "Brittle stairs collapse over spikes.",
+      "weight": 3
     },
     {
-      "Name": "Thunderwave",
-      "Description": "Thunderwave spell knocks characters into a pit or spikes.",
-      "Weight": "4"
+      "name": "Thunderwave",
+      "description": "Thunderwave spell knocks characters into a pit or spikes.",
+      "weight": 4
     },
     {
-      "Name": "Trap Jaws",
-      "Description": "Steel or stone jaws restrain a character.",
-      "Weight": "3"
+      "name": "Trap Jaws",
+      "description": "Steel or stone jaws restrain a character.",
+      "weight": 3
     },
     {
-      "Name": "Sliding Stone",
-      "Description": "Stone block smashes across hallway.",
-      "Weight": "5"
+      "name": "Sliding Stone",
+      "description": "Stone block smashes across hallway.",
+      "weight": 5
     },
     {
-      "Name": "Symbol",
-      "Description": "A Symbol Spell is inscribed in this room.",
-      "Weight": "3"
+      "name": "Symbol",
+      "description": "A Symbol Spell is inscribed in this room.",
+      "weight": 3
     },
     {
-      "Name": "Sliding Walls",
-      "Description": "Walls slide together.",
-      "Weight": "3"
+      "name": "Sliding Walls",
+      "description": "Walls slide together.",
+      "weight": 3
     }
   ]
 }

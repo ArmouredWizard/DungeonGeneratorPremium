@@ -1,49 +1,49 @@
 {
   "Obstacles": [
     {
-      "Name": "Anti-Life Aura",
-      "Description": "While in the aura, living creatures can't heal or rest",
-      "Weight": "1"
+      "name": "Anti-Life Aura",
+      "description": "While in the aura, living creatures can't heal or rest",
+      "weight": 1
     },
     {
-      "Name": "Battering Winds",
-      "Description": "Reduce Speed by half. Ranged Attacks are at disadvantage",
-      "Weight": "1"
+      "name": "Battering Winds",
+      "description": "Reduce Speed by half. Ranged Attacks are at disadvantage",
+      "weight": 1
     },
     {
-      "Name": "Blade Barrier",
-      "Description": "Wall of whirling blades covers one Entrance",
-      "Weight": "1"
+      "name": "Blade Barrier",
+      "description": "Wall of whirling blades covers one Entrance",
+      "weight": 1
     },
     {
-      "Name": "Cave-In",
-      "Description": "This room can only be traversed once the blockage has been cleared. Even then, it may be unstable.",
-      "Weight": "5"
+      "name": "Cave-In",
+      "description": "This room can only be traversed once the blockage has been cleared. Even then, it may be unstable.",
+      "weight": 5
     },
     {
-      "Name": "Chasm",
-      "Description": "A 20' wide Chasm rips across the center of this room.",
-      "Weight": "4"
+      "name": "Chasm",
+      "description": "A 20' wide Chasm rips across the center of this room.",
+      "weight": 4
     },
     {
-      "Name": "Flooding",
-      "Description": "This room is lower than the surrounding area, and filled with 20' of water.",
-      "Weight": "2"
+      "name": "Flooding",
+      "description": "This room is lower than the surrounding area, and filled with 20' of water.",
+      "weight": 2
     },
     {
-      "Name": "Lava",
-      "Description": "Lava rises into the center of this room.",
-      "Weight": "1"
+      "name": "Lava",
+      "description": "Lava rises into the center of this room.",
+      "weight": 1
     },
     {
-      "Name": "Mushrooms",
-      "Description": "Huge mushrooms block egress.",
-      "Weight": "2"
+      "name": "Mushrooms",
+      "description": "Huge mushrooms block egress.",
+      "weight": 2
     },
     {
-      "Name": "Poison Gas",
-      "Description": "Seeps in from cracks in tha wallls and fills room.",
-      "Weight": "1"
+      "name": "Poison Gas",
+      "description": "Seeps in from cracks in tha wallls and fills room.",
+      "weight": 1
     }
-    ]
+  ]
 }

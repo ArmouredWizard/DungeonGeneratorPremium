@@ -1,5 +1,6 @@
 package uk.co.maddwarf.randomdungeongeneratorpremium.ui.composables
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -13,6 +14,8 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.TextStyle
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Art
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Gem
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Loot
@@ -36,17 +39,37 @@ fun CashRow(content: Loot) {
 @Composable
 fun GemsList(content: List<Gem>) {
     var gemExpanded by remember { mutableStateOf(false) }
+    val showText = if (gemExpanded) {
+        "Hide"
+    } else {
+        "Show"
+    }
     Column(
-        modifier = Modifier,
+        modifier = Modifier.fillMaxWidth(),
         horizontalAlignment = Alignment.Start
     ) {
-        Text(text = "${content.size} Gems worth ${content[0].value}GP each")
-        TextButton(onClick = { gemExpanded = !gemExpanded }) {
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
+            Text(
+                text = "${content.size} Gems worth ${content[0].value}GP each",
+                Modifier.weight(1f)
+            )
+            /* TextButton(onClick = { gemExpanded = !gemExpanded }, Modifier.weight(.5f)) {
             if (gemExpanded) {
                 Text(text = "Hide")
             } else {
                 Text(text = "Show...")
             }
+        }*/
+            Text(
+                text = showText,
+                modifier = Modifier
+                    .clickable { gemExpanded = !gemExpanded }
+                    .weight(0.3f),
+                style = TextStyle(color = Color.Blue)
+            )
         }
         if (gemExpanded) {
             Column(
@@ -68,12 +91,17 @@ fun ArtsList(content: List<Art>) {
         modifier = Modifier,
         horizontalAlignment = Alignment.Start
     ) {
-        Text(text = "${content.size} Art Items worth ${content[0].value}GP each")
-        TextButton(onClick = { artExpanded = !artExpanded }) {
-            if (artExpanded) {
-                Text(text = "Hide")
-            } else {
-                Text(text = "Show...")
+        Row() {
+            Text(
+                text = "${content.size} Art Items worth ${content[0].value}GP each",
+                Modifier.weight(1f)
+            )
+            TextButton(onClick = { artExpanded = !artExpanded }, Modifier.weight(0.5f)) {
+                if (artExpanded) {
+                    Text(text = "Hide")
+                } else {
+                    Text(text = "Show...")
+                }
             }
         }
         if (artExpanded) {

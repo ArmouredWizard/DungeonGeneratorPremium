@@ -1,84 +1,84 @@
 {
   "Trick Items": [
     {
-      "Weight": "1",
-      "Name": "Book"
+      "weight": 1,
+      "name": "Book"
     },
     {
-      "Weight": "1",
-      "Name": "Brain in a Jar"
+      "weight": 1,
+      "name": "Brain in a Jar"
     },
     {
-      "Weight": "1",
-      "Name": "Burning Fire"
+      "weight": 1,
+      "name": "Burning Fire"
     },
     {
-      "Weight": "1",
-      "Name": "Cracked Gem"
+      "weight": 1,
+      "name": "Cracked Gem"
     },
     {
-      "Weight": "1",
-      "Name": "Door"
+      "weight": 1,
+      "name": "Door"
     },
     {
-      "Weight": "1",
-      "Name": "Fresco"
+      "weight": 1,
+      "name": "Fresco"
     },
     {
-      "Weight": "1",
-      "Name": "Furniture"
+      "weight": 1,
+      "name": "Furniture"
     },
     {
-      "Weight": "1",
-      "Name": "Glass Sculpture"
+      "weight": 1,
+      "name": "Glass Sculpture"
     },
     {
-      "Weight": "1",
-      "Name": "Mushroom Field"
+      "weight": 1,
+      "name": "Mushroom Field"
     },
     {
-      "Weight": "1",
-      "Name": "Painting"
+      "weight": 1,
+      "name": "Painting"
     },
     {
-      "Weight": "1",
-      "Name": "Plant or Tree"
+      "weight": 1,
+      "name": "Plant or Tree"
     },
     {
-      "Weight": "1",
-      "Name": "Pool of Water"
+      "weight": 1,
+      "name": "Pool of Water"
     },
     {
-      "Weight": "1",
-      "Name": "Engraved Runes"
+      "weight": 1,
+      "name": "Engraved Runes"
     },
     {
-      "Weight": "1",
-      "Name": "Skull"
+      "weight": 1,
+      "name": "Skull"
     },
     {
-      "Weight": "1",
-      "Name": "Sphere of Magical Energy"
+      "weight": 1,
+      "name": "Sphere of Magical Energy"
     },
     {
-      "Weight": "1",
-      "Name": "Statue"
+      "weight": 1,
+      "name": "Statue"
     },
     {
-      "Weight": "1",
-      "Name": "Stone Obelisk"
+      "weight": 1,
+      "name": "Stone Obelisk"
     },
     {
-      "Weight": "1",
-      "Name": "Suit of Armour"
+      "weight": 1,
+      "name": "Suit of Armour"
     },
     {
-      "Weight": "1",
-      "Name": "Tapestry or Rug"
+      "weight": 1,
+      "name": "Tapestry or Rug"
     },
     {
-      "Weight": "1",
-      "Name": "Target Dummy"
+      "weight": 1,
+      "name": "Target Dummy"
     }
   ]
 }

@@ -1,6 +1,8 @@
 package uk.co.maddwarf.randomdungeongeneratorpremium.domain
 
 import android.content.Context
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 import org.json.JSONObject
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Art
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Cash
@@ -8,6 +10,7 @@ import uk.co.maddwarf.randomdungeongeneratorpremium.model.Gem
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.ItemTableEntry
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Loot
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.MundaneItem
+import uk.co.maddwarf.randomdungeongeneratorpremium.model.Obstacle
 
 class GetLootUseCase {
 
@@ -215,10 +218,14 @@ class GetLootUseCase {
 
         for (i in 0 until gemArray.length()) {
             val c = gemArray.getJSONObject(i)
-            val name = c.getString("name")
+         /*   val name = c.getString("Name")
 //            val weight = c.getString("Weight").toInt()
             val description = c.getString("description")
-            thisGem = Gem(name = name, description = description, value = gemValue)
+            thisGem = Gem(name = name, description = description, value = gemValue)*/
+
+            val typeToken = object : TypeToken<Gem>() {}.type
+            thisGem = Gson().fromJson(c.toString(), typeToken)
+
             gemList.add(thisGem)
         }
 
@@ -240,10 +247,14 @@ class GetLootUseCase {
 
         for (i in 0 until artArray.length()) {
             val c = artArray.getJSONObject(i)
-            val name = c.getString("name")
+       /*     val name = c.getString("name")
             val value = c.getString("value").toInt()
             val description = c.getString("description")
-            thisArt = Art(name = name, description = description, value = value)
+            thisArt = Art(name = name, description = description, value = value)*/
+
+            val typeToken = object : TypeToken<Art>() {}.type
+            thisArt = Gson().fromJson(c.toString(), typeToken)
+
             artList.add(thisArt)
         }
 

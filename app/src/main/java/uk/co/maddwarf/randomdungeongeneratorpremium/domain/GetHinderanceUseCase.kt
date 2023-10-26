@@ -2,6 +2,8 @@ package uk.co.maddwarf.randomdungeongeneratorpremium.domain
 
 import android.content.Context
 import android.util.Log
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 import org.json.JSONObject
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Hazard
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Obstacle
@@ -16,6 +18,37 @@ class GetHindranceUseCase {
         val chosenObstacle: Obstacle = getObstacleFromList(list = obstaclesList)
         return chosenObstacle
     }
+
+    private fun getObstaclesList(context: Context): List<Obstacle> {
+
+        val obstacleJsonString: String = FileHelper().readAsset(
+            context = context,
+            fileName = "obstacles.json"
+        )
+
+        val obstacleJsonObject = JSONObject(obstacleJsonString)
+        val obstacleArray = obstacleJsonObject.getJSONArray("Obstacles")
+
+        val obstaclesList = mutableListOf<Obstacle>()
+        var thisObstacle: Obstacle
+
+        for (i in 0 until obstacleArray.length()) {
+            val c = obstacleArray.getJSONObject(i)
+            Log.d("JSON OBJECT", c.toString())
+            /*    val name = c.getString("Name")
+             val weight = c.getString("Weight").toInt()
+             val description = c.getString("Description")
+             thisObstacle = Obstacle(name = name, weight = weight, description = description)
+             obstaclesList.add(thisObstacle)*/
+
+            val typeToken = object : TypeToken<Obstacle>() {}.type
+            thisObstacle = Gson().fromJson(c.toString(), typeToken)
+            obstaclesList.add(thisObstacle)
+
+        }
+        Log.d("OBSTACLE LIST", obstaclesList.toString())
+        return obstaclesList
+    }//end getObstaclesList
 
     private fun getObstacleFromList(list: List<Obstacle>): Obstacle {
         var chosenObstacle = Obstacle(name = "Not Defined Yet")
@@ -34,30 +67,6 @@ class GetHindranceUseCase {
         }
         return chosenObstacle
     }//end getObstacleFromList
-
-    private fun getObstaclesList(context: Context): List<Obstacle> {
-
-        val obstacleJsonString: String = FileHelper().readAsset(
-            context = context,
-            fileName = "obstacles.json"
-        )
-
-        val obstacleJsonObject = JSONObject(obstacleJsonString)
-        val obstacleArray = obstacleJsonObject.getJSONArray("Obstacles")
-
-        val obstaclesList = mutableListOf<Obstacle>()
-        var thisObstacle: Obstacle
-
-        for (i in 0 until obstacleArray.length()) {
-            val c = obstacleArray.getJSONObject(i)
-            val name = c.getString("Name")
-            val weight = c.getString("Weight").toInt()
-            val description = c.getString("Description")
-            thisObstacle = Obstacle(name = name, weight = weight, description = description)
-            obstaclesList.add(thisObstacle)
-        }
-        return obstaclesList
-    }//end getObstaclesList
 
     fun getTrap(context: Context): Trap {
         val trapsList: List<Trap> = getTrapsList(context = context)
@@ -99,10 +108,14 @@ class GetHindranceUseCase {
 
         for (i in 0 until trapArray.length()) {
             val c = trapArray.getJSONObject(i)
-            val name = c.getString("Name")
+      /*      val name = c.getString("Name")
             val weight = c.getString("Weight").toInt()
-            val description = c.getString("Description")
-            thisTrap = Trap(name = name, weight = weight, description = description)
+            val description = c.getString("description")
+            thisTrap = Trap(name = name, weight = weight, description = description)*/
+
+            val typeToken = object : TypeToken<Trap>() {}.type
+            thisTrap = Gson().fromJson(c.toString(), typeToken)
+
             trapList.add(thisTrap)
         }
         return trapList
@@ -133,10 +146,16 @@ class GetHindranceUseCase {
 
         for (i in 0 until triggerArray.length()) {
             val c = triggerArray.getJSONObject(i)
-            val name = c.getString("Name")
-            val description = c.getString("Description")
+        /*    val name = c.getString("Name")
+            val description = c.getString("description")
             val weight = c.getString("Weight").toInt()
             thisTrigger = Trigger(name = name, description = description, weight = weight)
+*/
+
+            val typeToken = object : TypeToken<Trigger>() {}.type
+            thisTrigger = Gson().fromJson(c.toString(), typeToken)
+            triggerList.add(thisTrigger)
+
             triggerList.add(thisTrigger)
         }
         return triggerList
@@ -159,15 +178,19 @@ class GetHindranceUseCase {
         val trickJsonObject = JSONObject(trickJsonString)
         val trickArray = trickJsonObject.getJSONArray("Tricks")
 
-        val trickList = mutableListOf<Trick>()
+        var trickList = mutableListOf<Trick>()
         var thisTrick: Trick
 
         for (i in 0 until trickArray.length()) {
             val c = trickArray.getJSONObject(i)
-            val name = c.getString("Name")
+           /* val name = c.getString("Name")
             val weight = c.getString("Weight").toInt()
-            val description = c.getString("Description")
+            val description = c.getString("description")
             thisTrick = Trick(name = name, weight = weight, description = description)
+*/
+            val typeToken = object : TypeToken<Trick>() {}.type
+            thisTrick = Gson().fromJson(c.toString(), typeToken)
+
             trickList.add(thisTrick)
         }
         return trickList
@@ -215,9 +238,13 @@ class GetHindranceUseCase {
 
         for (i in 0 until trickItemArray.length()) {
             val c = trickItemArray.getJSONObject(i)
-            val name = c.getString("Name")
+    /*        val name = c.getString("Name")
             val weight = c.getString("Weight").toInt()
-            thisTrickItem = TrickItem(name = name, weight = weight)
+            thisTrickItem = TrickItem(name = name, weight = weight)*/
+
+            val typeToken = object : TypeToken<TrickItem>() {}.type
+            thisTrickItem = Gson().fromJson(c.toString(), typeToken)
+
             trickItemList.add(thisTrickItem)
         }
         return trickItemList
@@ -243,10 +270,13 @@ class GetHindranceUseCase {
 
         for (i in 0 until hazardArray.length()) {
             val c = hazardArray.getJSONObject(i)
-            val name = c.getString("Name")
+         /*   val name = c.getString("Name")
             val weight = c.getString("Weight").toInt()
-            val description = c.getString("Description")
+            val description = c.getString("description")
             thisHazard = Hazard(name = name, weight = weight, description = description)
+*/
+            val typeToken = object : TypeToken<Hazard>() {}.type
+            thisHazard = Gson().fromJson(c.toString(), typeToken)
             hazardList.add(thisHazard)
         }
         return hazardList

@@ -28,8 +28,8 @@ class FileHelper {
           //  Log.d("JSON", tableArray.toString())
             for (i in 0 until tableArray.length()) {
                 val c = tableArray.getJSONObject(i)
-                val name = c.getString("Name")
-                val weight = Integer.valueOf(c.getString("Weight"))
+                val name = c.getString("name")
+                val weight = Integer.valueOf(c.getString("weight"))
                 tableHashMap[name] = weight
             }
         } catch (e: JSONException) {
