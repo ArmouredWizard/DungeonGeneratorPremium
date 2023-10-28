@@ -1,4 +1,4 @@
-package uk.co.maddwarf.randomdungeongeneratorpremium.domain
+package uk.co.maddwarf.randomdungeongeneratorpremium.repository
 
 import android.content.Context
 import android.util.Log
@@ -37,7 +37,7 @@ class FileHelper {
         return tableHashMap
     }
 
-    fun getFromWeightedList(thisList: HashMap<String, Int>): String {
+    fun chooseFromWeightedList(thisList: HashMap<String, Int>): String {//todo should not be in repo??
         var listItem: String = ""
         var totalWeight = 0
         for (weight in thisList.values) {

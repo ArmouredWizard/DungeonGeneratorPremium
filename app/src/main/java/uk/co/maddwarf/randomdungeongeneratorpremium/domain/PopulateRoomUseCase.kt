@@ -6,7 +6,7 @@ import uk.co.maddwarf.randomdungeongeneratorpremium.domain.GetInhabitantsUseCase
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Content
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Empty
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Monsters
-import uk.co.maddwarf.randomdungeongeneratorpremium.model.Trap
+import uk.co.maddwarf.randomdungeongeneratorpremium.repository.FileHelper
 
 class PopulateRoomUseCase {
 
@@ -32,8 +32,8 @@ class PopulateRoomUseCase {
                     .random()
         }
 
-        val contentsType = fileHelper.getFromWeightedList(contentsList)
-Log.d("ROOM CONTENTS", contentsType)
+        val contentsType = fileHelper.chooseFromWeightedList(contentsList)
+        Log.d("ROOM CONTENTS", contentsType)
         val contents: List<Content> = when (contentsType) {
             "Dominant Inhabitant" -> {
                 listOf(
@@ -45,7 +45,11 @@ Log.d("ROOM CONTENTS", contentsType)
                             pcNumbers = pcNumbers
                         )
                     ),
-                    GetLootUseCase().buildLoot(type = "Individual", level = level, context = context)
+                    GetLootUseCase().buildLoot(
+                        type = "Individual",
+                        level = level,
+                        context = context
+                    )
                 )
             }
 
@@ -133,7 +137,7 @@ Log.d("ROOM CONTENTS", contentsType)
             }
 
             else -> {
-                listOf(Trap(name = "Unknown encounter type: $contentsType"))
+                listOf()
             }
         }
         Log.d("CONTENTS", contents.toString())

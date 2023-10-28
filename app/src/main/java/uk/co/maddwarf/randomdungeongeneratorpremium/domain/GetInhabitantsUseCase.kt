@@ -8,22 +8,13 @@ import com.google.gson.JsonParser
 import com.google.gson.reflect.TypeToken
 import org.json.JSONObject
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Monster
-import uk.co.maddwarf.randomdungeongeneratorpremium.model.Obstacle
+import uk.co.maddwarf.randomdungeongeneratorpremium.repository.FileHelper
+import uk.co.maddwarf.randomdungeongeneratorpremium.repository.InhabitantsRepository.getInhabitantsCategoriesList
+import uk.co.maddwarf.randomdungeongeneratorpremium.repository.InhabitantsRepository.getInhabitantsList
 
 class GetInhabitantsUseCase() {
     fun getInhabitantsCategories(context: Context, all: Boolean = false): List<String> {
-        val jsonHelper = FileHelper()
-        val inhabitantJsonString: String =
-            jsonHelper.readAsset(context = context, fileName = "inhabitants.json")
-        val inhabitantsJsonObject: JsonObject =
-            JsonParser.parseString(inhabitantJsonString).asJsonObject!!
-
-        val calledThemes = mutableListOf<String>()
-        val theNames = inhabitantsJsonObject.keySet()
-
-        for (element in theNames) {
-            calledThemes.add(element)
-        }
+        val calledThemes = getInhabitantsCategoriesList(context)
         calledThemes.sort()
         if (all) {
             calledThemes.add(0, "RANDOM TYPE")
@@ -31,37 +22,22 @@ class GetInhabitantsUseCase() {
         }
         return calledThemes
 
-
     }//end get inhabitants categories
 
     companion object {
         fun getListOfInhabitants(inhabitants: String, level: Int, context: Context): List<Monster> {
-            val inhabitantsList = mutableListOf<Monster>()
-
-            var thisMonster: Monster
-
-            val monsterJsonString: String = FileHelper().readAsset(
-                context = context,
-                fileName = "inhabitants.json"
-            )
-
-            val monsterJsonObject = JSONObject(monsterJsonString)
-            val monsterArray = monsterJsonObject.getJSONArray(inhabitants)
-
-            for (i in 0 until monsterArray.length()) {
-                val c = monsterArray.getJSONObject(i)
-                val typeToken = object : TypeToken<Monster>() {}.type
-                thisMonster = Gson().fromJson(c.toString(), typeToken)
-
+            val inhabitantsList =
+                getInhabitantsList(inhabitants = inhabitants, context = context, level = level)
+            val filteredInhabitantsList = mutableListOf<Monster>()
+            inhabitantsList.forEach { thisMonster ->
                 if (level > 13 && thisMonster.cr > 5 || level <= 13 && thisMonster.cr < level * 2) {
-                    inhabitantsList.add(thisMonster)
-                       Log.d("Monster added", thisMonster.name)
+                    filteredInhabitantsList.add(thisMonster)
+                    Log.d("Monster added", thisMonster.name)
                 } else {
-                       Log.d("Monster Not Added", thisMonster.name)
+                    Log.d("Monster Not Added", thisMonster.name)
                 }
             }
-
-            return inhabitantsList
+            return filteredInhabitantsList
         }//end get list of inhabitants
 
         fun chooseInhabitantFromList(fullMonsterList: List<Monster>): Monster {

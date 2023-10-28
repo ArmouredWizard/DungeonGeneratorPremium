@@ -91,7 +91,7 @@ class MapViewModel(application: Application, savedStateHandle: SavedStateHandle)
         Log.d("TILE SIZE", "$tileSizeInPx")
         Log.d("DUNGEON SIZE", "H: $dungeonHeight, w: $dungeonWidth")
 
-        var newDungeon = MakeMapUseCase().makeMap(
+        val newDungeon = MakeMapUseCase().makeMap(
             dungeonHeight = dungeonHeight,
             dungeonWidth = dungeonWidth
         )

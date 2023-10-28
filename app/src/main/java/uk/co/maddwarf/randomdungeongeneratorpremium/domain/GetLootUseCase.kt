@@ -9,8 +9,7 @@ import uk.co.maddwarf.randomdungeongeneratorpremium.model.Cash
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Gem
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.ItemTableEntry
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Loot
-import uk.co.maddwarf.randomdungeongeneratorpremium.model.MundaneItem
-import uk.co.maddwarf.randomdungeongeneratorpremium.model.Obstacle
+import uk.co.maddwarf.randomdungeongeneratorpremium.repository.FileHelper
 
 class GetLootUseCase {
 
