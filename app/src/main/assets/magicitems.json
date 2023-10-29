@@ -1,0 +1,2932 @@
+{
+  "A": [
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 1,
+      "name": "Potion of Healing",
+      "table": "A",
+      "weight": 50
+    },
+    {
+      "description": "CANTRIP",
+      "type": "scroll",
+      "id": 2,
+      "name": "Cantrip Scroll",
+      "table": "A",
+      "weight": 10
+    },
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 3,
+      "name": "Potion of Climbing",
+      "table": "A",
+      "weight": 10
+    },
+    {
+      "description": "levelone",
+      "type": "scroll",
+      "id": 4,
+      "name": "Spell Scroll (Level One)",
+      "table": "A",
+      "weight": 20
+    },
+    {
+      "description": "leveltwo",
+      "type": "scroll",
+      "id": 5,
+      "name": "Spell Scroll (Level Two)",
+      "table": "A",
+      "weight": 4
+    },
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 6,
+      "name": "Potion of Greater Healing",
+      "table": "A",
+      "weight": 4
+    },
+    {
+      "description": "Small Leather Sack",
+      "type": "bag",
+      "id": 7,
+      "name": "Bag of Holding",
+      "table": "A",
+      "weight": 1
+    },
+    {
+      "description": "Small White Sphere",
+      "type": "magic",
+      "id": 8,
+      "name": "Driftglobe",
+      "table": "A",
+      "weight": 1
+    }
+  ],
+  "B": [
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 9,
+      "name": "Potion of Greater Healing",
+      "table": "B",
+      "weight": 15
+    },
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 10,
+      "name": "Potion of Fire Breath",
+      "table": "B",
+      "weight": 7
+    },
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 11,
+      "name": "Potion of Resistance",
+      "table": "B",
+      "weight": 7
+    },
+    {
+      "description": "ammo",
+      "type": "arrow",
+      "id": 12,
+      "name": "Ammunition , +1",
+      "table": "B",
+      "weight": 5
+    },
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 13,
+      "name": "Potion of Animal Friendship",
+      "table": "B",
+      "weight": 5
+    },
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 14,
+      "name": "Potion of Hill Giant Strength",
+      "table": "B",
+      "weight": 5
+    },
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 15,
+      "name": "Potion of Growth",
+      "table": "B",
+      "weight": 5
+    },
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 16,
+      "name": "Potion of Water Breathing",
+      "table": "B",
+      "weight": 5
+    },
+    {
+      "description": "leveltwo",
+      "type": "scroll",
+      "id": 17,
+      "name": "Spell Scroll (Level Two)",
+      "table": "B",
+      "weight": 5
+    },
+    {
+      "description": "levelthree",
+      "type": "scroll",
+      "id": 18,
+      "name": "Spell Scroll (Level Three)",
+      "table": "B",
+      "weight": 5
+    },
+    {
+      "description": "Small Leather Sack",
+      "type": "bag",
+      "id": 19,
+      "name": "Bag of Holding",
+      "table": "B",
+      "weight": 3
+    },
+    {
+      "description": "A pink, slimy lotion",
+      "type": "potion",
+      "id": 20,
+      "name": "Keoghtom's Ointment",
+      "table": "B",
+      "weight": 3
+    },
+    {
+      "description": "Grey and oily",
+      "type": "potion",
+      "id": 21,
+      "name": "Oil of Slipperiness",
+      "table": "B",
+      "weight": 3
+    },
+    {
+      "description": "Gritty Dust in a Small Bronze Box",
+      "type": "bag",
+      "id": 22,
+      "name": "Dust of Disappearance",
+      "table": "B",
+      "weight": 2
+    },
+    {
+      "description": "Smooth Powder in a Circular Tin Box",
+      "type": "bag",
+      "id": 23,
+      "name": "Dust of Dryness",
+      "table": "B",
+      "weight": 2
+    },
+    {
+      "description": "Peppery Dust in a Small Leather Bag",
+      "type": "bag",
+      "id": 24,
+      "name": "Dust of Sneezing And Choking",
+      "table": "B",
+      "weight": 2
+    },
+    {
+      "description": "Glowing",
+      "type": "gem",
+      "id": 25,
+      "name": "Elemental Gem",
+      "table": "B",
+      "weight": 2
+    },
+    {
+      "description": "Rose-Pink",
+      "type": "potion",
+      "id": 26,
+      "name": "Philter of Love",
+      "table": "B",
+      "weight": 2
+    },
+    {
+      "description": "Corked Clay Jug",
+      "type": "magic",
+      "id": 27,
+      "name": "Alchemy Jug",
+      "table": "B",
+      "weight": 1
+    },
+    {
+      "description": "Sponsored by Speedo",
+      "type": "magic",
+      "id": 28,
+      "name": "Cap of Water Breathing",
+      "table": "B",
+      "weight": 1
+    },
+    {
+      "description": "Blue and White",
+      "type": "magic",
+      "id": 29,
+      "name": "Cloak of the Manta Ray",
+      "table": "B",
+      "weight": 1
+    },
+    {
+      "description": "Small",
+      "type": "magic",
+      "id": 30,
+      "name": "Driftglobe",
+      "table": "B",
+      "weight": 1
+    },
+    {
+      "description": "Bronze with Silver Filigree",
+      "type": "magic",
+      "id": 31,
+      "name": "Goggles of Night",
+      "table": "B",
+      "weight": 1
+    },
+    {
+      "description": "Copper",
+      "type": "helm",
+      "id": 32,
+      "name": "Helm of Comprehending Languages",
+      "table": "B",
+      "weight": 1
+    },
+    {
+      "description": "Carbon. Inanimate",
+      "type": "magic",
+      "id": 33,
+      "name": "Immovable Rod",
+      "table": "B",
+      "weight": 1
+    },
+    {
+      "description": "Wood and Brass",
+      "type": "magic",
+      "id": 34,
+      "name": "Lantern of Revealing",
+      "table": "B",
+      "weight": 1
+    },
+    {
+      "description": "Covered with Fish Designs",
+      "type": "helm",
+      "id": 35,
+      "name": "Mariner's Armor",
+      "table": "B",
+      "weight": 1
+    },
+    {
+      "description": "armour",
+      "type": "helm",
+      "id": 36,
+      "name": "Mithral Armor",
+      "table": "B",
+      "weight": 1
+    },
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 37,
+      "name": "Potion of Poison",
+      "table": "B",
+      "weight": 1
+    },
+    {
+      "description": "Made of Coral",
+      "type": "ring",
+      "id": 38,
+      "name": "Ring of Swimming",
+      "table": "B",
+      "weight": 1
+    },
+    {
+      "description": "Patchwork. Many Repairs",
+      "type": "magic",
+      "id": 39,
+      "name": "Robe of Useful Items",
+      "table": "B",
+      "weight": 1
+    },
+    {
+      "description": "High Quality Hemp",
+      "type": "magic",
+      "id": 40,
+      "name": "Rope of Climbing",
+      "table": "B",
+      "weight": 1
+    },
+    {
+      "description": "Leather with  Brass Fittings",
+      "type": "magic",
+      "id": 41,
+      "name": "Saddle of the Cavalier",
+      "table": "B",
+      "weight": 1
+    },
+    {
+      "description": "Ebony with Silver Caps",
+      "type": "magic",
+      "id": 42,
+      "name": "Wand of Magic Detection",
+      "table": "B",
+      "weight": 1
+    },
+    {
+      "description": "Silver",
+      "type": "wand",
+      "id": 43,
+      "name": "Wand of Secrets",
+      "table": "B",
+      "weight": 1
+    }
+  ],
+  "C": [
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 44,
+      "name": "Potion of Superior Healing",
+      "table": "C",
+      "weight": 15
+    },
+    {
+      "description": "levelfour",
+      "type": "scroll",
+      "id": 45,
+      "name": "Spell Scroll (Level Four)",
+      "table": "C",
+      "weight": 7
+    },
+    {
+      "description": "ammo",
+      "type": "arrow",
+      "id": 46,
+      "name": "Ammunition, +2",
+      "table": "C",
+      "weight": 5
+    },
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 47,
+      "name": "Potion of Clairvoyance",
+      "table": "C",
+      "weight": 5
+    },
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 48,
+      "name": "Potion of Diminution",
+      "table": "C",
+      "weight": 5
+    },
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 49,
+      "name": "Potion of Gaseous Form",
+      "table": "C",
+      "weight": 5
+    },
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 50,
+      "name": "Potion of Frost Giant Strength",
+      "table": "C",
+      "weight": 5
+    },
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 51,
+      "name": "Potion of Stone Giant Strength",
+      "table": "C",
+      "weight": 5
+    },
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 52,
+      "name": "Potion of Heroism",
+      "table": "C",
+      "weight": 5
+    },
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 53,
+      "name": "Potion of Invulnerability",
+      "table": "C",
+      "weight": 5
+    },
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 54,
+      "name": "Potion of Mind Reading",
+      "table": "C",
+      "weight": 5
+    },
+    {
+      "description": "levelfive",
+      "type": "scroll",
+      "id": 55,
+      "name": "Spell Scroll (Level Five)",
+      "table": "C",
+      "weight": 5
+    },
+    {
+      "description": "Spicy",
+      "type": "potion",
+      "id": 56,
+      "name": "Elixir of Health",
+      "table": "C",
+      "weight": 3
+    },
+    {
+      "description": "Slippery",
+      "type": "potion",
+      "id": 57,
+      "name": "Oil of Etherealness",
+      "table": "C",
+      "weight": 3
+    },
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 58,
+      "name": "Potion of Fire Giant Strength",
+      "table": "C",
+      "weight": 3
+    },
+    {
+      "description": "Dove Feather",
+      "type": "magic",
+      "id": 59,
+      "name": "Quaal's Feather Token",
+      "table": "C",
+      "weight": 3
+    },
+    {
+      "description": "Written on Papyrus",
+      "type": "scroll",
+      "id": 60,
+      "name": "Scroll of Protection",
+      "table": "C",
+      "weight": 3
+    },
+    {
+      "description": "Purple Cloth",
+      "type": "bag",
+      "id": 61,
+      "name": "Bag of Beans",
+      "table": "C",
+      "weight": 2
+    },
+    {
+      "description": "Green",
+      "type": "gem",
+      "id": 62,
+      "name": "Bead of Force",
+      "table": "C",
+      "weight": 2
+    },
+    {
+      "description": "Brass",
+      "type": "magic",
+      "id": 63,
+      "name": "Chime of Opening",
+      "table": "C",
+      "weight": 1
+    },
+    {
+      "description": "Icons of the local Water God",
+      "type": "potion",
+      "id": 64,
+      "name": "Decanter of Endless Water",
+      "table": "C",
+      "weight": 1
+    },
+    {
+      "description": "Do Not Drop!",
+      "type": "magic",
+      "id": 65,
+      "name": "Eyes of Minute Seeing",
+      "table": "C",
+      "weight": 1
+    },
+    {
+      "description": "Wooden",
+      "type": "magic",
+      "id": 66,
+      "name": "Folding Boat",
+      "table": "C",
+      "weight": 1
+    },
+    {
+      "description": "Leather",
+      "type": "bag",
+      "id": 67,
+      "name": "Heward's Handy Haversack",
+      "table": "C",
+      "weight": 1
+    },
+    {
+      "description": "Inlaid with Silver",
+      "type": "magic",
+      "id": 68,
+      "name": "Horseshoes of Speed",
+      "table": "C",
+      "weight": 1
+    },
+    {
+      "description": "Red Quartz",
+      "type": "jewel",
+      "id": 69,
+      "name": "Necklace of Fireballs",
+      "table": "C",
+      "weight": 1
+    },
+    {
+      "description": "Black. Smooth",
+      "type": "magic",
+      "id": 70,
+      "name": "Periapt of Health",
+      "table": "C",
+      "weight": 1
+    },
+    {
+      "description": "Dull Grey",
+      "type": "magic",
+      "id": 71,
+      "name": "Sending Stones",
+      "table": "C",
+      "weight": 1
+    }
+  ],
+  "D": [
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 72,
+      "name": "Potion of Supreme Healing",
+      "table": "D",
+      "weight": 20
+    },
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 73,
+      "name": "Potion of Invisibility",
+      "table": "D",
+      "weight": 10
+    },
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 74,
+      "name": "Potion of Speed",
+      "table": "D",
+      "weight": 10
+    },
+    {
+      "description": "levelsix",
+      "type": "scroll",
+      "id": 75,
+      "name": "Spell Scroll (Level Six)",
+      "table": "D",
+      "weight": 10
+    },
+    {
+      "description": "levelseven",
+      "type": "scroll",
+      "id": 76,
+      "name": "Spell Scroll (Level Seven)",
+      "table": "D",
+      "weight": 7
+    },
+    {
+      "description": "ammo",
+      "type": "arrow",
+      "id": 77,
+      "name": "Ammunition, +3",
+      "table": "D",
+      "weight": 5
+    },
+    {
+      "description": "Tangy",
+      "type": "potion",
+      "id": 78,
+      "name": "Oil of Sharpness",
+      "table": "D",
+      "weight": 5
+    },
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 79,
+      "name": "Potion of Flying",
+      "table": "D",
+      "weight": 5
+    },
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 80,
+      "name": "Potion of Cloud Giant Strength",
+      "table": "D",
+      "weight": 5
+    },
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 81,
+      "name": "Potion of Longevity",
+      "table": "D",
+      "weight": 5
+    },
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 82,
+      "name": "Potion of Vitality",
+      "table": "D",
+      "weight": 5
+    },
+    {
+      "description": "leveleight",
+      "type": "scroll",
+      "id": 83,
+      "name": "Spell Scroll (Level Eight)",
+      "table": "D",
+      "weight": 5
+    },
+    {
+      "description": "Brass and Silver",
+      "type": "magic",
+      "id": 84,
+      "name": "Horseshoes of A Zephyr",
+      "table": "D",
+      "weight": 3
+    },
+    {
+      "description": "Clay Pots",
+      "type": "potion",
+      "id": 85,
+      "name": "Nolzur's Marvelous Pigments",
+      "table": "D",
+      "weight": 3
+    },
+    {
+      "description": "Nasty",
+      "type": "bag",
+      "id": 86,
+      "name": "Bag of Devouring",
+      "table": "D",
+      "weight": 1
+    },
+    {
+      "description": "Black",
+      "type": "magic",
+      "id": 87,
+      "name": "Portable Hole",
+      "table": "D",
+      "weight": 1
+    }
+  ],
+  "E": [
+    {
+      "description": "leveleight",
+      "type": "scroll",
+      "id": 88,
+      "name": "Spell Scroll (Level Eight)",
+      "table": "E",
+      "weight": 30
+    },
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 89,
+      "name": "Potion of Storm Giant Strength",
+      "table": "E",
+      "weight": 25
+    },
+    {
+      "description": "POTION",
+      "type": "potion",
+      "id": 90,
+      "name": "Potion of Supreme Healing",
+      "table": "E",
+      "weight": 15
+    },
+    {
+      "description": "levelnine",
+      "type": "scroll",
+      "id": 91,
+      "name": "Spell Scroll (Level Nine)",
+      "table": "E",
+      "weight": 15
+    },
+    {
+      "description": "Pungent",
+      "type": "potion",
+      "id": 92,
+      "name": "Universal Solvent",
+      "table": "E",
+      "weight": 8
+    },
+    {
+      "description": "Matt Black",
+      "type": "arrow",
+      "id": 93,
+      "name": "Arrow of Slaying",
+      "table": "E",
+      "weight": 5
+    },
+    {
+      "description": "Sticky",
+      "type": "potion",
+      "id": 94,
+      "name": "Sovereign Glue",
+      "table": "E",
+      "weight": 2
+    }
+  ],
+  "F": [
+    {
+      "description": "weapon",
+      "type": "weapon",
+      "id": 95,
+      "name": "Weapon, +1",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Wooden with Brass bindings",
+      "type": "shield",
+      "id": 96,
+      "name": "Shield, +1",
+      "table": "F",
+      "weight": 3
+    },
+    {
+      "description": "Bronze",
+      "type": "shield",
+      "id": 97,
+      "name": "Sentinel Shield",
+      "table": "F",
+      "weight": 3
+    },
+    {
+      "description": "Scarab Design",
+      "type": "jewel",
+      "id": 98,
+      "name": "Amulet of Proof Against Detection And Location",
+      "table": "F",
+      "weight": 2
+    },
+    {
+      "description": "Soft Leather",
+      "type": "magic",
+      "id": 99,
+      "name": "Boots of Elvenkind",
+      "table": "F",
+      "weight": 2
+    },
+    {
+      "description": "Hard Leather",
+      "type": "magic",
+      "id": 100,
+      "name": "Boots of Striding And Springing",
+      "table": "F",
+      "weight": 2
+    },
+    {
+      "description": "Leather With Gold Inlay",
+      "type": "magic",
+      "id": 101,
+      "name": "Bracers of Archery",
+      "table": "F",
+      "weight": 2
+    },
+    {
+      "description": "Wing Design",
+      "type": "jewel",
+      "id": 102,
+      "name": "Brooch of Shielding",
+      "table": "F",
+      "weight": 2
+    },
+    {
+      "description": "Wooden",
+      "type": "magic",
+      "id": 103,
+      "name": "Broom of Flying",
+      "table": "F",
+      "weight": 2
+    },
+    {
+      "description": "Smooth Cotton",
+      "type": "magic",
+      "id": 104,
+      "name": "Cloak of Elvenkind",
+      "table": "F",
+      "weight": 2
+    },
+    {
+      "description": "Hard Wearing Wool",
+      "type": "magic",
+      "id": 105,
+      "name": "Cloak of Protection",
+      "table": "F",
+      "weight": 2
+    },
+    {
+      "description": "Hard Leather",
+      "type": "magic",
+      "id": 106,
+      "name": "Gauntlets of Ogre Power",
+      "table": "F",
+      "weight": 2
+    },
+    {
+      "description": "Flamboyant",
+      "type": "magic",
+      "id": 107,
+      "name": "Hat of Disguise",
+      "table": "F",
+      "weight": 2
+    },
+    {
+      "description": "Silver",
+      "type": "weapon",
+      "id": 108,
+      "name": "Javelin of Lightning",
+      "table": "F",
+      "weight": 2
+    },
+    {
+      "description": "Mottled",
+      "type": "gem",
+      "id": 109,
+      "name": "Pearl of Power",
+      "table": "F",
+      "weight": 2
+    },
+    {
+      "description": "+1 Bonus",
+      "type": "wand",
+      "id": 110,
+      "name": "Rod of The Pact Keeper",
+      "table": "F",
+      "weight": 2
+    },
+    {
+      "description": "Silk",
+      "type": "magic",
+      "id": 111,
+      "name": "Slippers of Spider Climbing",
+      "table": "F",
+      "weight": 2
+    },
+    {
+      "description": "Wooden. Snake Designs",
+      "type": "wand",
+      "id": 112,
+      "name": "Staff of The Adder",
+      "table": "F",
+      "weight": 2
+    },
+    {
+      "description": "Wooden. Snake Designs",
+      "type": "wand",
+      "id": 113,
+      "name": "Staff of The Python",
+      "table": "F",
+      "weight": 2
+    },
+    {
+      "description": "Bronze",
+      "type": "sword",
+      "id": 114,
+      "name": "Sword of Vengeance",
+      "table": "F",
+      "weight": 2
+    },
+    {
+      "description": "Smells of Fish",
+      "type": "weapon",
+      "id": 115,
+      "name": "Trident of Fish Command",
+      "table": "F",
+      "weight": 2
+    },
+    {
+      "description": "Lightning Iconography",
+      "type": "wand",
+      "id": 116,
+      "name": "Wand of Magic Missiles",
+      "table": "F",
+      "weight": 2
+    },
+    {
+      "description": "+1 Bonus",
+      "type": "wand",
+      "id": 117,
+      "name": "Wand of The War Mage",
+      "table": "F",
+      "weight": 2
+    },
+    {
+      "description": "Spider Designs",
+      "type": "wand",
+      "id": 118,
+      "name": "Wand of Web",
+      "table": "F",
+      "weight": 2
+    },
+    {
+      "description": "Red",
+      "type": "weapon",
+      "id": 119,
+      "name": "Weapon of Warning",
+      "table": "F",
+      "weight": 2
+    },
+    {
+      "description": "Chain Mail",
+      "type": "helm",
+      "id": 120,
+      "name": "Adamantine Armor",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Chain Shirt",
+      "type": "helm",
+      "id": 121,
+      "name": "Adamantine Armor",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Scale Mail",
+      "type": "helm",
+      "id": 122,
+      "name": "Adamantine Armor",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Gray",
+      "type": "bag",
+      "id": 123,
+      "name": "Bag of Tricks",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Rust",
+      "type": "bag",
+      "id": 124,
+      "name": "Bag of Tricks",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Tan",
+      "type": "bag",
+      "id": 125,
+      "name": "Bag of Tricks",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Fur Lined",
+      "type": "magic",
+      "id": 126,
+      "name": "Boots of The Winterlands",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Bronze",
+      "type": "magic",
+      "id": 127,
+      "name": "Circlet of Blasting",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Scuffed",
+      "type": "magic",
+      "id": 128,
+      "name": "Deck of Illusions",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Wrapped in Silk",
+      "type": "potion",
+      "id": 129,
+      "name": "Eversmoking Bottle",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Glass",
+      "type": "magic",
+      "id": 130,
+      "name": "Eyes of Charming",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Glass",
+      "type": "magic",
+      "id": 131,
+      "name": "Eyes of The Eagle",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Silver Raven",
+      "type": "magic",
+      "id": 132,
+      "name": "Figurine of Wondrous Power",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Glowing",
+      "type": "gem",
+      "id": 133,
+      "name": "Gem of Brightness",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Spiked Leather",
+      "type": "magic",
+      "id": 134,
+      "name": "Gloves of Missile Snaring",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Spiked Leather",
+      "type": "magic",
+      "id": 135,
+      "name": "Gloves of Swimming and Climbing",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Kid Hide",
+      "type": "magic",
+      "id": 136,
+      "name": "Gloves of Thievery",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Silk and Leather",
+      "type": "magic",
+      "id": 137,
+      "name": "Headband of Intellect",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Bronze",
+      "type": "helm",
+      "id": 138,
+      "name": "Helm of Telepathy",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Doss Lute",
+      "type": "lyre",
+      "id": 139,
+      "name": "Instrument of The Bards",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Fochlucan Bandore",
+      "type": "lyre",
+      "id": 140,
+      "name": "Instrument of The Bards",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Mac-Fuimidh Cittern",
+      "type": "lyre",
+      "id": 141,
+      "name": "Instrument of The Bards",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Pewter",
+      "type": "jewel",
+      "id": 142,
+      "name": "Medallion of Thoughts",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Lead",
+      "type": "jewel",
+      "id": 143,
+      "name": "Necklace of Adaptation",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Silver",
+      "type": "jewel",
+      "id": 144,
+      "name": "Periapt of Wound Closure",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Steel",
+      "type": "magic",
+      "id": 145,
+      "name": "Pipes of Haunting",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Bone",
+      "type": "magic",
+      "id": 146,
+      "name": "Pipes of The Sewers",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Steel",
+      "type": "ring",
+      "id": 147,
+      "name": "Ring of Jumping",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Brass",
+      "type": "ring",
+      "id": 148,
+      "name": "Ring of Mind Shielding",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Granite",
+      "type": "ring",
+      "id": 149,
+      "name": "Ring of Warmth",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Coral",
+      "type": "ring",
+      "id": 150,
+      "name": "Ring of Water Walking",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Leather",
+      "type": "arrow",
+      "id": 151,
+      "name": "Quiver of Ehlonna",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Dull",
+      "type": "gem",
+      "id": 152,
+      "name": "Stone of Good Luck",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Bird designs",
+      "type": "magic",
+      "id": 153,
+      "name": "Wind Fan",
+      "table": "F",
+      "weight": 1
+    },
+    {
+      "description": "Silver",
+      "type": "magic",
+      "id": 154,
+      "name": "Winged Boots",
+      "table": "F",
+      "weight": 1
+    }
+  ],
+  "G": [
+    {
+      "description": "weapon",
+      "type": "weapon",
+      "id": 155,
+      "name": "Weapon",
+      "table": "G",
+      "weight": 11
+    },
+    {
+      "description": "figurine",
+      "type": "magic",
+      "id": 156,
+      "name": "Figurine of Wondrous Power",
+      "table": "G",
+      "weight": 3
+    },
+    {
+      "description": "Breastplate",
+      "type": "helm",
+      "id": 157,
+      "name": "Adamantine Armor",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Splint",
+      "type": "helm",
+      "id": 158,
+      "name": "Adamantine Armor",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Pewter",
+      "type": "jewel",
+      "id": 159,
+      "name": "Amulet Of Health",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Golden Sheen",
+      "type": "helm",
+      "id": 160,
+      "name": "Armor of Vulnerability",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Magpie Designs",
+      "type": "shield",
+      "id": 161,
+      "name": "Arrow-Catching Shield",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Plain",
+      "type": "magic",
+      "id": 162,
+      "name": "Belt of Dwarvenkind",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Plain but Tough",
+      "type": "magic",
+      "id": 163,
+      "name": "Belt of Hill Giant Strength",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Bronze Head",
+      "type": "weapon",
+      "id": 164,
+      "name": "Berserker Axe",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Hardened Leather",
+      "type": "magic",
+      "id": 165,
+      "name": "Boots of Levitation",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Cat Designs",
+      "type": "magic",
+      "id": 166,
+      "name": "Boots of Speed",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Silver",
+      "type": "magic",
+      "id": 167,
+      "name": "Bowl of Commanding Water Elementals",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Leather inlaid with Silver",
+      "type": "magic",
+      "id": 168,
+      "name": "Bracers Of Defense",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Bronze",
+      "type": "magic",
+      "id": 169,
+      "name": "Brazier of Commanding Fire Elementals",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Fur",
+      "type": "magic",
+      "id": 170,
+      "name": "Cape of The Mountebank",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Blue and White",
+      "type": "magic",
+      "id": 171,
+      "name": "Censer of Controlling Air Elementals",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "+1 Chain Mail",
+      "type": "helm",
+      "id": 172,
+      "name": "Armor",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Chain Mail",
+      "type": "helm",
+      "id": 173,
+      "name": "Armor of Resistance",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "+1 Chain Shirt",
+      "type": "helm",
+      "id": 174,
+      "name": "Armor",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Chain Shirt",
+      "type": "helm",
+      "id": 175,
+      "name": "Armor of Resistance",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Silk",
+      "type": "magic",
+      "id": 176,
+      "name": "Cloak of Displacement",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Black Leather",
+      "type": "magic",
+      "id": 177,
+      "name": "Cloak of The Bat",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Shiny",
+      "type": "magic",
+      "id": 178,
+      "name": "Cube of Force",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Wooden",
+      "type": "magic",
+      "id": 179,
+      "name": "Daern's Instant Fortress",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Black and Purple",
+      "type": "weapon",
+      "id": 180,
+      "name": "Dagger of Venom",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Steel",
+      "type": "magic",
+      "id": 181,
+      "name": "Dimensional Shackles",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Sword",
+      "type": "sword",
+      "id": 182,
+      "name": "Dragon Slayer",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Silver. Glints in Moonlight",
+      "type": "helm",
+      "id": 183,
+      "name": "Elven Chain",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Sword",
+      "type": "sword",
+      "id": 184,
+      "name": "Flame Tongue",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Clear",
+      "type": "gem",
+      "id": 185,
+      "name": "Gem Of Seeing",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Sword",
+      "type": "sword",
+      "id": 186,
+      "name": "Giant Slayer",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Brown",
+      "type": "helm",
+      "id": 187,
+      "name": "Clamoured Studded Leather",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Brass and Gold",
+      "type": "helm",
+      "id": 188,
+      "name": "Helm of Teleportation",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Green",
+      "type": "magic",
+      "id": 189,
+      "name": "Horn of Blasting",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Silver Or Brass",
+      "type": "magic",
+      "id": 190,
+      "name": "Horn Of Valhalla",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Canaith Mandolin",
+      "type": "lyre",
+      "id": 191,
+      "name": "Instrument of The Bards",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Cii Lyre",
+      "type": "lyre",
+      "id": 192,
+      "name": "Instrument of The Bards",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Awareness",
+      "type": "gem",
+      "id": 193,
+      "name": "Ioun Stone",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Protection",
+      "type": "gem",
+      "id": 194,
+      "name": "Ioun Stone",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Reserve",
+      "type": "gem",
+      "id": 195,
+      "name": "Ioun Stone",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Sustenance",
+      "type": "gem",
+      "id": 196,
+      "name": "Ioun Stone",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Iron",
+      "type": "magic",
+      "id": 197,
+      "name": "Iron Bands of Bilarro",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "+1 Leather",
+      "type": "helm",
+      "id": 198,
+      "name": "Armor",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Leather",
+      "type": "helm",
+      "id": 199,
+      "name": "Armor of Resistance",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Sturdy",
+      "type": "weapon",
+      "id": 200,
+      "name": "Mace of Disruption",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Iron",
+      "type": "weapon",
+      "id": 201,
+      "name": "Mace of Smiting",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Steel",
+      "type": "weapon",
+      "id": 202,
+      "name": "Mace of Terror",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Blue and Red",
+      "type": "magic",
+      "id": 203,
+      "name": "Mantle of Spell Resistance",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Pearl",
+      "type": "jewel",
+      "id": 204,
+      "name": "Necklace of Prayer Beads",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Beetle Design",
+      "type": "jewel",
+      "id": 205,
+      "name": "Periapt of Proof Against Poison",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Leaf Design",
+      "type": "ring",
+      "id": 206,
+      "name": "Ring of Animal Influence",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Silver",
+      "type": "ring",
+      "id": 207,
+      "name": "Ring of Evasion",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Feather Emblem",
+      "type": "ring",
+      "id": 208,
+      "name": "Ring of Feather Falling",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Designed like a Broken Chain",
+      "type": "ring",
+      "id": 209,
+      "name": "Ring of Free Action",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Steel",
+      "type": "ring",
+      "id": 210,
+      "name": "Ring of Protection",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Brass",
+      "type": "ring",
+      "id": 211,
+      "name": "Ring of Resistance",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Gold",
+      "type": "ring",
+      "id": 212,
+      "name": "Ring of Spell Storing",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Ivory",
+      "type": "ring",
+      "id": 213,
+      "name": "Ring of The Ram",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Clear Quartz",
+      "type": "ring",
+      "id": 214,
+      "name": "Ring of X-Ray Vision",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Peacock design",
+      "type": "magic",
+      "id": 215,
+      "name": "Robe of Eyes",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Plain",
+      "type": "wand",
+      "id": 216,
+      "name": "Rod of Rulership",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "+2 bonus",
+      "type": "wand",
+      "id": 217,
+      "name": "Rod of The Pact Keeper",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Hemp",
+      "type": "magic",
+      "id": 218,
+      "name": "Rope of Entanglement",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "+1 Scale Mail",
+      "type": "helm",
+      "id": 219,
+      "name": "Armor",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Scale Mail",
+      "type": "helm",
+      "id": 220,
+      "name": "Armor of Resistance",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "+2 AC",
+      "type": "shield",
+      "id": 221,
+      "name": "Shield",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Chipped and Dented",
+      "type": "shield",
+      "id": 222,
+      "name": "Shield of Missile Attraction",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Green",
+      "type": "magic",
+      "id": 223,
+      "name": "Staff of Charming",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Snake Designs",
+      "type": "wand",
+      "id": 224,
+      "name": "Staff of Healing",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Hexagon Designs",
+      "type": "wand",
+      "id": 225,
+      "name": "Staff of Swarming Insects",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Natural Shape",
+      "type": "wand",
+      "id": 226,
+      "name": "Staff of The Woodlands",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Solid",
+      "type": "wand",
+      "id": 227,
+      "name": "Staff of Withering",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Granite",
+      "type": "gem",
+      "id": 228,
+      "name": "Stone of Controlling Earth Elementals",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Sword",
+      "type": "sword",
+      "id": 229,
+      "name": "Sun Blade",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Black Blade",
+      "type": "sword",
+      "id": 230,
+      "name": "Sword of Life Stealing",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Red Blade",
+      "type": "sword",
+      "id": 231,
+      "name": "Sword of Wounding",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Green. Oily Shimmer",
+      "type": "magic",
+      "id": 232,
+      "name": "Tentacle Rod",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Sword",
+      "type": "sword",
+      "id": 233,
+      "name": "Vicious Weapon",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Rope Design",
+      "type": "wand",
+      "id": 234,
+      "name": "Wand of Binding",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Silver Inlay",
+      "type": "wand",
+      "id": 235,
+      "name": "Wand of Enemy Detection",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Screaming Faces etched into Surface",
+      "type": "wand",
+      "id": 236,
+      "name": "Wand of Fear",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Red. Blackened End",
+      "type": "wand",
+      "id": 237,
+      "name": "Wand of Fireballs",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Silver",
+      "type": "wand",
+      "id": 238,
+      "name": "Wand of Lightning Bolts",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Brown",
+      "type": "wand",
+      "id": 239,
+      "name": "Wand of Paralysis",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "+2 Bonus",
+      "type": "wand",
+      "id": 240,
+      "name": "Wand of The War Mage",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Plain",
+      "type": "wand",
+      "id": 241,
+      "name": "Wand of Wonder",
+      "table": "G",
+      "weight": 1
+    },
+    {
+      "description": "Leather",
+      "type": "magic",
+      "id": 242,
+      "name": "Wings of Flying",
+      "table": "G",
+      "weight": 1
+    }
+  ],
+  "H": [
+    {
+      "description": "weapon",
+      "type": "weapon",
+      "id": 243,
+      "name": "+1 Weapon",
+      "table": "H",
+      "weight": 10
+    },
+    {
+      "description": "Winged Design",
+      "type": "jewel",
+      "id": 244,
+      "name": "Amulet of The Planes",
+      "table": "H",
+      "weight": 2
+    },
+    {
+      "description": "Intricate Embroidery",
+      "type": "magic",
+      "id": 245,
+      "name": "Carpet of Flying",
+      "table": "H",
+      "weight": 2
+    },
+    {
+      "description": "Very Rare Version",
+      "type": "magic",
+      "id": 246,
+      "name": "Crystal Ball",
+      "table": "H",
+      "weight": 2
+    },
+    {
+      "description": "Blue",
+      "type": "ring",
+      "id": 247,
+      "name": "Ring of Regeneration",
+      "table": "H",
+      "weight": 2
+    },
+    {
+      "description": "Star Symbols",
+      "type": "ring",
+      "id": 248,
+      "name": "Ring of Shooting Stars",
+      "table": "H",
+      "weight": 2
+    },
+    {
+      "description": "Plain",
+      "type": "ring",
+      "id": 249,
+      "name": "Ring of Telekinesis",
+      "table": "H",
+      "weight": 2
+    },
+    {
+      "description": "Rainbow Patterns",
+      "type": "magic",
+      "id": 250,
+      "name": "Robe of Scintillating Colors",
+      "table": "H",
+      "weight": 2
+    },
+    {
+      "description": "Midnight Blue with White Stars",
+      "type": "magic",
+      "id": 251,
+      "name": "Robe of Stars",
+      "table": "H",
+      "weight": 2
+    },
+    {
+      "description": "Steel",
+      "type": "wand",
+      "id": 252,
+      "name": "Rod of Absorption",
+      "table": "H",
+      "weight": 2
+    },
+    {
+      "description": "Stylised Eye Designs",
+      "type": "wand",
+      "id": 253,
+      "name": "Rod of Alertness",
+      "table": "H",
+      "weight": 2
+    },
+    {
+      "description": "Key Symbols",
+      "type": "wand",
+      "id": 254,
+      "name": "Rod of Security",
+      "table": "H",
+      "weight": 2
+    },
+    {
+      "description": "3",
+      "type": "wand",
+      "id": 255,
+      "name": "Rod of The Pact Keeper",
+      "table": "H",
+      "weight": 2
+    },
+    {
+      "description": "Wing Designs",
+      "type": "sword",
+      "id": 256,
+      "name": "Scimitar of Speed",
+      "table": "H",
+      "weight": 2
+    },
+    {
+      "description": "+3 AC",
+      "type": "shield",
+      "id": 257,
+      "name": "Shield",
+      "table": "H",
+      "weight": 2
+    },
+    {
+      "description": "Red",
+      "type": "wand",
+      "id": 258,
+      "name": "Staff of Fire",
+      "table": "H",
+      "weight": 2
+    },
+    {
+      "description": "Blue",
+      "type": "wand",
+      "id": 259,
+      "name": "Staff of Frost",
+      "table": "H",
+      "weight": 2
+    },
+    {
+      "description": "Gold",
+      "type": "wand",
+      "id": 260,
+      "name": "Staff of Power",
+      "table": "H",
+      "weight": 2
+    },
+    {
+      "description": "Flanged Head",
+      "type": "wand",
+      "id": 261,
+      "name": "Staff of Striking",
+      "table": "H",
+      "weight": 2
+    },
+    {
+      "description": "Storm Cloud Designs",
+      "type": "wand",
+      "id": 262,
+      "name": "Staff of Thunder And Lightning",
+      "table": "H",
+      "weight": 2
+    },
+    {
+      "description": "Exquisite Workmanship",
+      "type": "sword",
+      "id": 263,
+      "name": "Sword of Sharpness",
+      "table": "H",
+      "weight": 2
+    },
+    {
+      "description": "Shifting Patterns",
+      "type": "wand",
+      "id": 264,
+      "name": "Wand of Polymorph",
+      "table": "H",
+      "weight": 2
+    },
+    {
+      "description": "3",
+      "type": "wand",
+      "id": 265,
+      "name": "Wand of The War Mage",
+      "table": "H",
+      "weight": 2
+    },
+    {
+      "description": "Half Plate",
+      "type": "helm",
+      "id": 266,
+      "name": "Adamantine Armor",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Plate",
+      "type": "helm",
+      "id": 267,
+      "name": "Adamantine Armor",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Rainbow Designs",
+      "type": "shield",
+      "id": 268,
+      "name": "Animated Shield",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Red",
+      "type": "magic",
+      "id": 269,
+      "name": "Belt of Fire Giant Strength",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Blue",
+      "type": "magic",
+      "id": 270,
+      "name": "Belt of Frost Giant Strength",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "+1 Breastplate",
+      "type": "helm",
+      "id": 271,
+      "name": "Armor",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Breastplate",
+      "type": "helm",
+      "id": 272,
+      "name": "Armor of Resistance",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "White Tallow",
+      "type": "magic",
+      "id": 273,
+      "name": "Candle of Invocation",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "+2 Chain Mail",
+      "type": "helm",
+      "id": 274,
+      "name": "Armor",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "+2 Chain Shirt",
+      "type": "helm",
+      "id": 275,
+      "name": "Armor",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Black with Silver Embroidery",
+      "type": "magic",
+      "id": 276,
+      "name": "Cloak of Arachnida",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Whirling Dervish Designs",
+      "type": "sword",
+      "id": 277,
+      "name": "Dancing Sword",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Red",
+      "type": "helm",
+      "id": 278,
+      "name": "Demon Armor",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Intricate Engravings",
+      "type": "helm",
+      "id": 279,
+      "name": "Dragon Scale Mail",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Intricate Engravings",
+      "type": "helm",
+      "id": 280,
+      "name": "Dwarven Plate",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Geometric Designs",
+      "type": "weapon",
+      "id": 281,
+      "name": "Dwarven Thrower",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Red",
+      "type": "potion",
+      "id": 282,
+      "name": "Efreeti Bottle",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Obsidian Steed",
+      "type": "magic",
+      "id": 283,
+      "name": "Figurine Of Wondrous Power",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Sword",
+      "type": "sword",
+      "id": 284,
+      "name": "Frost Brand",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Glowing Silver",
+      "type": "helm",
+      "id": 285,
+      "name": "Helm of Brilliance",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Bronze",
+      "type": "magic",
+      "id": 286,
+      "name": "Horn of Valhalla",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Anstruth Harp",
+      "type": "lyre",
+      "id": 287,
+      "name": "Instrument of The Bards",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Absorption",
+      "type": "gem",
+      "id": 288,
+      "name": "Ioun Stone",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Agility",
+      "type": "gem",
+      "id": 289,
+      "name": "Ioun Stone",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Fortitude",
+      "type": "gem",
+      "id": 290,
+      "name": "Ioun Stone",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Insight",
+      "type": "gem",
+      "id": 291,
+      "name": "Ioun Stone",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Intellect",
+      "type": "gem",
+      "id": 292,
+      "name": "Ioun Stone",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Leadership",
+      "type": "gem",
+      "id": 293,
+      "name": "Ioun Stone",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Strength",
+      "type": "gem",
+      "id": 294,
+      "name": "Ioun Stone",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "+2 Leather",
+      "type": "helm",
+      "id": 295,
+      "name": "Armor",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Plain bindings",
+      "type": "book",
+      "id": 296,
+      "name": "Manual of Bodily Health",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Sports Designs",
+      "type": "book",
+      "id": 297,
+      "name": "Manual of Gainful Exercise",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Leather with Bronze Clasps",
+      "type": "book",
+      "id": 298,
+      "name": "Manual of Golems",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Silver",
+      "type": "book",
+      "id": 299,
+      "name": "Manual of Quickness Of Action",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Intricate Engravings",
+      "type": "magic",
+      "id": 300,
+      "name": "Mirror of Life Trapping",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Sword",
+      "type": "sword",
+      "id": 301,
+      "name": "Nine Lives Stealer",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Longbow",
+      "type": "arrow",
+      "id": 302,
+      "name": "Oath Bow",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "+2 Scale Mail",
+      "type": "helm",
+      "id": 303,
+      "name": "Armor",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Plain",
+      "type": "shield",
+      "id": 304,
+      "name": "Spellguard Shield",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "+1 Splint",
+      "type": "helm",
+      "id": 305,
+      "name": "Armor",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Splint",
+      "type": "helm",
+      "id": 306,
+      "name": "Armor of Resistance",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "+1 Studded Leather",
+      "type": "helm",
+      "id": 307,
+      "name": "Armor",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Studded Leather",
+      "type": "helm",
+      "id": 308,
+      "name": "Armor of Resistance",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Plain",
+      "type": "book",
+      "id": 309,
+      "name": "Tome of Clear Thought",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Plain",
+      "type": "book",
+      "id": 310,
+      "name": "Tome of Leadership And Influence",
+      "table": "H",
+      "weight": 1
+    },
+    {
+      "description": "Plain",
+      "type": "book",
+      "id": 311,
+      "name": "Tome of Understanding",
+      "table": "H",
+      "weight": 1
+    }
+  ],
+  "I": [
+    {
+      "description": "Sword",
+      "type": "sword",
+      "id": 312,
+      "name": "Defender",
+      "table": "I",
+      "weight": 5
+    },
+    {
+      "description": "Lightning Symbols",
+      "type": "weapon",
+      "id": 313,
+      "name": "Hammer of Thunderbolts",
+      "table": "I",
+      "weight": 5
+    },
+    {
+      "description": "Sword",
+      "type": "sword",
+      "id": 314,
+      "name": "Luck Blade",
+      "table": "I",
+      "weight": 5
+    },
+    {
+      "description": "Covered in Question Marks",
+      "type": "sword",
+      "id": 315,
+      "name": "Sword of Answering",
+      "table": "I",
+      "weight": 5
+    },
+    {
+      "description": "Sword",
+      "type": "sword",
+      "id": 316,
+      "name": "Holy Avenger",
+      "table": "I",
+      "weight": 3
+    },
+    {
+      "description": "Red Metal",
+      "type": "ring",
+      "id": 317,
+      "name": "Ring of Djinni Summoning",
+      "table": "I",
+      "weight": 3
+    },
+    {
+      "description": "Plain Gold",
+      "type": "ring",
+      "id": 318,
+      "name": "Ring of Invisibility",
+      "table": "I",
+      "weight": 3
+    },
+    {
+      "description": "Plain Silver",
+      "type": "ring",
+      "id": 319,
+      "name": "Ring of Spell Turning",
+      "table": "I",
+      "weight": 3
+    },
+    {
+      "description": "Intricate Engraving",
+      "type": "wand",
+      "id": 320,
+      "name": "Rod of Lordly Might",
+      "table": "I",
+      "weight": 3
+    },
+    {
+      "description": "Flamboyant Design",
+      "type": "wand",
+      "id": 321,
+      "name": "Staff of The Magi",
+      "table": "I",
+      "weight": 3
+    },
+    {
+      "description": "Be Careful",
+      "type": "sword",
+      "id": 322,
+      "name": "Vorpal Sword",
+      "table": "I",
+      "weight": 3
+    },
+    {
+      "description": "White Leather",
+      "type": "magic",
+      "id": 323,
+      "name": "Belt of Cloud Giant Strength",
+      "table": "I",
+      "weight": 2
+    },
+    {
+      "description": "+2 Breastplate",
+      "type": "helm",
+      "id": 324,
+      "name": "Armor",
+      "table": "I",
+      "weight": 2
+    },
+    {
+      "description": "+3 Chain Mail",
+      "type": "helm",
+      "id": 325,
+      "name": "Armor",
+      "table": "I",
+      "weight": 2
+    },
+    {
+      "description": "+3 Chain Shirt",
+      "type": "helm",
+      "id": 326,
+      "name": "Armor",
+      "table": "I",
+      "weight": 2
+    },
+    {
+      "description": "Silvered Silk",
+      "type": "magic",
+      "id": 327,
+      "name": "Cloak of Invisibility",
+      "table": "I",
+      "weight": 2
+    },
+    {
+      "description": "Legendary Version",
+      "type": "magic",
+      "id": 328,
+      "name": "Crystal Ball",
+      "table": "I",
+      "weight": 2
+    },
+    {
+      "description": "+1 Half Plate",
+      "type": "helm",
+      "id": 329,
+      "name": "Armor",
+      "table": "I",
+      "weight": 2
+    },
+    {
+      "description": "Dull and Dented",
+      "type": "potion",
+      "id": 330,
+      "name": "Iron Flask",
+      "table": "I",
+      "weight": 2
+    },
+    {
+      "description": "+3 Leather",
+      "type": "helm",
+      "id": 331,
+      "name": "Armor",
+      "table": "I",
+      "weight": 2
+    },
+    {
+      "description": "+1 Plate",
+      "type": "helm",
+      "id": 332,
+      "name": "Armor",
+      "table": "I",
+      "weight": 2
+    },
+    {
+      "description": "Preposterous Designs",
+      "type": "magic",
+      "id": 333,
+      "name": "Robe of The Archmagi",
+      "table": "I",
+      "weight": 2
+    },
+    {
+      "description": "Snake Symbols",
+      "type": "wand",
+      "id": 334,
+      "name": "Rod of Resurrection",
+      "table": "I",
+      "weight": 2
+    },
+    {
+      "description": "+1 Scale Mail",
+      "type": "helm",
+      "id": 335,
+      "name": "Armor",
+      "table": "I",
+      "weight": 2
+    },
+    {
+      "description": "Glossy Black",
+      "type": "gem",
+      "id": 336,
+      "name": "Scarab Of Protection",
+      "table": "I",
+      "weight": 2
+    },
+    {
+      "description": "+2 Splint",
+      "type": "helm",
+      "id": 337,
+      "name": "Armor",
+      "table": "I",
+      "weight": 2
+    },
+    {
+      "description": "+2 Studded Leather",
+      "type": "helm",
+      "id": 338,
+      "name": "Armor",
+      "table": "I",
+      "weight": 2
+    },
+    {
+      "description": "Matt Black",
+      "type": "magic",
+      "id": 339,
+      "name": "Well Of Many Worlds",
+      "table": "I",
+      "weight": 2
+    },
+    {
+      "description": "+2 Plate",
+      "type": "helm",
+      "id": 340,
+      "name": "Magic Armor",
+      "table": "I",
+      "weight": 1
+    },
+    {
+      "description": "Intricate",
+      "type": "magic",
+      "id": 341,
+      "name": "Apparatus Of Kwalish",
+      "table": "I",
+      "weight": 1
+    },
+    {
+      "description": "Steel",
+      "type": "helm",
+      "id": 342,
+      "name": "Armor of Invulnerability",
+      "table": "I",
+      "weight": 1
+    },
+    {
+      "description": "Leather and Bronze",
+      "type": "magic",
+      "id": 343,
+      "name": "Belt of Storm Giant Strength",
+      "table": "I",
+      "weight": 1
+    },
+    {
+      "description": "Rainbow Coloured",
+      "type": "magic",
+      "id": 344,
+      "name": "Cubic Gate",
+      "table": "I",
+      "weight": 1
+    },
+    {
+      "description": "Small Wooden Box",
+      "type": "magic",
+      "id": 345,
+      "name": "Deck of Many Things",
+      "table": "I",
+      "weight": 1
+    },
+    {
+      "description": "Red",
+      "type": "magic",
+      "id": 346,
+      "name": "Efreeti Chain",
+      "table": "I",
+      "weight": 1
+    },
+    {
+      "description": "Half Plate",
+      "type": "helm",
+      "id": 347,
+      "name": "Armor of Resistance",
+      "table": "I",
+      "weight": 1
+    },
+    {
+      "description": "Iron",
+      "type": "magic",
+      "id": 348,
+      "name": "Horn of Valhalla",
+      "table": "I",
+      "weight": 1
+    },
+    {
+      "description": "Ollamh Harp",
+      "type": "lyre",
+      "id": 349,
+      "name": "Instrument of The Bards",
+      "table": "I",
+      "weight": 1
+    },
+    {
+      "description": "Greater Absorption",
+      "type": "gem",
+      "id": 350,
+      "name": "Ioun Stone",
+      "table": "I",
+      "weight": 1
+    },
+    {
+      "description": "Mastery",
+      "type": "gem",
+      "id": 351,
+      "name": "Ioun Stone",
+      "table": "I",
+      "weight": 1
+    },
+    {
+      "description": "Regeneration",
+      "type": "gem",
+      "id": 352,
+      "name": "Ioun Stone",
+      "table": "I",
+      "weight": 1
+    },
+    {
+      "description": "Silvered",
+      "type": "helm",
+      "id": 353,
+      "name": "Plate Armor of Etherealness",
+      "table": "I",
+      "weight": 1
+    },
+    {
+      "description": "Ruddy Brown",
+      "type": "helm",
+      "id": 354,
+      "name": "Plate Armor of Resistance",
+      "table": "I",
+      "weight": 1
+    },
+    {
+      "description": "Silver",
+      "type": "ring",
+      "id": 355,
+      "name": "Ring of Air Elemental Command",
+      "table": "I",
+      "weight": 1
+    },
+    {
+      "description": "Brass",
+      "type": "ring",
+      "id": 356,
+      "name": "Ring of Earth Elemental Command",
+      "table": "I",
+      "weight": 1
+    },
+    {
+      "description": "Bronze",
+      "type": "ring",
+      "id": 357,
+      "name": "Ring of Fire Elemental Command",
+      "table": "I",
+      "weight": 1
+    },
+    {
+      "description": "Twisted Rope Design",
+      "type": "ring",
+      "id": 358,
+      "name": "Ring of Three Wishes",
+      "table": "I",
+      "weight": 1
+    },
+    {
+      "description": "Blue Steel",
+      "type": "ring",
+      "id": 359,
+      "name": "Ring of Water Elemental Command",
+      "table": "I",
+      "weight": 1
+    },
+    {
+      "description": "Black",
+      "type": "magic",
+      "id": 360,
+      "name": "Sphere of Annihilation",
+      "table": "I",
+      "weight": 1
+    },
+    {
+      "description": "White",
+      "type": "jewel",
+      "id": 361,
+      "name": "Talisman of Pure Good",
+      "table": "I",
+      "weight": 1
+    },
+    {
+      "description": "Pinkish Hue",
+      "type": "jewel",
+      "id": 362,
+      "name": "Talisman of The Sphere",
+      "table": "I",
+      "weight": 1
+    },
+    {
+      "description": "Black",
+      "type": "jewel",
+      "id": 363,
+      "name": "Talisman of Ultimate Evil",
+      "table": "I",
+      "weight": 1
+    },
+    {
+      "description": "Leather Cover",
+      "type": "book",
+      "id": 364,
+      "name": "Tome of The Stilled Tongue",
+      "table": "I",
+      "weight": 1
+    }
+  ]
+}

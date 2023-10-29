@@ -1,0 +1,219 @@
+{
+  "cantrips": [
+    {
+      "id": 1,
+      "name": "Acid Splash",
+      "level": 0
+    },
+    {
+      "id": 2,
+      "name": "Blade Ward",
+      "level": 0
+    },
+    {
+      "id": 3,
+      "name": "Booming Blade",
+      "level": 0
+    },
+    {
+      "id": 4,
+      "name": "Chill Touch",
+      "level": 0
+    },
+    {
+      "id": 5,
+      "name": "Control Flames",
+      "level": 0
+    },
+    {
+      "id": 6,
+      "name": "Create Bonfire",
+      "level": 0
+    },
+    {
+      "id": 7,
+      "name": "Dancing Lights",
+      "level": 0
+    },
+    {
+      "id": 8,
+      "name": "Druidcraft",
+      "level": 0
+    },
+    {
+      "id": 9,
+      "name": "Eldritch Blast",
+      "level": 0
+    },
+    {
+      "id": 10,
+      "name": "Fire Bolt",
+      "level": 0
+    },
+    {
+      "id": 11,
+      "name": "Friends",
+      "level": 0
+    },
+    {
+      "id": 12,
+      "name": "Frostbite",
+      "level": 0
+    },
+    {
+      "id": 13,
+      "name": "Green-Flame Blade",
+      "level": 0
+    },
+    {
+      "id": 14,
+      "name": "Guidance",
+      "level": 0
+    },
+    {
+      "id": 15,
+      "name": "Gust",
+      "level": 0
+    },
+    {
+      "id": 16,
+      "name": "infestation",
+      "level": 0
+    },
+    {
+      "id": 17,
+      "name": "Light",
+      "level": 0
+    },
+    {
+      "id": 18,
+      "name": "Lightning Lure",
+      "level": 0
+    },
+    {
+      "id": 19,
+      "name": "Mage Hand",
+      "level": 0
+    },
+    {
+      "id": 20,
+      "name": "Magic Stone",
+      "level": 0
+    },
+    {
+      "id": 21,
+      "name": "Mending",
+      "level": 0
+    },
+    {
+      "id": 22,
+      "name": "Message",
+      "level": 0
+    },
+    {
+      "id": 23,
+      "name": "Minor Illusion",
+      "level": 0
+    },
+    {
+      "id": 24,
+      "name": "Mold Earth",
+      "level": 0
+    },
+    {
+      "id": 25,
+      "name": "Poison Spray",
+      "level": 0
+    },
+    {
+      "id": 26,
+      "name": "Prestidigitation",
+      "level": 0
+    },
+    {
+      "id": 27,
+      "name": "Priaml Savagery",
+      "level": 0
+    },
+    {
+      "id": 28,
+      "name": "Produce Flame",
+      "level": 0
+    },
+    {
+      "id": 29,
+      "name": "Ray of Frost",
+      "level": 0
+    },
+    {
+      "id": 30,
+      "name": "Resistance",
+      "level": 0
+    },
+    {
+      "id": 31,
+      "name": "Sacred Flame",
+      "level": 0
+    },
+    {
+      "id": 32,
+      "name": "Shape Water",
+      "level": 0
+    },
+    {
+      "id": 33,
+      "name": "Shillelagh",
+      "level": 0
+    },
+    {
+      "id": 34,
+      "name": "Shocking Grasp",
+      "level": 0
+    },
+    {
+      "id": 35,
+      "name": "Spare the Dying",
+      "level": 0
+    },
+    {
+      "id": 36,
+      "name": "Sword Burst",
+      "level": 0
+    },
+    {
+      "id": 37,
+      "name": "Thaumaturgy",
+      "level": 0
+    },
+    {
+      "id": 38,
+      "name": "Thorn Whip",
+      "level": 0
+    },
+    {
+      "id": 39,
+      "name": "Thunderclap",
+      "level": 0
+    },
+    {
+      "id": 40,
+      "name": "Toll the Dead",
+      "level": 0
+    },
+    {
+      "id": 41,
+      "name": "True Strike",
+      "level": 0
+    },
+    {
+      "id": 42,
+      "name": "Vicious Mockery",
+      "level": 0
+    },
+    {
+      "id": 43,
+      "name": "Word of Radiance",
+      "level": 0
+    }
+  ]
+}

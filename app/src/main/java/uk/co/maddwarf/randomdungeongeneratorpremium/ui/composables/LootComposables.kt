@@ -4,7 +4,10 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
@@ -16,9 +19,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.unit.dp
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Art
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Gem
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Loot
+import uk.co.maddwarf.randomdungeongeneratorpremium.model.Magic
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.MundaneItem
 
 @Composable
@@ -56,20 +61,13 @@ fun GemsList(content: List<Gem>) {
                 text = "${content.size} Gems worth ${content[0].value}GP each",
                 Modifier.weight(1f)
             )
-            /* TextButton(onClick = { gemExpanded = !gemExpanded }, Modifier.weight(.5f)) {
-            if (gemExpanded) {
-                Text(text = "Hide")
-            } else {
-                Text(text = "Show...")
+            TextButton(onClick = { gemExpanded = !gemExpanded }, Modifier.weight(.5f)) {
+                if (gemExpanded) {
+                    Text(text = "Hide")
+                } else {
+                    Text(text = "Show...")
+                }
             }
-        }*/
-            Text(
-                text = showText,
-                modifier = Modifier
-                    .clickable { gemExpanded = !gemExpanded }
-                    .weight(0.3f),
-                style = TextStyle(color = Color.Blue)
-            )
         }
         if (gemExpanded) {
             Column(
@@ -111,6 +109,54 @@ fun ArtsList(content: List<Art>) {
             ) {
                 content.forEach { it ->
                     Text(text = it.name)
+                }
+            }
+        }
+    }
+}//end Art List
+
+@Composable
+fun MagicsList(content: List<Magic>) {
+    var magicExpanded by remember { mutableStateOf(false) }
+    Column(
+        modifier = Modifier
+            .fillMaxWidth(),
+        horizontalAlignment = Alignment.Start
+    ) {
+        Row() {
+            Text(
+                text = "${content.size} Magical Items",
+                Modifier.weight(1f)
+            )
+            TextButton(onClick = { magicExpanded = !magicExpanded }, Modifier.weight(0.5f)) {
+                if (magicExpanded) {
+                    Text(text = "Hide")
+                } else {
+                    Text(text = "Show...")
+                }
+            }
+        }
+        if (magicExpanded) {
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth(),
+                //  horizontalAlignment = Alignment.Start
+            ) {
+                content.forEach { it ->
+                    Row(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                    ) {
+                        Text(text = it.name)
+                    }
+                    Row(
+                        modifier = Modifier
+                            .fillMaxWidth(),
+                        horizontalArrangement = Arrangement.End
+                    ) {
+                        Text(text = "(${it.description})")
+                    }
+
                 }
             }
         }

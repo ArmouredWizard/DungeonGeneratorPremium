@@ -61,5 +61,5 @@ data class Loot(
     val coins: Cash = Cash(),
     val gemList: List<Gem> = listOf(),
     val artList: List<Art> = listOf(),
-    val magicItemsList: List<String> = listOf() //make MagicItem Class
+    val magicItemsList: List<Magic> = listOf()
 ) : Content()

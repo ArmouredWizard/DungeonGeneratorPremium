@@ -1,23 +1,27 @@
 package uk.co.maddwarf.randomdungeongeneratorpremium.domain
 
 import android.content.Context
-import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
-import org.json.JSONObject
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Art
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Cash
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Gem
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.ItemTableEntry
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Loot
-import uk.co.maddwarf.randomdungeongeneratorpremium.repository.FileHelper
+import uk.co.maddwarf.randomdungeongeneratorpremium.model.Magic
+import uk.co.maddwarf.randomdungeongeneratorpremium.repository.DescriptionsRepository.getCantrip
+import uk.co.maddwarf.randomdungeongeneratorpremium.repository.DescriptionsRepository.getPotionDescription
+import uk.co.maddwarf.randomdungeongeneratorpremium.repository.DescriptionsRepository.getSpellByLevel
+import uk.co.maddwarf.randomdungeongeneratorpremium.repository.LootRepository.getArtList
+import uk.co.maddwarf.randomdungeongeneratorpremium.repository.LootRepository.getCashTableList
+import uk.co.maddwarf.randomdungeongeneratorpremium.repository.LootRepository.getGemList
+import uk.co.maddwarf.randomdungeongeneratorpremium.repository.LootRepository.getItemTableList
+import uk.co.maddwarf.randomdungeongeneratorpremium.repository.MagicItemRepository.getMagicItemsList
 
 class GetLootUseCase {
 
     fun buildLoot(type: String, level: Int, context: Context): Loot {
         var loot = Loot(name = "$type Loot")
-        var cashTableList = listOf<Cash>()
 
-        val lootLevel = when (level) {
+        var lootLevel = when (level) {
             in 1..4 -> "4"
             in 5..10 -> "10"
             in 11..16 -> "16"
@@ -25,64 +29,100 @@ class GetLootUseCase {
             else -> "0"
         }
 
-        //todo Build Lootz
+        var cashTableList = listOf<Cash>()
         when (type) {
             "Individual" -> {
-                val cashJsonString: String =
-                    FileHelper().readAsset(context = context, fileName = "cash.json")
-                cashTableList = makeCashTables(cashJsonString, lootLevel)
+                cashTableList =
+                    getCashTableList(context = context, table = "cash", lootLevel = lootLevel)
+                lootLevel = "0"
             }
 
             "Hoard" -> {
-                val cashJsonString: String =
-                    FileHelper().readAsset(
-                        context = context,
-                        fileName = "cashhoard.json"
-                    )
-                cashTableList = makeCashTables(cashJsonString, lootLevel)
-//todo ADD ITEMS, ART, ETC
-
-                val itemTable = getItemTable(context = context, lootLevel = lootLevel)
-                val itemTableEntry = chooseFromItemTable(itemTable = itemTable)
-
-                loot = rollOnLootTable(itemTableEntry = itemTableEntry, context = context)
+                cashTableList =
+                    getCashTableList(context = context, table = "cashhoard", lootLevel = lootLevel)
             }
 
             else -> {
-                loot = Loot(name = "UNKNOWN LOOT")
+                lootLevel = "0"
+                // loot = Loot(name = "UNKNOWN LOOT")
             }
-        }
+        }//end when
+
+        val itemTable = getItemTableList(context = context, lootLevel = lootLevel)
+        val itemTableEntry = chooseFromItemTable(itemTable = itemTable)
+        loot = rollOnLootTable(itemTableEntry = itemTableEntry, context = context)
 
         val cashTable: Cash = chooseFromCashTablesList(cashTableList)
         val cash = buildCash(cashTable)
-
-
-//todo add magic items!
-
         loot = loot.copy(coins = cash)
+
+        var magicItemsList = mutableListOf<Magic>()
+        //magic table one
+        val magicTableOne: List<Magic> =
+            getMagicItemsList(context = context, table = itemTableEntry.magicItemTableOne)
+        val numberOfItemsFromTableOne = Dice().roll(itemTableEntry.numberOfMagicItemsFromTableOne)
+        for (i in 1..numberOfItemsFromTableOne) {
+            magicItemsList.add(chooseFromMagicItemsList(magicList = magicTableOne, context = context))
+        }
+
+        //magic table two
+        val magicTableTwo =
+            getMagicItemsList(context = context, table = itemTableEntry.magicItemTableOne)
+        val numberOfItemsFromTableTwo = Dice().roll(itemTableEntry.numberOfMagicItemsFromTableTwo)
+        for (i in 1..numberOfItemsFromTableTwo) {
+            magicItemsList.add(chooseFromMagicItemsList(magicList = magicTableTwo, context = context))
+        }
+        loot = loot.copy(magicItemsList = magicItemsList)
+
 
         return loot
     }//end Build Loot
 
-    private fun makeCashTables(cashJsonString: String, cashLevel: String): List<Cash> {
-
-        val cashJsonObject = JSONObject(cashJsonString)
-        val cashArray = cashJsonObject.getJSONArray(cashLevel)
-
-        val thisCashTableList = mutableListOf<Cash>()
-        for (i in 0 until cashArray.length()) {
-            val c = cashArray.getJSONObject(i)
-            val pp = c.getInt("pp")
-            val gp = c.getInt("gp")
-            val ep = c.getInt("ep")
-            val sp = c.getInt("sp")
-            val cp = c.getInt("cp")
-            thisCashTableList.add(Cash(pp = pp, gp = gp, ep = ep, sp = sp, cp = cp))
+    private fun chooseFromMagicItemsList(magicList: List<Magic>, context: Context): Magic {
+        var totalWeight = 0
+        for (aMagic in magicList) {
+            totalWeight += aMagic.weight
         }
 
-        return thisCashTableList
-        // return cash
-    }//end make Cash Tables
+        val roll: Int = (0..totalWeight).random()
+        var testWeight = 0
+        for (aMagic in magicList) {
+            val thisWeight: Int = aMagic.weight
+            testWeight += thisWeight
+            if (roll <= testWeight) {
+                aMagic.description = makeMagicDescription(item = aMagic, context = context)
+                return aMagic
+            }
+        }
+        return Magic()
+    }
+
+    private fun makeMagicDescription(item: Magic, context: Context): String {
+
+        //todo write all these repos
+        val description = when (item.description) {
+            "POTION" -> getPotionDescription(context = context)
+            "CANTRIP" -> getCantrip(context = context)
+            "levelone" -> getSpellByLevel(context = context, level = "1")
+            "leveltwo" -> getSpellByLevel(context = context, level = "2")
+            "levelthree" -> getSpellByLevel(context = context, level = "3")
+            "levelfour" ->getSpellByLevel(context = context, level = "4")
+            "levelfive" -> getSpellByLevel(context = context, level = "5")
+            "levelsix" -> getSpellByLevel(context = context, level = "6")
+            "levelseven" -> getSpellByLevel(context = context, level = "7")
+            "leveleight" ->getSpellByLevel(context = context, level = "8")
+            "levelnine" -> getSpellByLevel(context = context, level = "9")
+            "ammo" -> "Arrows and such"
+            "armour" -> "For covering your vital bits"
+            "weapon" -> "Pointy Stick"
+            "Sword" -> "Sharp!"
+            "figurine" -> "miniature"
+
+            else -> {item.description}
+        }
+        
+        return description
+    }
 
     private fun chooseFromCashTablesList(cashTableList: List<Cash>): Cash {
 
@@ -101,55 +141,16 @@ class GetLootUseCase {
             }
         }
         return Cash()
-    }
+    }//end choose from cash tables list
 
     private fun buildCash(cashTable: Cash): Cash {
-
         val pp = cashTable.pp * Dice().roll("1d6")
         val gp = cashTable.gp * (1..6).random()
         val ep = cashTable.ep * (1..6).random()
         val sp = cashTable.sp * (1..6).random()
         val cp = cashTable.cp * (1..6).random()
         return Cash(pp = pp, gp = gp, ep = ep, sp = sp, cp = cp)
-    }
-
-    private fun getItemTable(context: Context, lootLevel: String): List<ItemTableEntry> {
-        val itemJsonString =
-            FileHelper().readAsset(context = context, fileName = "lootItems.json")
-
-        val itemJsonObject = JSONObject(itemJsonString)
-        val itemArray = itemJsonObject.getJSONArray(lootLevel)
-
-        val thisItemTableList = mutableListOf<ItemTableEntry>()
-
-        for (itemEntryIndex in 0 until itemArray.length()) {
-            val i = itemArray.getJSONObject(itemEntryIndex)
-            val numberOfArtItems = i.getString("artnumber")
-            val artOrGem = i.getString("artorgem")
-            val artValue = i.getInt("artvalue")
-            val cr = i.getInt("cr")
-            val numberOfMagicItemsFromTableOne = i.getString("magicnumber")
-            val numberOfMagicItemsFromTableTwo = i.getString("magicnumber2")
-            val magicItemTableOne = i.getString("magictable")
-            val magicItemTableTwo = i.getString("magictable2")
-            val weight = i.getInt("weight")
-            thisItemTableList.add(
-                ItemTableEntry(
-                    numberOfMundaneItems = numberOfArtItems,
-                    mundaneItemType = artOrGem,
-                    mundaneValue = artValue,
-                    cr = cr,
-                    numberOfMagicItemsFromTableOne = numberOfMagicItemsFromTableOne,
-                    numberOfMagicItemsFromTableTwo = numberOfMagicItemsFromTableTwo,
-                    magicItemTableOne = magicItemTableOne,
-                    magicItemTableTwo = magicItemTableTwo,
-                    weight = weight
-                )
-            )
-        }
-
-        return thisItemTableList
-    }//end get item table
+    }//end build cash
 
     private fun chooseFromItemTable(itemTable: List<ItemTableEntry>): ItemTableEntry {
 
@@ -172,7 +173,6 @@ class GetLootUseCase {
 
     private fun rollOnLootTable(itemTableEntry: ItemTableEntry, context: Context): Loot {
 
-        //todo roll on loot table
         //art/gem
         val artList = mutableListOf<Art>()
         val gemList = mutableListOf<Gem>()
@@ -195,57 +195,20 @@ class GetLootUseCase {
             }
         }
 
-        //magic Items
-
-
         val newLoot = Loot(name = "A Loot", artList = artList, gemList = gemList)
         return newLoot
     }//end roll on loot table
 
     private fun makeGem(context: Context, gemValue: Int): Gem {
-
-        val gemJsonString =
-            FileHelper().readAsset(context = context, fileName = "gems.json")
-
-        val gemJsonObject = JSONObject(gemJsonString)
-        val gemArray = gemJsonObject.getJSONArray(gemValue.toString())
-
-        val gemList = mutableListOf<Gem>()
-        var thisGem: Gem
-
-        for (i in 0 until gemArray.length()) {
-            val c = gemArray.getJSONObject(i)
-            val typeToken = object : TypeToken<Gem>() {}.type
-            thisGem = Gson().fromJson(c.toString(), typeToken)
-            gemList.add(thisGem)
-        }
-
+        val gemList = getGemList(context = context, gemValue = gemValue)
         val newGem = gemList.random()
         return newGem
-
     }//end Make Gem
 
     private fun makeArt(context: Context, artValue: Int): Art {
-
-        val artJsonString =
-            FileHelper().readAsset(context = context, fileName = "arts.json")
-
-        val artJsonObject = JSONObject(artJsonString)
-        val artArray = artJsonObject.getJSONArray(artValue.toString())
-
-        val artList = mutableListOf<Art>()
-        var thisArt: Art
-
-        for (i in 0 until artArray.length()) {
-            val c = artArray.getJSONObject(i)
-            val typeToken = object : TypeToken<Art>() {}.type
-            thisArt = Gson().fromJson(c.toString(), typeToken)
-            artList.add(thisArt)
-        }
-
+        val artList = getArtList(context = context, artValue = artValue)
         val newArt = artList.random()
         return newArt
-
     }//end Make Art
 
 }//end Gey Loot Use Case

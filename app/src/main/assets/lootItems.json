@@ -1,4 +1,18 @@
 {
+  "0": [
+    {
+      "artnumber": "1d0",
+      "artorgem": "GEM",
+      "artvalue": 10,
+      "cr": 0,
+      "id": 0,
+      "magicnumber": "1d0",
+      "magicnumber2": "1d0",
+      "magictable": "A",
+      "magictable2": "A",
+      "weight": 1
+    }
+  ],
   "4": [
     {
       "artnumber": "1d0",

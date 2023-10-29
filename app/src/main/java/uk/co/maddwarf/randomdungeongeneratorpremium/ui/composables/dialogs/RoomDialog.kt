@@ -30,6 +30,7 @@ import uk.co.maddwarf.randomdungeongeneratorpremium.model.totalXp
 import uk.co.maddwarf.randomdungeongeneratorpremium.ui.composables.ArtsList
 import uk.co.maddwarf.randomdungeongeneratorpremium.ui.composables.CashRow
 import uk.co.maddwarf.randomdungeongeneratorpremium.ui.composables.GemsList
+import uk.co.maddwarf.randomdungeongeneratorpremium.ui.composables.MagicsList
 
 
 @Composable
@@ -115,6 +116,7 @@ fun RoomDialog(
 
                                 //todo lots of work to do here
                                 //magic items
+                                if (content.magicItemsList.isNotEmpty()) MagicsList(content.magicItemsList)
 
 
                             }

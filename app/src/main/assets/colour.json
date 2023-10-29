@@ -1,0 +1,68 @@
+{
+"colours":[
+  {
+    "id": 1,
+    "name": "red"
+  },
+  {
+    "id": 2,
+    "name": "orange"
+  },
+  {
+    "id": 3,
+    "name": "yellow"
+  },
+  {
+    "id": 4,
+    "name": "green"
+  },
+  {
+    "id": 5,
+    "name": "blue"
+  },
+  {
+    "id": 6,
+    "name": "indigo"
+  },
+  {
+    "id": 7,
+    "name": "violet"
+  },
+  {
+    "id": 8,
+    "name": "gold"
+  },
+  {
+    "id": 9,
+    "name": "silver"
+  },
+  {
+    "id": 10,
+    "name": "black"
+  },
+  {
+    "id": 11,
+    "name": "white"
+  },
+  {
+    "id": 12,
+    "name": "rainbow"
+  },
+  {
+    "id": 13,
+    "name": "mauve"
+  },
+  {
+    "id": 14,
+    "name": "scarlet"
+  },
+  {
+    "id": 15,
+    "name": "turquoise"
+  },
+  {
+    "id": 16,
+    "name": "purple"
+  }
+]
+}
