@@ -192,7 +192,7 @@ class MakeMapUseCase {
                 break
             }
             if (roomsList[roomIndex + 1].connected) continue
-            val corridor: Corridor = Corridor(
+            val corridor = Corridor(
                 start = roomsList[roomIndex].getOddCenter(),
                 end = roomsList[roomIndex + 1].getOddCenter()
             )

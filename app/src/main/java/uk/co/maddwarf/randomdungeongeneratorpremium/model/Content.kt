@@ -1,6 +1,6 @@
 package uk.co.maddwarf.randomdungeongeneratorpremium.model
 
-sealed class Content()
+sealed class Content
 
 data class Monsters(
     val monsters: HashMap<Monster, Int>
@@ -8,7 +8,7 @@ data class Monsters(
 
 fun Monsters.totalXp(): Int {
     var totalXp = 0
-    monsters.forEach() {
+    monsters.forEach {
         totalXp += it.value * it.key.xp
     }
     return totalXp

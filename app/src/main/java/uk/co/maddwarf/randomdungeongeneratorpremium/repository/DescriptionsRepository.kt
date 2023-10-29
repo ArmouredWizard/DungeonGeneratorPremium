@@ -1,10 +1,8 @@
 package uk.co.maddwarf.randomdungeongeneratorpremium.repository
 
 import android.content.Context
-import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
 import org.json.JSONObject
-import uk.co.maddwarf.randomdungeongeneratorpremium.model.Magic
+import uk.co.maddwarf.randomdungeongeneratorpremium.domain.Dice
 
 object DescriptionsRepository {
     fun getPotionDescription(context: Context): String {
@@ -77,11 +75,11 @@ object DescriptionsRepository {
      fun getSpellByLevel(context: Context, level:String): String {
         val spellList = mutableListOf<String>()
         var thisSpell: String
-        val spellsonString: String = FileHelper().readAsset(
+        val spellJsonString: String = FileHelper().readAsset(
             context = context,
             fileName = "spells.json"
         )
-        val spellJsonObject = JSONObject(spellsonString)
+        val spellJsonObject = JSONObject(spellJsonString)
         val spellArray = spellJsonObject.getJSONArray(level)
         for (i in 0 until spellArray.length()) {
             val c = spellArray.getJSONObject(i)
@@ -89,6 +87,26 @@ object DescriptionsRepository {
             spellList.add(thisSpell)
         }
         return spellList.random()
+    }//end getCantrip
+
+
+  fun getAmmoDescription(context: Context): String {
+        val ammoList = mutableListOf<String>()
+        var thisAmmo: String
+        val ammoJsonString: String = FileHelper().readAsset(
+            context = context,
+            fileName = "ammo.json"
+        )
+        val ammoJsonObject = JSONObject(ammoJsonString)
+        val ammoArray = ammoJsonObject.getJSONArray("ammo")
+        for (i in 0 until ammoArray.length()) {
+            val c = ammoArray.getJSONObject(i)
+            val thisAmmoAmount = Dice().roll(c.getString("amount"))
+            val thisAmmoType = c.getString("name")
+            thisAmmo = "$thisAmmoAmount $thisAmmoType"
+            ammoList.add(thisAmmo)
+        }
+        return ammoList.random()
     }//end getCantrip
 
 

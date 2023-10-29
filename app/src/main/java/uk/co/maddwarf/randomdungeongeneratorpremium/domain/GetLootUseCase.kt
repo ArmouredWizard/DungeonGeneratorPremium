@@ -7,6 +7,7 @@ import uk.co.maddwarf.randomdungeongeneratorpremium.model.Gem
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.ItemTableEntry
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Loot
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Magic
+import uk.co.maddwarf.randomdungeongeneratorpremium.repository.DescriptionsRepository.getAmmoDescription
 import uk.co.maddwarf.randomdungeongeneratorpremium.repository.DescriptionsRepository.getCantrip
 import uk.co.maddwarf.randomdungeongeneratorpremium.repository.DescriptionsRepository.getPotionDescription
 import uk.co.maddwarf.randomdungeongeneratorpremium.repository.DescriptionsRepository.getSpellByLevel
@@ -112,7 +113,7 @@ class GetLootUseCase {
             "levelseven" -> getSpellByLevel(context = context, level = "7")
             "leveleight" ->getSpellByLevel(context = context, level = "8")
             "levelnine" -> getSpellByLevel(context = context, level = "9")
-            "ammo" -> "Arrows and such"
+            "ammo" -> getAmmoDescription(context = context)
             "armour" -> "For covering your vital bits"
             "weapon" -> "Pointy Stick"
             "Sword" -> "Sharp!"

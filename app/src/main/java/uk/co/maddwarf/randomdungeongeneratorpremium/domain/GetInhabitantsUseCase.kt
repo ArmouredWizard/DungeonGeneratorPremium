@@ -12,7 +12,7 @@ import uk.co.maddwarf.randomdungeongeneratorpremium.repository.FileHelper
 import uk.co.maddwarf.randomdungeongeneratorpremium.repository.InhabitantsRepository.getInhabitantsCategoriesList
 import uk.co.maddwarf.randomdungeongeneratorpremium.repository.InhabitantsRepository.getInhabitantsList
 
-class GetInhabitantsUseCase() {
+class GetInhabitantsUseCase {
     fun getInhabitantsCategories(context: Context, all: Boolean = false): List<String> {
         val calledThemes = getInhabitantsCategoriesList(context)
         calledThemes.sort()

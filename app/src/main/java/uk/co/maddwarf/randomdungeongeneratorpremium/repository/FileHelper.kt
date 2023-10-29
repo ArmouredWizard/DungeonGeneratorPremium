@@ -38,7 +38,7 @@ class FileHelper {
     }
 
     fun chooseFromWeightedList(thisList: HashMap<String, Int>): String {//todo should not be in repo??
-        var listItem: String = ""
+        var listItem = ""
         var totalWeight = 0
         for (weight in thisList.values) {
             totalWeight += weight

@@ -1,0 +1,22 @@
+{
+  "ammo": [
+    {
+      "description": "Broad head",
+      "id": 1,
+      "name": "Arrows",
+      "amount": "3d6"
+    },
+    {
+      "description": "Heavy shaft",
+      "id": 1,
+      "name": "Quarrels",
+      "amount": "3d6"
+    },
+    {
+      "description": "Rounded",
+      "id": 1,
+      "name": "Sling Stones",
+      "amount": "3d6"
+    }
+  ]
+}
