@@ -92,6 +92,7 @@ class GetInhabitantsUseCase {
                     } else {
                         //add monster (new or existing)
                         if (returnList.containsKey(newMonster)) {
+                            //increment existing
                             returnList[newMonster] = returnList[newMonster]!! + 1
                         } else {
                             //add new monster

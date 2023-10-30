@@ -59,7 +59,7 @@ fun RoomDialog(
             title = {
                 Text(
                     text = "Room ${room.index}",
-                    style = MaterialTheme.typography.titleLarge,
+                    style = MaterialTheme.typography.titleMedium,
                 )
             },
             text = {

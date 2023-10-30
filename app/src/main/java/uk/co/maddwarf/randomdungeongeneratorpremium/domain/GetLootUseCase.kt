@@ -63,7 +63,12 @@ class GetLootUseCase {
             getMagicItemsList(context = context, table = itemTableEntry.magicItemTableOne)
         val numberOfItemsFromTableOne = Dice().roll(itemTableEntry.numberOfMagicItemsFromTableOne)
         for (i in 1..numberOfItemsFromTableOne) {
-            magicItemsList.add(chooseFromMagicItemsList(magicList = magicTableOne, context = context))
+            magicItemsList.add(
+                chooseFromMagicItemsList(
+                    magicList = magicTableOne,
+                    context = context
+                )
+            )
         }
 
         //magic table two
@@ -71,7 +76,12 @@ class GetLootUseCase {
             getMagicItemsList(context = context, table = itemTableEntry.magicItemTableOne)
         val numberOfItemsFromTableTwo = Dice().roll(itemTableEntry.numberOfMagicItemsFromTableTwo)
         for (i in 1..numberOfItemsFromTableTwo) {
-            magicItemsList.add(chooseFromMagicItemsList(magicList = magicTableTwo, context = context))
+            magicItemsList.add(
+                chooseFromMagicItemsList(
+                    magicList = magicTableTwo,
+                    context = context
+                )
+            )
         }
         loot = loot.copy(magicItemsList = magicItemsList)
 
@@ -107,21 +117,22 @@ class GetLootUseCase {
             "levelone" -> getSpellByLevel(context = context, level = "1")
             "leveltwo" -> getSpellByLevel(context = context, level = "2")
             "levelthree" -> getSpellByLevel(context = context, level = "3")
-            "levelfour" ->getSpellByLevel(context = context, level = "4")
+            "levelfour" -> getSpellByLevel(context = context, level = "4")
             "levelfive" -> getSpellByLevel(context = context, level = "5")
             "levelsix" -> getSpellByLevel(context = context, level = "6")
             "levelseven" -> getSpellByLevel(context = context, level = "7")
-            "leveleight" ->getSpellByLevel(context = context, level = "8")
+            "leveleight" -> getSpellByLevel(context = context, level = "8")
             "levelnine" -> getSpellByLevel(context = context, level = "9")
             "ammo" -> getAmmoDescription(context = context)
-            "armour" -> "For covering your vital bits"
             "weapon" -> "Pointy Stick"
             "Sword" -> "Sharp!"
             "figurine" -> "miniature"
 
-            else -> {item.description}
+            else -> {
+                item.description
+            }
         }
-        
+
         return description
     }
 
