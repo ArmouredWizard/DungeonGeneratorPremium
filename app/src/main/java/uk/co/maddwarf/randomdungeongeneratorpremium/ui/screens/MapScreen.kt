@@ -51,6 +51,7 @@ import androidx.compose.ui.text.drawText
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.rememberTextMeasurer
 import androidx.compose.ui.unit.dp
+import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.viewmodel.compose.viewModel
 import uk.co.maddwarf.randomdungeongeneratorpremium.R
 import uk.co.maddwarf.randomdungeongeneratorpremium.navigation.NavigationDestination
@@ -71,7 +72,7 @@ object MapScreenDestination : NavigationDestination {
 fun MapScreen(
     modifier: Modifier = Modifier,
     navigateToHome: () -> Unit,
-    mapViewModel: MapViewModel = viewModel()
+    mapViewModel: MapViewModel = hiltViewModel()
 ) {
     val uiState by mapViewModel.uiState.collectAsState()
 

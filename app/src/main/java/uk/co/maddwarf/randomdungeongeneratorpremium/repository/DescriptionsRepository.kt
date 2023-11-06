@@ -5,8 +5,9 @@ import org.json.JSONObject
 import uk.co.maddwarf.randomdungeongeneratorpremium.domain.Dice
 
 object DescriptionsRepository {
+
     fun getPotionDescription(context: Context): String {
-        val description:String
+        val description: String
         val vowels = "aeiou"
 
         val colour: String = getColour(context = context)
@@ -22,75 +23,29 @@ object DescriptionsRepository {
     }//end get potion description
 
     private fun getFizz(context: Context): String {
-        val fizzList = mutableListOf<String>()
-        var thisFizz: String
-        val coloursJsonString: String = FileHelper().readAsset(
-            context = context,
-            fileName = "fizz.json"
-        )
-        val coloursJsonObject = JSONObject(coloursJsonString)
-        val coloursArray = coloursJsonObject.getJSONArray("fizz")
-        for (i in 0 until coloursArray.length()) {
-            val c = coloursArray.getJSONObject(i)
-            thisFizz = c.getString("name")
-            fizzList.add(thisFizz)
-        }
+        val fizzList = FileHelper().getList(context = context, file = "fizz.json", table = "fizz")
         return fizzList.random()
     }//end get fizz
 
     private fun getColour(context: Context): String {
-        val colourList = mutableListOf<String>()
-        var thisColour: String
-        val coloursJsonString: String = FileHelper().readAsset(
-            context = context,
-            fileName = "colour.json"
-        )
-        val coloursJsonObject = JSONObject(coloursJsonString)
-        val coloursArray = coloursJsonObject.getJSONArray("colours")
-        for (i in 0 until coloursArray.length()) {
-            val c = coloursArray.getJSONObject(i)
-            thisColour = c.getString("name")
-            colourList.add(thisColour)
-        }
+        val colourList =
+            FileHelper().getList(context = context, file = "colour.json", table = "colours")
         return colourList.random()
     }//end getColour
 
-       fun getCantrip(context: Context): String {
-        val cantripList = mutableListOf<String>()
-        var thisCantrip: String
-        val cantripJsonString: String = FileHelper().readAsset(
-            context = context,
-            fileName = "cantrips.json"
-        )
-        val cantripJsonObject = JSONObject(cantripJsonString)
-        val cantripArray = cantripJsonObject.getJSONArray("cantrips")
-        for (i in 0 until cantripArray.length()) {
-            val c = cantripArray.getJSONObject(i)
-            thisCantrip = c.getString("name")
-            cantripList.add(thisCantrip)
-        }
+    fun getCantrip(context: Context): String {
+        val cantripList =
+            FileHelper().getList(context = context, file = "cantrips.json", table = "cantrips")
         return cantripList.random()
     }//end getCantrip
 
-     fun getSpellByLevel(context: Context, level:String): String {
-        val spellList = mutableListOf<String>()
-        var thisSpell: String
-        val spellJsonString: String = FileHelper().readAsset(
-            context = context,
-            fileName = "spells.json"
-        )
-        val spellJsonObject = JSONObject(spellJsonString)
-        val spellArray = spellJsonObject.getJSONArray(level)
-        for (i in 0 until spellArray.length()) {
-            val c = spellArray.getJSONObject(i)
-            thisSpell = c.getString("name")
-            spellList.add(thisSpell)
-        }
+    fun getSpellByLevel(context: Context, level: String): String {
+        val spellList = FileHelper().getList(context = context, file = "spells.json", table = level)
         return spellList.random()
     }//end getCantrip
 
-
-  fun getAmmoDescription(context: Context): String {
+//todo change this?
+    fun getAmmoDescription(context: Context): String {
         val ammoList = mutableListOf<String>()
         var thisAmmo: String
         val ammoJsonString: String = FileHelper().readAsset(
@@ -108,10 +63,6 @@ object DescriptionsRepository {
         }
         return ammoList.random()
     }//end getCantrip
-
-
-
-
 
 
 }//end descriptions repo

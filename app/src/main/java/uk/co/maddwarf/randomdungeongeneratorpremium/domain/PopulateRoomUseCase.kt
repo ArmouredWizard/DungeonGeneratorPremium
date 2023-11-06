@@ -2,13 +2,13 @@ package uk.co.maddwarf.randomdungeongeneratorpremium.domain
 
 import android.content.Context
 import android.util.Log
-import uk.co.maddwarf.randomdungeongeneratorpremium.domain.GetInhabitantsUseCase.Companion.buildMonstersContent
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Content
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Empty
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Monsters
 import uk.co.maddwarf.randomdungeongeneratorpremium.repository.FileHelper
+import javax.inject.Inject
 
-class PopulateRoomUseCase {
+class PopulateRoomUseCase @Inject constructor(val inhabitantsUseCase: GetInhabitantsUseCase) {
 
     fun populateRoom(
         context: Context,
@@ -28,7 +28,7 @@ class PopulateRoomUseCase {
         var theInhabitants: String = inhabitants
         if (inhabitants == "ALL RANDOM") {
             theInhabitants =
-                GetInhabitantsUseCase().getInhabitantsCategories(context = context, all = false)
+                inhabitantsUseCase.getInhabitantsCategories(context = context, all = false)
                     .random()
         }
 
@@ -38,7 +38,7 @@ class PopulateRoomUseCase {
             "Dominant Inhabitant" -> {
                 listOf(
                     Monsters(
-                        buildMonstersContent(
+                        inhabitantsUseCase.buildMonstersContent(
                             context = context,
                             inhabitants = theInhabitants,
                             level = level,
@@ -56,7 +56,7 @@ class PopulateRoomUseCase {
             "Dominant Inhabitant with Treasure" -> {
                 listOf(
                     Monsters(
-                        buildMonstersContent(
+                        inhabitantsUseCase.buildMonstersContent(
                             context = context,
                             inhabitants = theInhabitants,
                             level = level,
@@ -70,7 +70,7 @@ class PopulateRoomUseCase {
             "Random Monster" -> {
                 listOf(
                     Monsters(
-                        buildMonstersContent(
+                        inhabitantsUseCase.buildMonstersContent(
                             context = context,
                             inhabitants = "Wanderers",
                             level = level,
@@ -83,7 +83,7 @@ class PopulateRoomUseCase {
             "Random Monster with Treasure" -> {
                 listOf(
                     Monsters(
-                        buildMonstersContent(
+                        inhabitantsUseCase.buildMonstersContent(
                             context = context,
                             inhabitants = "Wanderers",
                             level = level,

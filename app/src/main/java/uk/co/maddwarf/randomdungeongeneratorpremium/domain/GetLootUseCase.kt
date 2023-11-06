@@ -1,6 +1,7 @@
 package uk.co.maddwarf.randomdungeongeneratorpremium.domain
 
 import android.content.Context
+import android.util.Log
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Art
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Cash
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Gem
@@ -94,15 +95,18 @@ class GetLootUseCase {
         for (aMagic in magicList) {
             totalWeight += aMagic.weight
         }
-
         val roll: Int = (0..totalWeight).random()
         var testWeight = 0
         for (aMagic in magicList) {
             val thisWeight: Int = aMagic.weight
             testWeight += thisWeight
             if (roll <= testWeight) {
-                aMagic.description = makeMagicDescription(item = aMagic, context = context)
-                return aMagic
+                return aMagic.copy(
+                    description = makeMagicDescription(
+                        item = aMagic,
+                        context = context
+                    )
+                )
             }
         }
         return Magic()

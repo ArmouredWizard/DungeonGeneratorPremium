@@ -30,6 +30,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
+import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.viewmodel.compose.viewModel
 import uk.co.maddwarf.randomdungeongeneratorpremium.DungeonMapTopAppBar
 import uk.co.maddwarf.randomdungeongeneratorpremium.R
@@ -48,7 +49,7 @@ fun HomeScreen(
     modifier: Modifier,
     navigateToMapScreen: (String) -> Unit,
     navigateToSettings: () -> Unit,
-    homeViewModel: HomeViewModel = viewModel()
+    homeViewModel: HomeViewModel = hiltViewModel()
 ) {
 
     val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior()

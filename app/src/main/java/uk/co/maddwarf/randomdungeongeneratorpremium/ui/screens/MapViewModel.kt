@@ -13,6 +13,7 @@ import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.SavedStateHandle
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -22,8 +23,15 @@ import uk.co.maddwarf.randomdungeongeneratorpremium.domain.MakeMapUseCase
 import uk.co.maddwarf.randomdungeongeneratorpremium.domain.PopulateRoomUseCase
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Dungeon
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Room
+import javax.inject.Inject
 
-class MapViewModel(application: Application, savedStateHandle: SavedStateHandle) :
+@HiltViewModel
+class MapViewModel @Inject constructor(
+    val inhabitantsUseCase: GetInhabitantsUseCase,
+    val populateRoomUseCase: PopulateRoomUseCase,
+    application: Application,
+    savedStateHandle: SavedStateHandle
+) :
     AndroidViewModel(application) {
 
     val context = getApplication<Application>().applicationContext
@@ -106,11 +114,11 @@ class MapViewModel(application: Application, savedStateHandle: SavedStateHandle)
     fun populateRooms(roomList: List<Room>, level: Int, pcNumbers: Int) {
         var theInhabitants = inhabitants
         if (inhabitants == "RANDOM TYPE"){
-            theInhabitants = GetInhabitantsUseCase().getInhabitantsCategories(context = context, all = false).random()
+            theInhabitants = inhabitantsUseCase.getInhabitantsCategories(context = context, all = false).random()
         }
         for (room in roomList) {
             room.contents =
-                PopulateRoomUseCase().populateRoom(context = context, inhabitants = theInhabitants, level = level, pcNumbers = pcNumbers)
+                populateRoomUseCase.populateRoom(context = context, inhabitants = theInhabitants, level = level, pcNumbers = pcNumbers)
         }
     }
 

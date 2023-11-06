@@ -8,10 +8,16 @@ import com.google.gson.JsonParser
 import com.google.gson.reflect.TypeToken
 import org.json.JSONObject
 import uk.co.maddwarf.randomdungeongeneratorpremium.model.Monster
+import javax.inject.Inject
 
-object InhabitantsRepository {
+interface InhabitantsRepository{
+    fun getInhabitantsCategoriesList(context: Context):MutableList<String>
+    fun getInhabitantsList(inhabitants: String, level: Int, context: Context):List<Monster>
+}
 
-    fun getInhabitantsCategoriesList(context: Context): MutableList<String> {
+class InhabitantsRepositoryImpl @Inject constructor():InhabitantsRepository {
+
+    override fun getInhabitantsCategoriesList(context: Context): MutableList<String> {
         val jsonHelper = FileHelper()
         val inhabitantJsonString: String =
             jsonHelper.readAsset(context = context, fileName = "inhabitants.json")
@@ -27,7 +33,7 @@ object InhabitantsRepository {
         return calledThemes
     }//end get inhabitants categories list
 
-    fun getInhabitantsList(inhabitants: String, level: Int, context: Context): List<Monster> {
+    override fun getInhabitantsList(inhabitants: String, level: Int, context: Context): List<Monster> {
         val inhabitantsList = mutableListOf<Monster>()
         var thisMonster: Monster
 

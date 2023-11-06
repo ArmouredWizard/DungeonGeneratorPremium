@@ -140,7 +140,6 @@ fun MagicsList(content: List<Magic>) {
             Column(
                 modifier = Modifier
                     .fillMaxWidth(),
-                //  horizontalAlignment = Alignment.Start
             ) {
                 content.forEach { it ->
                     Row(

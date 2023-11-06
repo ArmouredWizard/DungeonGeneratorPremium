@@ -17,6 +17,26 @@ class FileHelper {
             .use(BufferedReader::readText)
 //end readAsset
 
+    fun getList(context: Context, file: String, table: String): List<String> {
+        val list: MutableList<String> = mutableListOf()
+        val tableArray: JSONArray
+        val thisJSON = JSONObject(readAsset(context, file))
+
+        try {
+            tableArray = thisJSON.getJSONArray(table)
+
+            for (i in 0 until tableArray.length()) {
+                val c = tableArray.getJSONObject(i)
+                val name = c.getString("name")
+                list.add(name)
+            }
+
+        } catch (e: JSONException) {
+            e.printStackTrace()
+        }
+        return list
+    }
+
     fun getWeightedList(context: Context, file: String, table: String): HashMap<String, Int> {
         val tableHashMap = java.util.HashMap<String, Int>()
         var tableArray = JSONArray()
